@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Google Compute default_profile">82c62472db620010d852f7b51d96190e</oauth_entity_profile>
+        <oauth_entity_scope display_value="cloud">5998e0b2db620010d852f7b51d961981</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-28 09:36:59</sys_created_on>
+        <sys_id>9cc824b2db620010d852f7b51d9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>82c62472db620010d852f7b51d96190e</sys_name>
+        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_9cc824b2db620010d852f7b51d9619ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-28 09:36:59</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>
