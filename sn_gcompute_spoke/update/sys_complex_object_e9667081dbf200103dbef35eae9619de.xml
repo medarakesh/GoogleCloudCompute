@@ -6,7 +6,7 @@
         <scope_name>9b1d9cfadb220010d852f7b51d961915</scope_name>
         <serialized_content>{"FlowDesigner:FD2966708162f200104d617c0c729359de":{},"FlowDesigner:FD2966708162f200104d617c0c729359de.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Region\",\"mandatory\":\"false\",\"uiUniqueId\":\"f9bd5f02-2c71-4ac4-bdaf-2fe04486b3f9\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2966708162f200104d617c0c729359de\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
-        <sys_created_by>praveen</sys_created_by>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 10:22:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
@@ -18,7 +18,7 @@
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_complex_object_e9667081dbf200103dbef35eae9619de</sys_update_name>
-        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-04 10:22:44</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
