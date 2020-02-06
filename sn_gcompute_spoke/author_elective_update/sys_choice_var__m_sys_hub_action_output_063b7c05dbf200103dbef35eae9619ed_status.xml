@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="status" table="var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-04 10:43:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a3bbc05dbf200103dbef35eae9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-04 10:43:50</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-04 10:43:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>363bbc05dbf200103dbef35eae9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-04 10:43:50</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-04 10:43:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe3bbc05dbf200103dbef35eae9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-04 10:43:50</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-05 16:05:54</sys_created_on>
+            <sys_id>928e0fd9db3e8c101c7b50d3e2961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-05 16:05:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</application>
+        <file_path/>
+        <instance_id>c3885340dbd548903050ac44d49619c4</instance_id>
+        <instance_name>empmrakesh</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -74,4 +157,42 @@
             <sys_updated_on>2020-02-05 16:05:54</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1100149248</payload_hash>
+        <record_name>.Status</record_name>
+        <reverted_from/>
+        <source>6435d355db760010d852f7b51d961976</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 17:03:05</sys_created_on>
+        <sys_id>88ab1f19dbb60010d852f7b51d961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170164e27050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 17:03:05</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>08ab1f1936b600100158d6be40fc4388</update_guid>
+        <update_guid_history>08ab1f1936b600100158d6be40fc4388:0,0cab1f193db600109e34f91ab6511281:-1076624658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-05 17:04:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8cab1f19dbb60010d852f7b51d961985</sys_id>
+        <sys_metadata>8cab1f19dbb60010d852f7b51d961985</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope_delete display_value="">1de0c871da9f4987becf0b839c22f911</sys_scope_delete>
+        <sys_update_name>sys_choice_var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_output_063b7c05dbf200103dbef35eae9619ed_status">88ab1f19dbb60010d852f7b51d961988</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-05 17:04:56</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
