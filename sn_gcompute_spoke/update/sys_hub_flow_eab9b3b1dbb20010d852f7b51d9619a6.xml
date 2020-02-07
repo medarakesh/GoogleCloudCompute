@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>scascac</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>scascac</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 08:31:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eab9b3b1dbb20010d852f7b51d9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scascac</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_hub_flow_eab9b3b1dbb20010d852f7b51d9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 08:31:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eab9b3b1dbb20010d852f7b51d9619a6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eab9b3b1dbb20010d852f7b51d9619a6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eab9b3b1dbb20010d852f7b51d9619a6^sys_idNOT IN62b9b3b1dbb20010d852f7b51d9619aa"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eab9b3b1dbb20010d852f7b51d9619a6</id>
+        <name>scascac</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-07 08:31:34</sys_created_on>
+        <sys_id>62b9b3b1dbb20010d852f7b51d9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-07 08:31:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
