@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch_disks</internal_name>
         <label_cache>[{"name":"{{action.porject_id}}","label":"action➛Porject ID","type":"action","ref":""},{"name":"{{action.porjectid}}","label":"action➛Porject ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[98b5c375-717e-4fa8-b448-83634dd79a01].variable}}","label":"step➛Fetch Disks➛variable","type":"step","ref":""},{"name":"{{step[98b5c375-717e-4fa8-b448-83634dd79a01].diks}}","label":"step➛Fetch Disks➛Diks","type":"step","ref":""},{"name":"{{step[98b5c375-717e-4fa8-b448-83634dd79a01].disks}}","label":"step➛Fetch Disks➛Disks","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>c2b61a29db3e0010d852f7b51d9619ed</latest_snapshot>
+        <latest_snapshot>aaec3f07dbf20010d852f7b51d96194d</latest_snapshot>
         <master_snapshot>0a441ea5db3e0010d852f7b51d9619ef</master_snapshot>
         <name>Fetch Disks</name>
         <natlang/>
@@ -1103,7 +1103,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Fetch Disks">95bf8621db3e0010d852f7b51d9619ef</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fe445ea5db3e0010d852f7b51d961978","name":"plan"}}</plan>
-        <snapshot>c2b61a29db3e0010d852f7b51d9619ed</snapshot>
+        <snapshot>aaec3f07dbf20010d852f7b51d96194d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-06 06:29:54</sys_created_on>
         <sys_domain>global</sys_domain>

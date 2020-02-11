@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>fetch_regions</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].variable}}","label":"step➛Fetch Regions➛variable","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].data}}","label":"step➛Fetch Regions➛Data","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].regions}}","label":"step➛Fetch Regions➛Regions","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].response_body}}","label":"Fetch Regionsstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable1}}","label":"Post Processingstep➛➛variable1","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].region}}","label":"Post Processingstep➛➛Region","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].regions}}","label":"Post Processingstep➛➛Regions","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].projectid}}","label":"Post Processingstep➛➛projectid","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].api_version}}","label":"step➛Fetch Regions➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>70c8be61dbb200103dbef35eae961970</latest_snapshot>
+        <latest_snapshot>cc6a73c3dbf20010d852f7b51d9619cd</latest_snapshot>
         <master_snapshot>d5413959dbb200103dbef35eae9619c5</master_snapshot>
         <name>Fetch Regions</name>
         <natlang/>
@@ -2105,7 +2105,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b5417959dbb200103dbef35eae961925","name":"plan"}}</plan>
-        <snapshot>70c8be61dbb200103dbef35eae961970</snapshot>
+        <snapshot>cc6a73c3dbf20010d852f7b51d9619cd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:18:26</sys_created_on>
         <sys_domain>global</sys_domain>
