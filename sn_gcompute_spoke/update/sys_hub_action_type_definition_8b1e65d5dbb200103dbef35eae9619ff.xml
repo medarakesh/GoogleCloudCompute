@@ -2067,11 +2067,11 @@
         <sys_created_on>2020-02-05 09:18:19</sys_created_on>
         <sys_id>c441f159dbb200103dbef35eae96190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8b1e65d5dbb200103dbef35eae9619ff_project_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:19</sys_updated_on>
         <url/>
@@ -2091,11 +2091,11 @@
         <sys_created_on>2020-02-05 09:18:20</sys_created_on>
         <sys_id>94413959dbb200103dbef35eae961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>output</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8b1e65d5dbb200103dbef35eae9619ff_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:20</sys_updated_on>
         <url/>
@@ -4182,11 +4182,11 @@
         <sys_created_on>2020-02-05 09:18:24</sys_created_on>
         <sys_id>59413959dbb200103dbef35eae9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d5413959dbb200103dbef35eae9619c5_project_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:24</sys_updated_on>
         <url/>
@@ -4206,11 +4206,11 @@
         <sys_created_on>2020-02-05 09:18:25</sys_created_on>
         <sys_id>d9413959dbb200103dbef35eae9619e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>output</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d5413959dbb200103dbef35eae9619c5_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:25</sys_updated_on>
         <url/>

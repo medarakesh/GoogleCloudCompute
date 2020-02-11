@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="disk_name" table="var__m_sys_hub_action_input_e0e8359ddbb200103dbef35eae96198d" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disk_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>disk-m2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e0e8359ddbb200103dbef35eae96198d</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-06 06:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ad55ee5db3e0010d852f7b51d9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:36:42</sys_updated_on>
+            <value>disk-m2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>disk_name</element>
+            <name>var__m_sys_hub_action_input_e0e8359ddbb200103dbef35eae96198d</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-10 17:41:27</sys_created_on>
+            <sys_id>ea54110fdbb60010d852f7b51d9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>disk_name</sys_name>
+            <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_e0e8359ddbb200103dbef35eae96198d_disk_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-10 17:41:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

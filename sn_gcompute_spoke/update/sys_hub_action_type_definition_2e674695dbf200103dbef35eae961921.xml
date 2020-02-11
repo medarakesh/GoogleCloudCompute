@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>fetch_zones</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].response_body}}","label":"step➛Fetch Zones➛Response Body","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].status_code}}","label":"step➛Fetch Zones➛Status Code","type":"step","ref":""},{"name":"{{step[7fd91866-a763-4eef-855f-358d5cdb5c38].zones}}","label":"step➛Post Processing➛Zones","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>cd34ed0edb3600103dbef35eae961919</latest_snapshot>
+        <latest_snapshot>41664bc3db720010d852f7b51d96196b</latest_snapshot>
         <master_snapshot>aa1b4619dbf200103dbef35eae961994</master_snapshot>
         <name>Fetch Zones</name>
         <natlang/>
@@ -2225,11 +2225,11 @@
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>530b8219dbf200103dbef35eae9619cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2e674695dbf200103dbef35eae961921_projectid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:03</sys_updated_on>
         <url/>
@@ -2249,11 +2249,11 @@
         <sys_created_on>2020-02-05 11:11:04</sys_created_on>
         <sys_id>b30b0619dbf200103dbef35eae961916</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>output</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2e674695dbf200103dbef35eae961921_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:04</sys_updated_on>
         <url/>
@@ -2263,7 +2263,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f31b8619dbf200103dbef35eae9619be","name":"plan"}}</plan>
-        <snapshot>cd34ed0edb3600103dbef35eae961919</snapshot>
+        <snapshot>41664bc3db720010d852f7b51d96196b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:21</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -4498,11 +4498,11 @@
         <sys_created_on>2020-02-05 11:11:16</sys_created_on>
         <sys_id>2e1b4619dbf200103dbef35eae96199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aa1b4619dbf200103dbef35eae961994_projectid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:16</sys_updated_on>
         <url/>
@@ -4522,11 +4522,11 @@
         <sys_created_on>2020-02-05 11:11:18</sys_created_on>
         <sys_id>8b1b4619dbf200103dbef35eae9619ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>output</sys_name>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aa1b4619dbf200103dbef35eae961994_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:18</sys_updated_on>
         <url/>
