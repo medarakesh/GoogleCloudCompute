@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Disk Management">cf30690adb3600103dbef35eae96198c</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>45de82a5dbfa00103dbef35eae9619de</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Delete Disk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_45de82a5dbfa00103dbef35eae9619de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 10:58:10</sys_updated_on>
+        <sys_updated_on>2020-02-11 13:50:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
