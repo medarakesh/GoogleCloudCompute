@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="machine_type" table="var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>852eed1bdb3600103dbef35eae961902</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C2-STANDARD-16</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 10:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e773c2afdbb200103dbef35eae9619d1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>c2-standard-16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C2-STANDARD-30</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 10:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a373c2afdbb200103dbef35eae9619d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>c2-standard-30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C2-STANDARD-4</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 10:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f73c2afdbb200103dbef35eae9619d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>c2-standard-4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C2-STANDARD-60</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 10:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b73c2afdbb200103dbef35eae9619d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>c2-standard-60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C2-STANDARD-8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-12 10:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e373c2afdbb200103dbef35eae9619d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>c2-standard-8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>F1-MICRO</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>052eed1bdb3600103dbef35eae961903</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>f1-micro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>G1-SMALL</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd2eed1bdb3600103dbef35eae961903</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>g1-small</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-16</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>892eed1bdb3600103dbef35eae961904</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>452eed1bdb3600103dbef35eae961905</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-32</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>012eed1bdb3600103dbef35eae961906</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-4</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c92eed1bdb3600103dbef35eae961906</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-64</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>852eed1bdb3600103dbef35eae961907</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>412eed1bdb3600103dbef35eae961908</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHCPU-96</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d2eed1bdb3600103dbef35eae961908</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highcpu-96</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-16</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c52eed1bdb3600103dbef35eae961909</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highmem-16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>812eed1bdb3600103dbef35eae96190a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highmem-2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-32</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d2eed1bdb3600103dbef35eae96190a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highmem-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-4</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>092eed1bdb3600103dbef35eae96190b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:39</sys_updated_on>
+            <value>n1-highmem-4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-64</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c12eed1bdb3600103dbef35eae96190c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-highmem-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d2eed1bdb3600103dbef35eae96190c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-highmem-8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-HIGHMEM-96</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>492eed1bdb3600103dbef35eae96190d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-highmem-96</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>22</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>052eed1bdb3600103dbef35eae96190e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-16</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>23</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd2eed1bdb3600103dbef35eae96190e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-2</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>24</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>892eed1bdb3600103dbef35eae96190f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-32</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>25</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>452eed1bdb3600103dbef35eae961910</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-4</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>26</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>012eed1bdb3600103dbef35eae961911</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-64</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>27</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c92eed1bdb3600103dbef35eae961911</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-8</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>28</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>852eed1bdb3600103dbef35eae961912</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>machine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N1-STANDARD-96</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sequence>29</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>412eed1bdb3600103dbef35eae961913</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-12 10:24:40</sys_updated_on>
+            <value>n1-standard-96</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>machine_type</element>
+            <name>var__m_sys_hub_action_input_0102a153db3600103dbef35eae9619e6</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-11 14:12:36</sys_created_on>
+            <sys_id>cd2eed1bdb3600103dbef35eae961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-11 14:12:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
