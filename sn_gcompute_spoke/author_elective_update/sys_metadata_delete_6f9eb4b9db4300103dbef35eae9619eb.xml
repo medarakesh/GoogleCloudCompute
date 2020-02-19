@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="region" table="var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US-WEST1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-19 05:10:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57de3cb9db4300103dbef35eae961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 05:10:50</sys_updated_on>
+            <value>us-west1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <name>var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-19 05:09:46</sys_created_on>
+            <sys_id>6f9eb4b9db4300103dbef35eae9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-19 05:09:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</application>
+        <file_path/>
+        <instance_id>c3885340dbd548903050ac44d49619c4</instance_id>
+        <instance_name>empmrakesh</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b_region</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="region" table="var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>region</element><hint/><inactive>false</inactive><label>US-WEST1</label><language>en</language><name>var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b</name><sequence>19</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 05:10:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>57de3cb9db4300103dbef35eae961923</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 05:10:50</sys_updated_on><value>us-west1</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>region</element><name>var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 05:09:46</sys_created_on><sys_id>6f9eb4b9db4300103dbef35eae9619eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package><sys_policy/><sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 05:09:46</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1491684334</payload_hash>
+        <record_name>.Region</record_name>
+        <reverted_from/>
+        <source>92835d47dbb60010d852f7b51d9619c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:13:22</sys_created_on>
+        <sys_id>187ff0f9db4300103dbef35eae961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705bdd6a3b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:13:22</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>dc7ff0f9f243001021800b3f96411841</update_guid>
+        <update_guid_history>dc7ff0f9f243001021800b3f96411841:-1491684334,596ff0f96f43001060d4de401caeebb6:-2015950247,9d6ff0f93b430010a7c4efdba9a8e7b3:-1492850754,d16ff0f9c943001080bd3adfa74ee8b1:-1329511881,196ff0f964430010d7e0aafc7f7bd0ae:-24028615,5d6ff0f9b5430010e9b26f90a304e9ab:2076476188,916ff0f9874300101ab0dfde8bbf5ea9:1446093410,d56ff0f9104300103b1594a13c7d11a6:-1536482722,1d6ff0f9d843001027079fbcb81505a3:-1911261672,516ff0f92243001017f7f307179915a1:-1476624960,956ff0f9ee4300109b0e1e589a811d9e:-313044383,d96ff0f98b430010446babecb94e509b:1033130222,116ff0f9b24300103872831da8eaf299:129406967,556ff0f9394300107d67ed9a95992196:-448984928,996ff0f94f430010a17e2cc298216793:-1162231611,dd6ff0f9504300105117e0755c652a90:1002278350,156ff0f9214300109094180158da7e8e:-2141350146,496ff0f9224300108243dec35b2a918b:-1409014035,8d6ff0f9a9430010b1ea9bd16689d088:1251266967,c16ff0f919430010c7ede530ed5ff186:2058287465,c56ff0f979430010b5e5cee49acfea83:-96143069,825ef0b9bd4300104bfcc52ccdab4cad:-389512336,774ef0b9fa430010b7006e741a072c7b:1386575247,3f4ef0b93d4300107ee9d43290ad9b78:1999495497,f34ef0b9694300107837c851a6ce0976:-447168803,ab4ef0b9e543001012c1a2f93f16fb73:259866968,634ef0b98943001007e30cb0a6efb371:-1282598431,2b4ef0b9c54300104adce73f9c52a06e:-36338697,ef4ef0b94b4300101ef16ac001688a6b:-1187701949,a74ef0b951430010db3dd0d437de2a69:-1964617366,6f4ef0b95c4300104c58f9b5f2170066:-667184912,274ef0b9a94300106f559d155acefc64:-784546190,eb4ef0b91343001054d3e4dcc8b95a61:-2088245483,eb4ef0b995430010a1335215e452a152:-1409819682,a34ef0b95e430010fc22897fdead3450:-1879605029,6b4ef0b96c430010431b5737cfb2644d:-1590061632,234ef0b9bb430010d02de916f8271c4b:1460423876,e74ef0b90743001009d2b8aee292c548:-2080147796,af4ef0b91c4300109e555c3be1962445:1272810403,674ef0b9b44300108bcca6126a232a43:-1727898259,2f4ef0b9e3430010f88dea7e21c70340:1591099097,e34ef0b92043001077a265ce0a751a3e:-1019965868,ac73914b93b6001038520816443d8a54:353301132,e073914b9db60010be61ffbc3bdbf152:1386575247,e873914bfbb600102041ddb38c8c424f:758161036,e073914b69b600100b81c870b077674d:-1101668880,e873914b82b60010f52b3ac55e17324a:-813212949,e073914bcab60010f73ea5f88f8ef048:2035861019,d873914b82b60010107101af36515745:853354740,d073914b4eb60010dd327cc627c8d543:-1649539726,d873914beab600104a86c318c11c8240:-530394487,d073914bbfb60010446ef7eb7fc2063e:-2070461453,d873914b23b60010b57c14ec021cac3b:2020855080,d073914bc3b60010df8720a290c00439:209905044,d873914b1eb60010f3032ec7a5f4e636:-880931416,d073914b73b60010cbd782323f283534:1392102591,d873914b8eb60010511fdb939acc5c31:439209879,d073914b57b60010a6cc0bd361f7de2f:479350416,d873914b3cb600104e7c2bb320ea4c2c:-818527030,d073914b65b60010d25e99f843b1f92a:1448538437,d873914bb9b600105f25ed332caae927:536068545,d073914bb3b60010d606121ad12bc325:-1303115458,d873914b0cb60010dc083ad3c7157c22:-449881388,316f4103d8b6001018081f01d694fb1c:353301132,756f4103abb600108538b70f9d34e419:-2090317988,7d6f410389b60010d78ec92984408d16:-2015950247,756f4103cbb600107f255e91ee378b14:1922011581,7d6f4103f8b60010153bc0c91d5de911:622355640,656f41034bb60010b1bab61f0c91010f:1980116968,6d6f410308b600106600084112eb4e0c:209020097,656f41039fb60010a412c61112e3ac0a:1373306175,6d6f4103a7b60010267b675881edeb07:-228403114,656f4103a0b60010d4b488eae2438905:-1352256,6d6f410387b60010d28ffaa078f0e702:69398773,656f41033fb6001092f2d97889c5e600:1768448353,6d6f0103c5b60010dea8822495957bfd:549335413,656f010335b60010623bac5d678dd7fb:-2043609460,6d6f0103a0b60010800512c37c67c3f8:-1447710364,656f0103b2b60010bcd0f6c34928c3f6:-1610530211,6d6f010326b60010820b91b6888ef1f3:347925655,656f01030db60010ed53a29b946ca5f1:-192680174,6d6f0103e3b6001013c0fc3901746bee:1332295566,656f010374b600107625bd394da2dcec:-759555829,6d6f010392b60010c4d224db6ccc09e9:-1037609311,3d9b1b197cb60010435b2d1c975b86fc:-1422035613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:13:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>6f9eb4b9db4300103dbef35eae9619eb</sys_id>
+        <sys_metadata>6f9eb4b9db4300103dbef35eae9619eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope_delete display_value="">1de0c871da9f4987becf0b839c22f911</sys_scope_delete>
+        <sys_update_name/>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_input_2f284a0fdb2e00103dbef35eae96197b_region">187ff0f9db4300103dbef35eae961942</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:13:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

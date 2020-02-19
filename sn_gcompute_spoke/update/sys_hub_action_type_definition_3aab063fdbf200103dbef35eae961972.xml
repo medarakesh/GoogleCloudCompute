@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3aab063fdbf200103dbef35eae961972</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Stop Instance</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3aab063fdbf200103dbef35eae961972</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 05:54:42</sys_updated_on>
+        <sys_updated_on>2020-02-19 09:45:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -83,7 +83,7 @@
         <sys_created_on>2020-02-13 05:49:57</sys_created_on>
         <sys_id>694e4a7fdbf200103dbef35eae9619e8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -376,7 +376,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
@@ -457,7 +457,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
@@ -489,7 +489,7 @@
         <sys_created_on>2020-02-13 05:49:56</sys_created_on>
         <sys_id>914e4a7fdbf200103dbef35eae9619b3</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -655,7 +655,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -736,7 +736,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -817,7 +817,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -899,7 +899,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -980,7 +980,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -1061,7 +1061,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -1093,7 +1093,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:49:57</sys_created_on>
         <sys_id>f54e8a7fdbf200103dbef35eae961906</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
     </sys_hub_step_instance>
@@ -1251,7 +1251,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -1332,7 +1332,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -1414,7 +1414,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -1495,7 +1495,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -1577,7 +1577,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:15</sys_updated_on>
@@ -1699,7 +1699,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:15</sys_updated_on>
@@ -1807,7 +1807,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:55</sys_updated_on>
@@ -1891,7 +1891,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:45</sys_updated_on>
@@ -1974,7 +1974,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:45</sys_updated_on>
@@ -2007,7 +2007,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:49:57</sys_created_on>
         <sys_id>694e4a7fdbf200103dbef35eae9619e8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -2300,7 +2300,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
@@ -2381,7 +2381,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:16</sys_updated_on>
@@ -2413,7 +2413,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:49:56</sys_created_on>
         <sys_id>914e4a7fdbf200103dbef35eae9619b3</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -2579,7 +2579,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -2660,7 +2660,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -2741,7 +2741,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -2823,7 +2823,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -2904,7 +2904,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -2985,7 +2985,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:57</sys_updated_on>
@@ -3017,7 +3017,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:49:57</sys_created_on>
         <sys_id>f54e8a7fdbf200103dbef35eae961906</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
     </sys_hub_step_instance>
@@ -3175,7 +3175,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -3256,7 +3256,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -3338,7 +3338,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -3419,7 +3419,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -3449,9 +3449,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>1d4e4a7fdbf200103dbef35eae9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -3472,9 +3472,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>994e4a7fdbf200103dbef35eae96199d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -3495,9 +3495,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>dd4e4a7fdbf200103dbef35eae9619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:56</sys_updated_on>
@@ -4797,9 +4797,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>5a0f82bfdbf200103dbef35eae961949</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:53:17</sys_updated_on>
@@ -4820,9 +4820,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>b14e8a7fdbf200103dbef35eae96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:49:58</sys_updated_on>
@@ -4934,7 +4934,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:38</sys_updated_on>
@@ -4986,7 +4986,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:39</sys_created_on>
         <sys_id>aa5f0abfdbf200103dbef35eae961997</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
     </sys_hub_step_instance>
@@ -5152,7 +5152,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -5233,7 +5233,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -5314,7 +5314,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -5396,7 +5396,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -5477,7 +5477,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -5558,7 +5558,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -5590,7 +5590,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:40</sys_created_on>
         <sys_id>ee5f0abfdbf200103dbef35eae9619c0</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
     </sys_hub_step_instance>
@@ -5883,7 +5883,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -5964,7 +5964,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -5996,7 +5996,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:40</sys_created_on>
         <sys_id>f65f0abfdbf200103dbef35eae9619dd</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
     </sys_hub_step_instance>
@@ -6154,7 +6154,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -6235,7 +6235,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -6317,7 +6317,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -6398,7 +6398,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -6480,7 +6480,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -6602,7 +6602,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:38</sys_updated_on>
@@ -6683,7 +6683,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -6794,7 +6794,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -6877,7 +6877,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -6910,7 +6910,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:39</sys_created_on>
         <sys_id>aa5f0abfdbf200103dbef35eae961997</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
     </sys_hub_step_instance>
@@ -7076,7 +7076,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -7157,7 +7157,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -7238,7 +7238,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -7320,7 +7320,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -7401,7 +7401,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -7482,7 +7482,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -7514,7 +7514,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:40</sys_created_on>
         <sys_id>ee5f0abfdbf200103dbef35eae9619c0</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
     </sys_hub_step_instance>
@@ -7807,7 +7807,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -7888,7 +7888,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -7920,7 +7920,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_on>2020-02-13 05:54:40</sys_created_on>
         <sys_id>f65f0abfdbf200103dbef35eae9619dd</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
     </sys_hub_step_instance>
@@ -8078,7 +8078,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:40</sys_updated_on>
@@ -8159,7 +8159,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -8241,7 +8241,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -8322,7 +8322,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -8352,9 +8352,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>6e5f0abfdbf200103dbef35eae961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -8375,9 +8375,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>925f0abfdbf200103dbef35eae961988</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:39</sys_updated_on>
@@ -8398,9 +8398,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>9a5f0abfdbf200103dbef35eae961947</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:38</sys_updated_on>
@@ -9700,9 +9700,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>8b5f4abfdbf200103dbef35eae961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>
@@ -9723,9 +9723,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_id>8f5f4abfdbf200103dbef35eae96190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-13 05:54:41</sys_updated_on>

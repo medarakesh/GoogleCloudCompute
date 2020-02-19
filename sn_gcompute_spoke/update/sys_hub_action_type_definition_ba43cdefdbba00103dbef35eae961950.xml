@@ -12,10 +12,10 @@
         <description/>
         <ih_action>true</ih_action>
         <internal_name>list_machine_types_aggregatedlist</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>af88fb89dbc30010d852f7b51d961922</latest_snapshot>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>e8a1f971db8300103dbef35eae961958</latest_snapshot>
         <master_snapshot>fb9c8e27dbf200103dbef35eae961900</master_snapshot>
-        <name>List  Aggregated Machine Types</name>
+        <name>List Machine Types</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ba43cdefdbba00103dbef35eae961950</sys_id>
-        <sys_mod_count>65</sys_mod_count>
-        <sys_name>List  Aggregated Machine Types</sys_name>
+        <sys_mod_count>87</sys_mod_count>
+        <sys_name>List Machine Types</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ba43cdefdbba00103dbef35eae961950</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:48</sys_updated_on>
+        <sys_updated_on>2020-02-19 09:45:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:34</sys_created_on>
         <sys_id>10cec2a7dbf200103dbef35eae961991</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:37</sys_updated_on>
-        <value>{"complexObjectSchema":{"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a":{"machinetypes":["Any"],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Machine Type\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f62bbca4-0c90-4cc8-adb3-5c52b6e7bfe6\"}"}},"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7fbec2a7e5f20010485e5412dcf8a30a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"machinetypes":[""]},"serializationFormat":"JSON","version":"1.0"}</value>
+        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"212a50df-f047-495d-8307-d174107ddd06\"}"}},"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7fbec2a7e5f20010485e5412dcf8a30a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="">ffbec2a7dbf200103dbef35eae96190c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ba43cdefdbba00103dbef35eae961950"/>
@@ -141,7 +141,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN02040923dbfa00103dbef35eae96199d,02040923dbfa00103dbef35eae9619ad,1e5841e3dbfa00103dbef35eae9619b2,79040923dbfa00103dbef35eae961979,9a5841e3dbfa00103dbef35eae9619ac,c2040923dbfa00103dbef35eae96198b,c6040923dbfa00103dbef35eae961991,f5040923dbfa00103dbef35eae961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -156,10 +156,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>02040923dbfa00103dbef35eae96199d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:35:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02040923dbfa00103dbef35eae96199d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -353,11 +353,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:57</sys_created_on>
         <sys_id>9a5841e3dbfa00103dbef35eae9619a2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:35:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:07</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}},{"name":"filter","value":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
@@ -450,7 +450,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -531,7 +531,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -547,7 +547,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -562,7 +562,7 @@
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>02040923dbfa00103dbef35eae9619ad</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:58</sys_updated_on>
     </sys_hub_step_instance>
@@ -596,7 +596,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -611,10 +611,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>1e5841e3dbfa00103dbef35eae9619b2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:25</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e5841e3dbfa00103dbef35eae9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -625,26 +625,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>e65841e3dbfa00103dbef35eae9619b7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:25</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
+&#13;
     var collectMachineTypes = [];&#13;
-    var item = JSON.parse(inputs.sourceItem);&#13;
-    for (var i in item) {&#13;
-        var extractmachineTypes = item[i]['machineTypes'];&#13;
-        if (extractmachineTypes != undefined) {&#13;
-            extractmachineTypes.forEach(function(machineType) {&#13;
-                collectMachineTypes.push(machineType["name"]);&#13;
-            &#13;
-            });&#13;
+    var items = JSON.parse(inputs.sourceItem);&#13;
+    for (var i in items) {&#13;
+        var machineTypes = items[i]["machineTypes"];&#13;
+        if (machineTypes != undefined) {&#13;
+            collectMachineTypes = new global.ArrayUtil().concat(collectMachineTypes, machineTypes);&#13;
         }&#13;
     }&#13;
-    outputs.targetObject = {&#13;
-        "machinetypes": new global.ArrayUtil().unique(collectMachineTypes)&#13;
+&#13;
+    if (collectMachineTypes.length &gt; 0) {&#13;
+        outputs.targetObject = {&#13;
+            "machinetypes": collectMachineTypes&#13;
+        }&#13;
     }&#13;
-})(inputs, outputs)&#13;
-</value>
+})(inputs, outputs)</value>
         <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1e5841e3dbfa00103dbef35eae9619b2"/>
@@ -673,7 +673,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -689,7 +689,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>79040923dbfa00103dbef35eae961979</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -776,7 +776,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN75040923dbfa00103dbef35eae96197d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN75040923dbfa00103dbef35eae96197d,89cc09b5db8300103dbef35eae9619f1"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -843,7 +843,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
@@ -858,7 +858,88 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN4e5841e3dbfa00103dbef35eae96196d"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">79040923dbfa00103dbef35eae961979</model>
+        <model_id>79040923dbfa00103dbef35eae961979</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_79040923dbfa00103dbef35eae961979</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>89cc09b5db8300103dbef35eae9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN4e5841e3dbfa00103dbef35eae96196d,c5cc09b5db8300103dbef35eae9619f8"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -925,7 +1006,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
@@ -940,8 +1021,89 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9db2f2bf-f24d-432b-a3a6-9e4f1146ebc0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">79040923dbfa00103dbef35eae961979</model>
+        <model_id>79040923dbfa00103dbef35eae961979</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_79040923dbfa00103dbef35eae961979</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>c5cc09b5db8300103dbef35eae9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -956,10 +1118,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>9a5841e3dbfa00103dbef35eae9619ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:49:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a5841e3dbfa00103dbef35eae9619ac"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -970,9 +1132,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>5e5841e3dbfa00103dbef35eae9619b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 06:05:58</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:49:25</sys_updated_on>
         <value>$</value>
         <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
@@ -1028,7 +1190,7 @@
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1043,7 +1205,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>c2040923dbfa00103dbef35eae96198b</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:06</sys_updated_on>
     </sys_hub_step_instance>
@@ -1077,7 +1239,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1092,7 +1254,7 @@
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>c6040923dbfa00103dbef35eae961991</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -1194,7 +1356,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -1275,7 +1437,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:43</sys_updated_on>
@@ -1291,7 +1453,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1306,7 +1468,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>f5040923dbfa00103dbef35eae961974</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
     </sys_hub_step_instance>
@@ -1325,7 +1487,7 @@
         <value>1</value>
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="delete_multiple" query="model=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN39040923dbfa00103dbef35eae96194f"/>
+    <sys_hub_action_input action="delete_multiple" query="model=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN39040923dbfa00103dbef35eae96194f,c5cc09b5db8300103dbef35eae9619e2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1365,7 +1527,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950</name>
@@ -1392,10 +1554,91 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=adec11cc-c423-4a82-8e6c-fa50b9bb9a78</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>c5cc09b5db8300103dbef35eae9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1449,7 +1692,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1472,14 +1715,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>48cec2a7dbf200103dbef35eae961965</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:37</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1532,7 +1775,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1555,14 +1798,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>4ccec2a7dbf200103dbef35eae96195f</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:37</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1615,7 +1858,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1638,14 +1881,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:32</sys_created_on>
         <sys_id>80cec2a7dbf200103dbef35eae961942</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:36</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1698,7 +1941,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1725,7 +1968,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -1781,7 +2024,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1808,7 +2051,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -1864,7 +2107,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1887,14 +2130,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>88cec2a7dbf200103dbef35eae96194d</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:37</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1947,7 +2190,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1970,14 +2213,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>8ccec2a7dbf200103dbef35eae961947</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:37</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2030,7 +2273,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2057,7 +2300,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -2113,7 +2356,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2140,7 +2383,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -2196,7 +2439,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2223,7 +2466,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -2279,7 +2522,7 @@
         <label>List Machine Types</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2306,7 +2549,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -2362,7 +2605,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2389,7 +2632,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -2406,7 +2649,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN02040923dbfa00103dbef35eae96199d,02040923dbfa00103dbef35eae9619ad,1e5841e3dbfa00103dbef35eae9619b2,79040923dbfa00103dbef35eae961979,9a5841e3dbfa00103dbef35eae9619ac,c2040923dbfa00103dbef35eae96198b,c6040923dbfa00103dbef35eae961991,f5040923dbfa00103dbef35eae961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2421,10 +2664,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>02040923dbfa00103dbef35eae96199d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:35:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02040923dbfa00103dbef35eae96199d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2618,11 +2861,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:57</sys_created_on>
         <sys_id>9a5841e3dbfa00103dbef35eae9619a2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:35:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:07</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}},{"name":"filter","value":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
@@ -2715,7 +2958,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -2796,7 +3039,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -2812,7 +3055,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2827,7 +3070,7 @@
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>02040923dbfa00103dbef35eae9619ad</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:58</sys_updated_on>
     </sys_hub_step_instance>
@@ -2861,7 +3104,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2876,10 +3119,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>1e5841e3dbfa00103dbef35eae9619b2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:25</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e5841e3dbfa00103dbef35eae9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2890,26 +3133,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>e65841e3dbfa00103dbef35eae9619b7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:25</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
+&#13;
     var collectMachineTypes = [];&#13;
-    var item = JSON.parse(inputs.sourceItem);&#13;
-    for (var i in item) {&#13;
-        var extractmachineTypes = item[i]['machineTypes'];&#13;
-        if (extractmachineTypes != undefined) {&#13;
-            extractmachineTypes.forEach(function(machineType) {&#13;
-                collectMachineTypes.push(machineType["name"]);&#13;
-            &#13;
-            });&#13;
+    var items = JSON.parse(inputs.sourceItem);&#13;
+    for (var i in items) {&#13;
+        var machineTypes = items[i]["machineTypes"];&#13;
+        if (machineTypes != undefined) {&#13;
+            collectMachineTypes = new global.ArrayUtil().concat(collectMachineTypes, machineTypes);&#13;
         }&#13;
     }&#13;
-    outputs.targetObject = {&#13;
-        "machinetypes": new global.ArrayUtil().unique(collectMachineTypes)&#13;
+&#13;
+    if (collectMachineTypes.length &gt; 0) {&#13;
+        outputs.targetObject = {&#13;
+            "machinetypes": collectMachineTypes&#13;
+        }&#13;
     }&#13;
-})(inputs, outputs)&#13;
-</value>
+})(inputs, outputs)</value>
         <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1e5841e3dbfa00103dbef35eae9619b2"/>
@@ -2938,7 +3181,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2954,7 +3197,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>79040923dbfa00103dbef35eae961979</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -3041,7 +3284,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN75040923dbfa00103dbef35eae96197d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN75040923dbfa00103dbef35eae96197d,89cc09b5db8300103dbef35eae9619f1"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3108,7 +3351,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
@@ -3123,7 +3366,88 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN4e5841e3dbfa00103dbef35eae96196d"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">79040923dbfa00103dbef35eae961979</model>
+        <model_id>79040923dbfa00103dbef35eae961979</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_79040923dbfa00103dbef35eae961979</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>89cc09b5db8300103dbef35eae9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=79040923dbfa00103dbef35eae961979^sys_idNOT IN4e5841e3dbfa00103dbef35eae96196d,c5cc09b5db8300103dbef35eae9619f8"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3190,7 +3514,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
@@ -3205,8 +3529,89 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9db2f2bf-f24d-432b-a3a6-9e4f1146ebc0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">79040923dbfa00103dbef35eae961979</model>
+        <model_id>79040923dbfa00103dbef35eae961979</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_79040923dbfa00103dbef35eae961979</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>c5cc09b5db8300103dbef35eae9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3221,10 +3626,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>9a5841e3dbfa00103dbef35eae9619ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:49:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a5841e3dbfa00103dbef35eae9619ac"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3235,9 +3640,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>5e5841e3dbfa00103dbef35eae9619b1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 06:05:58</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:49:25</sys_updated_on>
         <value>$</value>
         <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
@@ -3293,7 +3698,7 @@
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3308,7 +3713,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>c2040923dbfa00103dbef35eae96198b</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:06</sys_updated_on>
     </sys_hub_step_instance>
@@ -3342,7 +3747,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3357,7 +3762,7 @@
         <sys_created_on>2020-02-12 05:47:06</sys_created_on>
         <sys_id>c6040923dbfa00103dbef35eae961991</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 06:05:57</sys_updated_on>
     </sys_hub_step_instance>
@@ -3459,7 +3864,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:44</sys_updated_on>
@@ -3540,7 +3945,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 10:49:43</sys_updated_on>
@@ -3556,7 +3961,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3571,7 +3976,7 @@
         <sys_created_on>2020-02-12 05:47:05</sys_created_on>
         <sys_id>f5040923dbfa00103dbef35eae961974</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
     </sys_hub_step_instance>
@@ -3590,7 +3995,7 @@
         <value>1</value>
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950^sys_idNOT IN71040923dbfa00103dbef35eae961954"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950^sys_idNOT IN71040923dbfa00103dbef35eae961954,c9cc09b5db8300103dbef35eae9619e6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>project_id</element>
         <help/>
@@ -3605,12 +4010,35 @@
         <sys_id>71040923dbfa00103dbef35eae961954</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:47:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>filter</element>
+        <help/>
+        <hint/>
+        <label>Filter</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:11:35</sys_created_on>
+        <sys_id>c9cc09b5db8300103dbef35eae9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:11:35</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3629,9 +4057,9 @@
         <sys_id>37bec2a7dbf200103dbef35eae96191d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3652,9 +4080,9 @@
         <sys_id>3bbec2a7dbf200103dbef35eae961917</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3675,9 +4103,9 @@
         <sys_id>3fbec2a7dbf200103dbef35eae961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3698,9 +4126,9 @@
         <sys_id>80cec2a7dbf200103dbef35eae961964</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:33</sys_updated_on>
@@ -3721,9 +4149,9 @@
         <sys_id>8ccec2a7dbf200103dbef35eae961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:33</sys_updated_on>
@@ -3744,9 +4172,9 @@
         <sys_id>c0cec2a7dbf200103dbef35eae961935</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3767,9 +4195,9 @@
         <sys_id>c0cec2a7dbf200103dbef35eae96194c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:33</sys_updated_on>
@@ -3790,9 +4218,9 @@
         <sys_id>c4cec2a7dbf200103dbef35eae961946</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:33</sys_updated_on>
@@ -3813,9 +4241,9 @@
         <sys_id>c8cec2a7dbf200103dbef35eae961940</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3836,9 +4264,9 @@
         <sys_id>cccec2a7dbf200103dbef35eae96193a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3859,9 +4287,9 @@
         <sys_id>cccec2a7dbf200103dbef35eae961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:33</sys_updated_on>
@@ -3882,9 +4310,9 @@
         <sys_id>f7bec2a7dbf200103dbef35eae96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:13:32</sys_updated_on>
@@ -3893,19 +4321,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN1aac0267dbf200103dbef35eae96191d"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</action_id>
+        <action_id display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1aac0267dbf200103dbef35eae96191d","name":"plan"}}</plan>
-        <snapshot>af88fb89dbc30010d852f7b51d961922</snapshot>
+        <snapshot>e8a1f971db8300103dbef35eae961958</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aac0267dbf200103dbef35eae96191d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:52</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:50</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3918,28 +4346,28 @@
         <copied_from_name/>
         <description/>
         <internal_name>list__aggregated_machine_types</internal_name>
-        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>List  Aggregated Machine Types</name>
+        <name>List Machine Types</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="List  Aggregated Machine Types">ba43cdefdbba00103dbef35eae961950</parent_action>
+        <parent_action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb9c8e27dbf200103dbef35eae961900</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 13:13:48</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3981,10 +4409,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:19</sys_created_on>
         <sys_id>85ac8e27dbf200103dbef35eae9619f9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
-        <value>{"complexObjectSchema":{"FlowDesigner:FD38983f899ec300107f933a943f8f7f2f":{"machinetypes":["Any"],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Any\",\"child_label\":\"Machine Type\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f62bbca4-0c90-4cc8-adb3-5c52b6e7bfe6\"}"}},"FlowDesigner:FD38983f899ec300107f933a943f8f7f2f.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD38983f899ec300107f933a943f8f7f2f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\"}"}},"complexObject":{"machinetypes":[""]},"serializationFormat":"JSON","version":"1.0"}</value>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7da13d71fb830010308f3e16f7edb1bc":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"$296:machinetypes\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"212a50df-f047-495d-8307-d174107ddd06\"}"}},"FlowDesigner:FD7da13d71fb830010308f3e16f7edb1bc.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7da13d71fb830010308f3e16f7edb1bc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\"}"}},"serializationFormat":"JSON","complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="">54ac8e27dbf200103dbef35eae961974</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4138,7 +4566,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=fb9c8e27dbf200103dbef35eae961900^sys_idNOT IN0cac8e27dbf200103dbef35eae961933,1cac8e27dbf200103dbef35eae961962,339c8e27dbf200103dbef35eae961909,379c8e27dbf200103dbef35eae96190d,40ac8e27dbf200103dbef35eae961922,90ac8e27dbf200103dbef35eae961945,90ac8e27dbf200103dbef35eae96196d,d8ac8e27dbf200103dbef35eae961967"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4153,7 +4581,7 @@
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>0cac8e27dbf200103dbef35eae961933</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -4255,7 +4683,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -4336,7 +4764,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -4352,7 +4780,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4367,7 +4795,7 @@
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>1cac8e27dbf200103dbef35eae961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
     </sys_hub_step_instance>
@@ -4401,7 +4829,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4416,7 +4844,7 @@
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_id>339c8e27dbf200103dbef35eae961909</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
     </sys_hub_step_instance>
@@ -4436,7 +4864,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4451,10 +4879,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_id>379c8e27dbf200103dbef35eae96190d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=379c8e27dbf200103dbef35eae96190d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4504,6 +4932,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>filter</field>
+        <id>379c8e27dbf200103dbef35eae96190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>f83d41f5db8300103dbef35eae96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_379c8e27dbf200103dbef35eae96190d</table>
+        <value>{{action.filter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>projectid</field>
         <id>379c8e27dbf200103dbef35eae96190d</id>
         <sys_created_by>admin</sys_created_by>
@@ -4527,7 +4967,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN339c8e27dbf200103dbef35eae961910"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN339c8e27dbf200103dbef35eae961910,3c3d41f5db8300103dbef35eae96194c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4594,7 +5034,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
@@ -4609,7 +5049,169 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN48ac8e27dbf200103dbef35eae961916"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">379c8e27dbf200103dbef35eae96190d</model>
+        <model_id>379c8e27dbf200103dbef35eae96190d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_379c8e27dbf200103dbef35eae96190d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>3c3d41f5db8300103dbef35eae96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN383d41f5db8300103dbef35eae961954,48ac8e27dbf200103dbef35eae961916"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9db2f2bf-f24d-432b-a3a6-9e4f1146ebc0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">379c8e27dbf200103dbef35eae96190d</model>
+        <model_id>379c8e27dbf200103dbef35eae96190d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_379c8e27dbf200103dbef35eae96190d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>383d41f5db8300103dbef35eae961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4676,7 +5278,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
@@ -4692,7 +5294,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4707,7 +5309,7 @@
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>40ac8e27dbf200103dbef35eae961922</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -4741,7 +5343,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4756,10 +5358,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae961945</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:36:08</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae961945"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4953,11 +5555,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>d4ac8e27dbf200103dbef35eae96195d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:36:08</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}},{"name":"filter","value":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
@@ -5050,7 +5652,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -5131,7 +5733,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -5147,7 +5749,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5162,10 +5764,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae96196d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:46</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5176,26 +5778,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>14ac8e27dbf200103dbef35eae961971</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:46</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
+&#13;
     var collectMachineTypes = [];&#13;
-    var item = JSON.parse(inputs.sourceItem);&#13;
-    for (var i in item) {&#13;
-        var extractmachineTypes = item[i]['machineTypes'];&#13;
-        if (extractmachineTypes != undefined) {&#13;
-            extractmachineTypes.forEach(function(machineType) {&#13;
-                collectMachineTypes.push(machineType["name"]);&#13;
-            &#13;
-            });&#13;
+    var items = JSON.parse(inputs.sourceItem);&#13;
+    for (var i in items) {&#13;
+        var machineTypes = items[i]["machineTypes"];&#13;
+        if (machineTypes != undefined) {&#13;
+            collectMachineTypes = new global.ArrayUtil().concat(collectMachineTypes, machineTypes);&#13;
         }&#13;
     }&#13;
-    outputs.targetObject = {&#13;
-        "machinetypes": new global.ArrayUtil().unique(collectMachineTypes)&#13;
+&#13;
+    if (collectMachineTypes.length &gt; 0) {&#13;
+        outputs.targetObject = {&#13;
+            "machinetypes": collectMachineTypes&#13;
+        }&#13;
     }&#13;
-})(inputs, outputs)&#13;
-</value>
+})(inputs, outputs)</value>
         <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=90ac8e27dbf200103dbef35eae96196d"/>
@@ -5224,7 +5826,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5240,7 +5842,7 @@
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>d8ac8e27dbf200103dbef35eae961967</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
     </sys_hub_step_instance>
@@ -5310,7 +5912,7 @@
         <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=fb9c8e27dbf200103dbef35eae961900^sys_idNOT INbf9c8e27dbf200103dbef35eae961901"/>
+    <sys_hub_action_input action="delete_multiple" query="model=fb9c8e27dbf200103dbef35eae961900^sys_idNOT INbf9c8e27dbf200103dbef35eae961901,f83d41f5db8300103dbef35eae96193d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -5350,7 +5952,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5377,10 +5979,91 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=adec11cc-c423-4a82-8e6c-fa50b9bb9a78</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>f83d41f5db8300103dbef35eae96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5434,7 +6117,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5461,7 +6144,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -5517,7 +6200,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5544,7 +6227,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
@@ -5600,7 +6283,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5623,14 +6306,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:19</sys_created_on>
         <sys_id>34ac8e27dbf200103dbef35eae9619cc</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5646,7 +6329,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD38983f899ec300107f933a943f8f7f2f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d54b7ed8-91ff-4b3e-9329-707eba97d79c</attributes>
+        <attributes>co_type_name=FD7da13d71fb830010308f3e16f7edb1bc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d54b7ed8-91ff-4b3e-9329-707eba97d79c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5683,7 +6366,7 @@
         <label>List Machine Types</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5706,14 +6389,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>54ac8e27dbf200103dbef35eae961974</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:46</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5766,7 +6449,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5789,14 +6472,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>60ac8e27dbf200103dbef35eae9619a9</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5849,7 +6532,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5876,7 +6559,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -5932,7 +6615,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -5955,14 +6638,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>78ac8e27dbf200103dbef35eae9619c6</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6015,7 +6698,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6042,7 +6725,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -6098,7 +6781,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6125,7 +6808,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
@@ -6181,7 +6864,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6204,14 +6887,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>bcac8e27dbf200103dbef35eae9619c0</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6264,7 +6947,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6287,14 +6970,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>e0ac8e27dbf200103dbef35eae9619bb</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:47</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6347,7 +7030,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6374,7 +7057,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -6391,7 +7074,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=fb9c8e27dbf200103dbef35eae961900^sys_idNOT IN0cac8e27dbf200103dbef35eae961933,1cac8e27dbf200103dbef35eae961962,339c8e27dbf200103dbef35eae961909,379c8e27dbf200103dbef35eae96190d,40ac8e27dbf200103dbef35eae961922,90ac8e27dbf200103dbef35eae961945,90ac8e27dbf200103dbef35eae96196d,d8ac8e27dbf200103dbef35eae961967"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6406,7 +7089,7 @@
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>0cac8e27dbf200103dbef35eae961933</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -6508,7 +7191,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -6589,7 +7272,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -6605,7 +7288,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6620,7 +7303,7 @@
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>1cac8e27dbf200103dbef35eae961962</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
     </sys_hub_step_instance>
@@ -6654,7 +7337,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6669,7 +7352,7 @@
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_id>339c8e27dbf200103dbef35eae961909</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
     </sys_hub_step_instance>
@@ -6689,7 +7372,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -6704,10 +7387,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_id>379c8e27dbf200103dbef35eae96190d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=379c8e27dbf200103dbef35eae96190d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6757,6 +7440,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>filter</field>
+        <id>379c8e27dbf200103dbef35eae96190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>f83d41f5db8300103dbef35eae96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_379c8e27dbf200103dbef35eae96190d</table>
+        <value>{{action.filter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>projectid</field>
         <id>379c8e27dbf200103dbef35eae96190d</id>
         <sys_created_by>admin</sys_created_by>
@@ -6780,7 +7475,7 @@
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN339c8e27dbf200103dbef35eae961910"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN339c8e27dbf200103dbef35eae961910,3c3d41f5db8300103dbef35eae96194c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -6847,7 +7542,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
@@ -6862,7 +7557,169 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN48ac8e27dbf200103dbef35eae961916"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">379c8e27dbf200103dbef35eae96190d</model>
+        <model_id>379c8e27dbf200103dbef35eae96190d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_379c8e27dbf200103dbef35eae96190d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>3c3d41f5db8300103dbef35eae96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=379c8e27dbf200103dbef35eae96190d^sys_idNOT IN383d41f5db8300103dbef35eae961954,48ac8e27dbf200103dbef35eae961916"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9db2f2bf-f24d-432b-a3a6-9e4f1146ebc0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>filter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Filter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">379c8e27dbf200103dbef35eae96190d</model>
+        <model_id>379c8e27dbf200103dbef35eae96190d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_379c8e27dbf200103dbef35eae96190d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>383d41f5db8300103dbef35eae961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -6929,7 +7786,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
@@ -6945,7 +7802,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6960,7 +7817,7 @@
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>40ac8e27dbf200103dbef35eae961922</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -6994,7 +7851,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7009,10 +7866,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:16</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae961945</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:36:08</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae961945"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7206,11 +8063,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>d4ac8e27dbf200103dbef35eae96195d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:36:08</sys_updated_on>
+        <sys_updated_on>2020-02-19 06:13:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"pageToken","value":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","attributes":{"omit_if_empty":true,"mandatory":false}},{"name":"filter","value":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","attributes":{"omit_if_empty":true,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>
@@ -7303,7 +8160,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -7384,7 +8241,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:16</sys_updated_on>
@@ -7400,7 +8257,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7415,10 +8272,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae96196d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:46</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7429,26 +8286,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>14ac8e27dbf200103dbef35eae961971</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 10:46:46</sys_updated_on>
+        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
+&#13;
     var collectMachineTypes = [];&#13;
-    var item = JSON.parse(inputs.sourceItem);&#13;
-    for (var i in item) {&#13;
-        var extractmachineTypes = item[i]['machineTypes'];&#13;
-        if (extractmachineTypes != undefined) {&#13;
-            extractmachineTypes.forEach(function(machineType) {&#13;
-                collectMachineTypes.push(machineType["name"]);&#13;
-            &#13;
-            });&#13;
+    var items = JSON.parse(inputs.sourceItem);&#13;
+    for (var i in items) {&#13;
+        var machineTypes = items[i]["machineTypes"];&#13;
+        if (machineTypes != undefined) {&#13;
+            collectMachineTypes = new global.ArrayUtil().concat(collectMachineTypes, machineTypes);&#13;
         }&#13;
     }&#13;
-    outputs.targetObject = {&#13;
-        "machinetypes": new global.ArrayUtil().unique(collectMachineTypes)&#13;
+&#13;
+    if (collectMachineTypes.length &gt; 0) {&#13;
+        outputs.targetObject = {&#13;
+            "machinetypes": collectMachineTypes&#13;
+        }&#13;
     }&#13;
-})(inputs, outputs)&#13;
-</value>
+})(inputs, outputs)</value>
         <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=90ac8e27dbf200103dbef35eae96196d"/>
@@ -7477,7 +8334,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List  Aggregated Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7493,7 +8350,7 @@
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>d8ac8e27dbf200103dbef35eae961967</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
     </sys_hub_step_instance>
@@ -7563,7 +8420,7 @@
         <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900^sys_idNOT INfb9c8e27dbf200103dbef35eae961906"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900^sys_idNOT INfb9c8e27dbf200103dbef35eae961906,fc3d41f5db8300103dbef35eae961941"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>project_id</element>
         <help/>
@@ -7578,12 +8435,35 @@
         <sys_id>fb9c8e27dbf200103dbef35eae961906</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>filter</element>
+        <help/>
+        <hint/>
+        <label>Filter</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:13:29</sys_created_on>
+        <sys_id>fc3d41f5db8300103dbef35eae961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -7602,9 +8482,9 @@
         <sys_id>24ac8e27dbf200103dbef35eae96199c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7625,9 +8505,9 @@
         <sys_id>2cac8e27dbf200103dbef35eae9619b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7648,9 +8528,9 @@
         <sys_id>38ac8e27dbf200103dbef35eae9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:19</sys_updated_on>
@@ -7671,9 +8551,9 @@
         <sys_id>50ac8e27dbf200103dbef35eae961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
@@ -7694,9 +8574,9 @@
         <sys_id>68ac8e27dbf200103dbef35eae961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7717,9 +8597,9 @@
         <sys_id>7cac8e27dbf200103dbef35eae9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:19</sys_updated_on>
@@ -7740,9 +8620,9 @@
         <sys_id>a8ac8e27dbf200103dbef35eae9619a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7763,9 +8643,9 @@
         <sys_id>acac8e27dbf200103dbef35eae961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7786,9 +8666,9 @@
         <sys_id>b0ac8e27dbf200103dbef35eae9619c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7809,9 +8689,9 @@
         <sys_id>e0ac8e27dbf200103dbef35eae96198b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:17</sys_updated_on>
@@ -7832,9 +8712,9 @@
         <sys_id>ecac8e27dbf200103dbef35eae9619a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>
@@ -7855,9 +8735,9 @@
         <sys_id>f4ac8e27dbf200103dbef35eae9619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 11:04:18</sys_updated_on>

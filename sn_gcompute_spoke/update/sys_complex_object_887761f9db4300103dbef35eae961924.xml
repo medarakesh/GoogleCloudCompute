@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc47761f98c43001021dfbd0e2875ae24</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9b1d9cfadb220010d852f7b51d961915</scope_name>
+        <serialized_content>{"FlowDesigner:FDc47761f98c43001021dfbd0e2875ae24":{"machinetypes":["Any"],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"3ec0554b-1ebf-4ba2-8c02-19a848f1029a\"}"}},"FlowDesigner:FDc47761f98c43001021dfbd0e2875ae24.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc47761f98c43001021dfbd0e2875ae24\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 08:08:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>887761f9db4300103dbef35eae961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc47761f98c43001021dfbd0e2875ae24</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_complex_object_887761f9db4300103dbef35eae961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 08:08:06</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

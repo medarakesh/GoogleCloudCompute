@@ -11,9 +11,9 @@
         <sys_id>82c62472db620010d852f7b51d96190e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Google Compute default_profile</sys_name>
-        <sys_package display_value="Google Compute Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Google Compute Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>oauth_entity_profile_82c62472db620010d852f7b51d96190e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-28 09:28:09</sys_updated_on>
