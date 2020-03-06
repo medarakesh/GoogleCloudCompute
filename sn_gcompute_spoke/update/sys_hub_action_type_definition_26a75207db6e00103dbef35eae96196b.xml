@@ -9,11 +9,36 @@
         <category display_value="Zone Management">d830690adb3600103dbef35eae961986</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Returns the specified Zone resource.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt; - Name of the zone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt; - Zone is an object containing ID,Name,Description,Creation Time Stamp,Status,Region,Kind,Self Link,Available CPU Platforms,Deprecated,State,Replacement,Deprecated,Obsolete,Deleted.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt;
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>get_zone</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].status_code}}","label":"step➛Get Zone➛Status Code","type":"step","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].response_body}}","label":"step➛Get Zone➛Response Body","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child1}}","label":"step➛Post Processing➛Zone➛Zones_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child2}}","label":"step➛Post Processing➛Zone➛Zones_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child3}}","label":"step➛Post Processing➛Zone➛Zones_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child4}}","label":"step➛Post Processing➛Zone➛Zones_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.status}}","label":"step➛Post Processing➛Zone➛Zones_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child7}}","label":"step➛Post Processing➛Zone➛Zones_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].state}}","label":"step➛Post Processing➛state","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].replacement}}","label":"step➛Post Processing➛state","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].replacement11}}","label":"step➛Post Processing➛replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Zone}}","label":"step➛Post Processing➛Zone➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child6}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child6","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.region}}","label":"step➛Post Processing➛Zone➛Deprecated➛Region","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child7}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.SelfLink}}","label":"step➛Post Processing➛Zone➛Deprecated➛SelfLink","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.selfLink}}","label":"step➛Post Processing➛Zone➛Deprecated➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child8}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.AvailableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Deprecated➛AvailableCpuPlatforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child9}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.kind}}","label":"step➛Post Processing➛Zone➛Deprecated➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.ind}}","label":"step➛Post Processing➛Zone➛Deprecated➛kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.availableCpuPlatforms_child0}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛AvailableCpuPlatforms_child0","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].porojectid}}","label":"step➛Pre Processing➛PorojectID","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.AvailableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛AvailableCpuPlatform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Self_Link}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Available_CPU_Platforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms.Available_CPU_Platform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zonne}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child2}}","label":"step➛Post Processing➛Zone➛Zone_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child3}}","label":"step➛Post Processing➛Zone➛Zone_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child4}}","label":"step➛Post Processing➛Zone➛Zone_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child5}}","label":"step➛Post Processing➛Zone➛Zone_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.Status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.Status1}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.SelfLink}}","label":"step➛Post Processing➛Zone➛SelfLink","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.AvailableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛AvailableCpuPlatforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms.availableCpuPlatforms_child0}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛AvailableCpuPlatform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.State}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child1}}","label":"step➛Post Processing➛Zone➛Zone_child1","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.ID}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child2}}","label":"step➛Post Processing➛Zone➛Zone_child2","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child3}}","label":"step➛Post Processing➛Zone➛Zone_child3","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child4}}","label":"step➛Post Processing➛Zone➛Zone_child4","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child5}}","label":"step➛Post Processing➛Zone➛Zone_child5","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child6}}","label":"step➛Post Processing➛Zone➛Zone_child6","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Self_Link}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Creation_Time_Stamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.State}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛replacement","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Delete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Delete","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.delete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Available_CPU_Platforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms.Available_CPU_Platform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].api_version}}","label":"step➛Get Zone➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>d112017ddb4300103dbef35eae961941</latest_snapshot>
+        <latest_snapshot>cfe653eedbd300103dbef35eae9619d4</latest_snapshot>
         <master_snapshot>4ca44d49dbf200103dbef35eae96193e</master_snapshot>
         <name>Get Zone</name>
         <natlang/>
@@ -26,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26a75207db6e00103dbef35eae96196b</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name>Get Zone</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
@@ -34,7 +59,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_26a75207db6e00103dbef35eae96196b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:44:38</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -132,10 +157,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-29 12:24:16</sys_created_on>
         <sys_id>2ba89a07db6e00103dbef35eae9619b6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:24:32</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ba89a07db6e00103dbef35eae9619b6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -146,16 +171,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-29 12:24:16</sys_created_on>
         <sys_id>63a89a07db6e00103dbef35eae9619bd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:24:32</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:17</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -563,10 +587,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 07:04:23</sys_created_on>
         <sys_id>8a921559db7200103dbef35eae9619ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:31:56</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a921559db7200103dbef35eae9619ab"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -577,9 +601,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 07:04:23</sys_created_on>
         <sys_id>06921559db7200103dbef35eae9619c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:31:56</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:19</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -589,8 +613,7 @@ var gcc = new GoogleCloudComputeUtils();
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1624,13 +1647,13 @@ var gcc = new GoogleCloudComputeUtils();
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">d4b3290edb3600103dbef35eae961916</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="List Zones">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-07 16:14:31</sys_created_on>
         <sys_id>d0b3290edb3600103dbef35eae96191e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:24:50</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d0b3290edb3600103dbef35eae96191e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1914,10 +1937,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-29 12:24:16</sys_created_on>
         <sys_id>2ba89a07db6e00103dbef35eae9619b6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:24:32</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ba89a07db6e00103dbef35eae9619b6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1928,16 +1951,15 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-29 12:24:16</sys_created_on>
         <sys_id>63a89a07db6e00103dbef35eae9619bd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:24:32</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:17</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2345,10 +2367,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 07:04:23</sys_created_on>
         <sys_id>8a921559db7200103dbef35eae9619ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:31:56</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a921559db7200103dbef35eae9619ab"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2359,9 +2381,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 07:04:23</sys_created_on>
         <sys_id>06921559db7200103dbef35eae9619c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:31:56</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:19</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -2371,8 +2393,7 @@ var gcc = new GoogleCloudComputeUtils();
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3442,17 +3463,17 @@ var gcc = new GoogleCloudComputeUtils();
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Zone">26a75207db6e00103dbef35eae96196b</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a4a44d49dbf200103dbef35eae9619dc","name":"plan"}}</plan>
-        <snapshot>d112017ddb4300103dbef35eae961941</snapshot>
+        <snapshot>cfe653eedbd300103dbef35eae9619d4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 11:24:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4a44d49dbf200103dbef35eae9619dc</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:25:02</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:27</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3463,7 +3484,32 @@ var gcc = new GoogleCloudComputeUtils();
         <category display_value="Zone Management">d830690adb3600103dbef35eae961986</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Returns the specified Zone resource.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt; - Name of the zone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Zone&lt;/b&gt; - Zone is an object containing ID,Name,Description,Creation Time Stamp,Status,Region,Kind,Self Link,Available CPU Platforms,Deprecated,State,Replacement,Deprecated,Obsolete,Deleted.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt;
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>get_zone</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].status_code}}","label":"step➛Get Zone➛Status Code","type":"step","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].response_body}}","label":"step➛Get Zone➛Response Body","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child1}}","label":"step➛Post Processing➛Zone➛Zones_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child2}}","label":"step➛Post Processing➛Zone➛Zones_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child3}}","label":"step➛Post Processing➛Zone➛Zones_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child4}}","label":"step➛Post Processing➛Zone➛Zones_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.status}}","label":"step➛Post Processing➛Zone➛Zones_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zones_child7}}","label":"step➛Post Processing➛Zone➛Zones_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].state}}","label":"step➛Post Processing➛state","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].replacement}}","label":"step➛Post Processing➛state","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].replacement11}}","label":"step➛Post Processing➛replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Zone}}","label":"step➛Post Processing➛Zone➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child6}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child6","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.region}}","label":"step➛Post Processing➛Zone➛Deprecated➛Region","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child7}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.SelfLink}}","label":"step➛Post Processing➛Zone➛Deprecated➛SelfLink","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.selfLink}}","label":"step➛Post Processing➛Zone➛Deprecated➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child8}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.AvailableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Deprecated➛AvailableCpuPlatforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.deprecated_child9}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.kind}}","label":"step➛Post Processing➛Zone➛Deprecated➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.ind}}","label":"step➛Post Processing➛Zone➛Deprecated➛kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.availableCpuPlatforms_child0}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛AvailableCpuPlatforms_child0","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].porojectid}}","label":"step➛Pre Processing➛PorojectID","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.AvailableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛AvailableCpuPlatform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.deprecated.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Deprecated➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Self_Link}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.Available_CPU_Platforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms.Available_CPU_Platform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zones.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[95183c8e-7acd-4820-8f9f-06562b6e4fa3].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zonne}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child2}}","label":"step➛Post Processing➛Zone➛Zone_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child3}}","label":"step➛Post Processing➛Zone➛Zone_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child4}}","label":"step➛Post Processing➛Zone➛Zone_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child5}}","label":"step➛Post Processing➛Zone➛Zone_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.Status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.Status1}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.SelfLink}}","label":"step➛Post Processing➛Zone➛SelfLink","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.AvailableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛AvailableCpuPlatforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms.availableCpuPlatforms_child0}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛AvailableCpuPlatform","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.State}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.Deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[b1700ef6-a4f4-480b-ad95-e5e327e22f3f].zone.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child1}}","label":"step➛Post Processing➛Zone➛Zone_child1","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.ID}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.id}}","label":"step➛Post Processing➛Zone➛ID","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child2}}","label":"step➛Post Processing➛Zone➛Zone_child2","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.name}}","label":"step➛Post Processing➛Zone➛Name","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child3}}","label":"step➛Post Processing➛Zone➛Zone_child3","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child4}}","label":"step➛Post Processing➛Zone➛Zone_child4","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.description}}","label":"step➛Post Processing➛Zone➛Description","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.status}}","label":"step➛Post Processing➛Zone➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child5}}","label":"step➛Post Processing➛Zone➛Zone_child5","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.region}}","label":"step➛Post Processing➛Zone➛Region","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child6}}","label":"step➛Post Processing➛Zone➛Zone_child6","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Self_Link}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.selfLink}}","label":"step➛Post Processing➛Zone➛Self Link","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child7}}","label":"step➛Post Processing➛Zone➛Zone_child7","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.kind}}","label":"step➛Post Processing➛Zone➛Kind","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child8}}","label":"step➛Post Processing➛Zone➛Zone_child8","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Creation_Time_Stamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.creationTimestamp}}","label":"step➛Post Processing➛Zone➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child9}}","label":"step➛Post Processing➛Zone➛Zone_child9","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child1}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child1","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.State}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.state}}","label":"step➛Post Processing➛Zone➛Deprecated➛State","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child2}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child2","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛replacement","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Replacement}}","label":"step➛Post Processing➛Zone➛Deprecated➛Replacement","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child3}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child3","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child4}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child4","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.obsolete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Obsolete","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deprecated_child5}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deprecated_child5","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.Delete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Delete","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.delete}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.deprecated.deleted}}","label":"step➛Post Processing➛Zone➛Deprecated➛Deleted","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.zone_child10}}","label":"step➛Post Processing➛Zone➛Zone_child10","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.Available_CPU_Platforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms.Available_CPU_Platform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].zone.availableCpuPlatforms.availableCpuPlatform}}","label":"step➛Post Processing➛Zone➛Available CPU Platforms➛Available CPU Platform","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[58c16498-cfca-46f7-82c7-47180d41b848].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""},{"name":"{{step[022cb289-81b0-40b4-876f-4067ac94e18d].api_version}}","label":"step➛Get Zone➛API Version","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -3478,7 +3524,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ca44d49dbf200103dbef35eae96193e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3486,7 +3532,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:26:14</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3940,10 +3986,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:09</sys_created_on>
         <sys_id>3203b1d9dbb200103dbef35eae9619cb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:32:43</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3203b1d9dbb200103dbef35eae9619cb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3954,9 +4000,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:10</sys_created_on>
         <sys_id>4303b1d9dbb200103dbef35eae9619f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:32:43</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -3966,8 +4012,7 @@ var gcc = new GoogleCloudComputeUtils();
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4282,7 +4327,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD9612417d8643001048b6c91138bbfa22,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c4878ceb-5577-4557-88fd-e7b2117b324a</attributes>
+        <attributes>co_type_name=FDf3e693ee37d300100e50a3f14a9891d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c4878ceb-5577-4557-88fd-e7b2117b324a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4340,14 +4385,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:09</sys_created_on>
         <sys_id>7a03b1d9dbb200103dbef35eae9619db</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:24:58</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4456,10 +4501,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 11:24:53</sys_created_on>
         <sys_id>4ca44d49dbf200103dbef35eae96194b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:26:15</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ca44d49dbf200103dbef35eae96194b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4484,16 +4529,15 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 11:24:53</sys_created_on>
         <sys_id>c4a44d49dbf200103dbef35eae961951</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:26:16</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4ca44d49dbf200103dbef35eae96194b"/>
@@ -5038,13 +5082,13 @@ var gcc = new GoogleCloudComputeUtils();
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">d6ad0a99dbf200103dbef35eae9619cb</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="List Zones">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:22:27</sys_created_on>
         <sys_id>a6ad4a99dbf200103dbef35eae961900</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:24:57</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a6ad4a99dbf200103dbef35eae961900"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5232,7 +5276,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD1212417de4430010c60fba8726e6b436,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=f1ce62a5-bef6-4190-a0bc-f323306d388d</attributes>
+        <attributes>co_type_name=FD3be693eeb6d3001030b3689a1c8398e7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=f1ce62a5-bef6-4190-a0bc-f323306d388d</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5292,14 +5336,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 05:54:32</sys_created_on>
         <sys_id>fe9245d1dbfa00103dbef35eae961909</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:24:58</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5722,10 +5766,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:09</sys_created_on>
         <sys_id>3203b1d9dbb200103dbef35eae9619cb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:32:43</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3203b1d9dbb200103dbef35eae9619cb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5736,9 +5780,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:10</sys_created_on>
         <sys_id>4303b1d9dbb200103dbef35eae9619f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:32:43</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -5748,8 +5792,7 @@ var gcc = new GoogleCloudComputeUtils();
     }
     outputs.status = 'Success';
     outputs.zone = responseBody;
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6064,7 +6107,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD9612417d8643001048b6c91138bbfa22,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c4878ceb-5577-4557-88fd-e7b2117b324a</attributes>
+        <attributes>co_type_name=FDf3e693ee37d300100e50a3f14a9891d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c4878ceb-5577-4557-88fd-e7b2117b324a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6122,14 +6165,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:26:09</sys_created_on>
         <sys_id>7a03b1d9dbb200103dbef35eae9619db</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 05:24:58</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:26:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6238,10 +6281,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 11:24:53</sys_created_on>
         <sys_id>4ca44d49dbf200103dbef35eae96194b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:26:15</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ca44d49dbf200103dbef35eae96194b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6266,16 +6309,15 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-04 11:24:53</sys_created_on>
         <sys_id>c4a44d49dbf200103dbef35eae961951</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:26:16</sys_updated_on>
+        <sys_updated_on>2020-02-27 12:05:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-var gcc = new GoogleCloudComputeUtils();
+    var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid', 'zone']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4ca44d49dbf200103dbef35eae96194b"/>

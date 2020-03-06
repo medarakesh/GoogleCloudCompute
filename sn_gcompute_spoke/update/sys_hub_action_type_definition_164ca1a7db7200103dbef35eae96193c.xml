@@ -6,16 +6,16 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>false</ih_action>
         <internal_name>fetch_vm_instances</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].instances}}","label":"step➛Fetch VM Instances➛Instances","type":"step","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].variable1}}","label":"step➛Fetch VM Instances➛variable1","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>48b3f5abdb7200103dbef35eae9619de</latest_snapshot>
+        <latest_snapshot>1a90437edb1300103dbef35eae9619ec</latest_snapshot>
         <master_snapshot>68b339abdb7200103dbef35eae961928</master_snapshot>
-        <name>Fetch VM Instances</name>
+        <name>List VM Instances</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>164ca1a7db7200103dbef35eae96193c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Fetch VM Instances</sys_name>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>List VM Instances</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_164ca1a7db7200103dbef35eae96193c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:43:55</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:27:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +55,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=164ca1a7db7200103dbef35eae96193c^sys_idNOT IN614ee1e7db7200103dbef35eae961959"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</action>
+        <action display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</action>
         <cid>bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 08:51:39</sys_created_on>
         <sys_id>614ee1e7db7200103dbef35eae961959</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=614ee1e7db7200103dbef35eae961959"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -84,9 +84,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 08:51:40</sys_created_on>
         <sys_id>2d4ee1e7db7200103dbef35eae961965</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:30</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instances', {
         "project_id": inputs.projectid,
@@ -106,8 +106,7 @@
     outputs.instances = {
         data: instances
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -456,9 +455,9 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Project ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</model>
+        <model display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</model>
         <model_id>164ca1a7db7200103dbef35eae96193c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_164ca1a7db7200103dbef35eae96193c</name>
@@ -481,14 +480,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 08:51:39</sys_created_on>
         <sys_id>214e61e7db7200103dbef35eae96196d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -537,9 +536,9 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Zone</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</model>
+        <model display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</model>
         <model_id>164ca1a7db7200103dbef35eae96193c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_164ca1a7db7200103dbef35eae96193c</name>
@@ -562,14 +561,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:08:36</sys_created_on>
         <sys_id>3522796bdb7200103dbef35eae961986</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-03-05 08:59:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -623,7 +622,7 @@
         <label>output</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</model>
+        <model display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</model>
         <model_id>164ca1a7db7200103dbef35eae96193c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_164ca1a7db7200103dbef35eae96193c</name>
@@ -667,7 +666,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=164ca1a7db7200103dbef35eae96193c^sys_idNOT IN614ee1e7db7200103dbef35eae961959"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</action>
+        <action display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</action>
         <cid>bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -682,10 +681,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 08:51:39</sys_created_on>
         <sys_id>614ee1e7db7200103dbef35eae961959</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=614ee1e7db7200103dbef35eae961959"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -696,9 +695,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 08:51:40</sys_created_on>
         <sys_id>2d4ee1e7db7200103dbef35eae961965</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:08:36</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:30</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instances', {
         "project_id": inputs.projectid,
@@ -718,8 +717,7 @@
     outputs.instances = {
         data: instances
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1103,19 +1101,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=164ca1a7db7200103dbef35eae96193c^sys_idNOT IN85b339abdb7200103dbef35eae9619b3"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</action_id>
+        <action_id display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"85b339abdb7200103dbef35eae9619b3","name":"plan"}}</plan>
-        <snapshot>48b3f5abdb7200103dbef35eae9619de</snapshot>
+        <snapshot>1a90437edb1300103dbef35eae9619ec</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>85b339abdb7200103dbef35eae9619b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:23</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:27:20</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1123,25 +1121,25 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>fetch_vm_instances</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].instances}}","label":"step➛Fetch VM Instances➛Instances","type":"step","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].variable1}}","label":"step➛Fetch VM Instances➛variable1","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Fetch VM Instances</name>
+        <name>List VM Instances</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Fetch VM Instances">164ca1a7db7200103dbef35eae96193c</parent_action>
+        <parent_action display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68b339abdb7200103dbef35eae961928</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1149,7 +1147,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:20</sys_updated_on>
+        <sys_updated_on>2020-03-05 08:59:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1170,7 +1168,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=68b339abdb7200103dbef35eae961928^sys_idNOT IN64b339abdb7200103dbef35eae961936"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch VM Instances">68b339abdb7200103dbef35eae961928</action>
+        <action display_value="List VM Instances">68b339abdb7200103dbef35eae961928</action>
         <cid>bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1185,10 +1183,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:21</sys_created_on>
         <sys_id>64b339abdb7200103dbef35eae961936</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=64b339abdb7200103dbef35eae961936"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1199,9 +1197,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:21</sys_created_on>
         <sys_id>70b339abdb7200103dbef35eae96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:42</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instances', {
         "project_id": inputs.projectid,
@@ -1221,8 +1219,7 @@
     outputs.instances = {
         data: instances
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1571,9 +1568,9 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Zone</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch VM Instances">68b339abdb7200103dbef35eae961928</model>
+        <model display_value="List VM Instances">68b339abdb7200103dbef35eae961928</model>
         <model_id>68b339abdb7200103dbef35eae961928</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_68b339abdb7200103dbef35eae961928</name>
@@ -1596,14 +1593,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:21</sys_created_on>
         <sys_id>2cb339abdb7200103dbef35eae96192f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:21</sys_updated_on>
+        <sys_updated_on>2020-03-05 08:59:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1652,9 +1649,9 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Project ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch VM Instances">68b339abdb7200103dbef35eae961928</model>
+        <model display_value="List VM Instances">68b339abdb7200103dbef35eae961928</model>
         <model_id>68b339abdb7200103dbef35eae961928</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_68b339abdb7200103dbef35eae961928</name>
@@ -1677,14 +1674,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:20</sys_created_on>
         <sys_id>a8b339abdb7200103dbef35eae961929</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:20</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1738,7 +1735,7 @@
         <label>output</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch VM Instances">68b339abdb7200103dbef35eae961928</model>
+        <model display_value="List VM Instances">68b339abdb7200103dbef35eae961928</model>
         <model_id>68b339abdb7200103dbef35eae961928</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_68b339abdb7200103dbef35eae961928</name>
@@ -1782,7 +1779,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=68b339abdb7200103dbef35eae961928^sys_idNOT IN64b339abdb7200103dbef35eae961936"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch VM Instances">68b339abdb7200103dbef35eae961928</action>
+        <action display_value="List VM Instances">68b339abdb7200103dbef35eae961928</action>
         <cid>bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1797,10 +1794,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:21</sys_created_on>
         <sys_id>64b339abdb7200103dbef35eae961936</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:42</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=64b339abdb7200103dbef35eae961936"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1811,9 +1808,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 09:15:21</sys_created_on>
         <sys_id>70b339abdb7200103dbef35eae96195a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 09:15:21</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:07:42</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instances', {
         "project_id": inputs.projectid,
@@ -1833,8 +1830,7 @@
     outputs.instances = {
         data: instances
     }
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

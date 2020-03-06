@@ -9,11 +9,35 @@
         <category display_value="Instance Template Management">3d41223fdb3600103dbef35eae96193e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Deletes the specified instance template.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Instance Tempalte&lt;/b&gt; - Name of the instance template.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt;
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>delete_instance_templates</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.instance_templates}}","label":"action➛Instance Templates","type":"action","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].instancetemplates}}","label":"step➛Pre Processing➛InstanceTemplates","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].api_version}}","label":"step➛Delete Instance Template➛API Version","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].status_code}}","label":"step➛Delete Instance Template➛Status Code","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].response_body}}","label":"step➛Delete Instance Template➛Response Body","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].errormessage}}","label":"step➛Post Processing➛errormessage","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>d91c1ff7dbb20010d852f7b51d96197a</latest_snapshot>
+        <latest_snapshot>bb95936edbd300103dbef35eae961981</latest_snapshot>
         <master_snapshot>0a1c5ff7dbb20010d852f7b51d961958</master_snapshot>
         <name>Delete Instance Templates</name>
         <natlang/>
@@ -26,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf479b37dbb20010d852f7b51d961922</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Delete Instance Templates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
@@ -34,7 +58,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cf479b37dbb20010d852f7b51d961922</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:44:06</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:20:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -488,10 +512,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:53</sys_created_on>
         <sys_id>c89953b7dbb20010d852f7b51d9619de</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:38</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c89953b7dbb20010d852f7b51d9619de"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -502,13 +526,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:54</sys_created_on>
         <sys_id>449993b7dbb20010d852f7b51d96191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:38</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
-    gcc.validateMandatoryVariables(inputs, ['projectid','instancetemplates']);
+    gcc.validateMandatoryVariables(inputs, ['projectid', 'instancetemplates']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -918,10 +942,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:55</sys_created_on>
         <sys_id>d49993b7dbb20010d852f7b51d96194c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:43</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d49993b7dbb20010d852f7b51d96194c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -932,9 +956,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:55</sys_created_on>
         <sys_id>289993b7dbb20010d852f7b51d961975</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:43</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -943,8 +967,7 @@
         return;
     }
     outputs.status = 'Success';
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1503,13 +1526,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">c49953b7dbb20010d852f7b51d9619d5</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch  Instance Templates">b014bef7db7600103dbef35eae96196e</action_type>
+        <action_type display_value="List  Instance Templates">b014bef7db7600103dbef35eae96196e</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:53</sys_created_on>
         <sys_id>0c9953b7dbb20010d852f7b51d9619db</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:51</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:20:34</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0c9953b7dbb20010d852f7b51d9619db"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2116,10 +2139,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:53</sys_created_on>
         <sys_id>c89953b7dbb20010d852f7b51d9619de</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:38</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c89953b7dbb20010d852f7b51d9619de"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2130,13 +2153,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:54</sys_created_on>
         <sys_id>449993b7dbb20010d852f7b51d96191f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:18:54</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:38</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
-    gcc.validateMandatoryVariables(inputs, ['projectid','instancetemplates']);
+    gcc.validateMandatoryVariables(inputs, ['projectid', 'instancetemplates']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -2546,10 +2569,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:55</sys_created_on>
         <sys_id>d49993b7dbb20010d852f7b51d96194c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:43</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d49993b7dbb20010d852f7b51d96194c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2560,9 +2583,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:18:55</sys_created_on>
         <sys_id>289993b7dbb20010d852f7b51d961975</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:43</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -2571,8 +2594,7 @@
         return;
     }
     outputs.status = 'Success';
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3182,17 +3204,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Delete Instance Templates">cf479b37dbb20010d852f7b51d961922</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d92cdff7dbb20010d852f7b51d961900","name":"plan"}}</plan>
-        <snapshot>d91c1ff7dbb20010d852f7b51d96197a</snapshot>
+        <snapshot>bb95936edbd300103dbef35eae961981</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:30:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d92cdff7dbb20010d852f7b51d961900</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:30:11</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:20:45</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3203,7 +3225,31 @@
         <category display_value="Instance Template Management">3d41223fdb3600103dbef35eae96193e</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p&gt;Deletes the specified instance template.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Inputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Project ID&lt;/b&gt; - Unique ID of the project.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Instance Tempalte&lt;/b&gt; - Name of the instance template.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;Error Messages:&lt;/p&gt;&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Invalid Project ID has been passed.&lt;/li&gt;
+&lt;li&gt;Invalid authorization header. The access token you're using is either expired or invalid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+
+&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>delete_instance_templates</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.instance_templates}}","label":"action➛Instance Templates","type":"action","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[8cb87d07-38e7-4f90-9446-bbea44eef10f].instancetemplates}}","label":"step➛Pre Processing➛InstanceTemplates","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].api_version}}","label":"step➛Delete Instance Template➛API Version","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].status_code}}","label":"step➛Delete Instance Template➛Status Code","type":"step","ref":""},{"name":"{{step[d39f60e0-ad6d-471b-9456-ca5e7050c129].response_body}}","label":"step➛Delete Instance Template➛Response Body","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[51dfea5b-7cc6-411a-b4ed-f47d5a7b6dcc].errormessage}}","label":"step➛Post Processing➛errormessage","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -3218,7 +3264,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a1c5ff7dbb20010d852f7b51d961958</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3226,7 +3272,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:57</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:20:41</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3274,10 +3320,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:57</sys_created_on>
         <sys_id>021c5ff7dbb20010d852f7b51d96196d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:58</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:55</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=021c5ff7dbb20010d852f7b51d96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3288,13 +3334,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:58</sys_created_on>
         <sys_id>161c5ff7dbb20010d852f7b51d9619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:58</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:55</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
-    gcc.validateMandatoryVariables(inputs, ['projectid','instancetemplates']);
+    gcc.validateMandatoryVariables(inputs, ['projectid', 'instancetemplates']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -3704,10 +3750,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:59</sys_created_on>
         <sys_id>121c5ff7dbb20010d852f7b51d9619d0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:59</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=121c5ff7dbb20010d852f7b51d9619d0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3718,9 +3764,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:59</sys_created_on>
         <sys_id>aa1c5ff7dbb20010d852f7b51d9619ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:59</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -3729,8 +3775,7 @@
         return;
     }
     outputs.status = 'Success';
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4695,13 +4740,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">ce1c5ff7dbb20010d852f7b51d96195f</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch  Instance Templates">b014bef7db7600103dbef35eae96196e</action_type>
+        <action_type display_value="List  Instance Templates">b014bef7db7600103dbef35eae96196e</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:57</sys_created_on>
         <sys_id>421c5ff7dbb20010d852f7b51d96196a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:57</sys_updated_on>
+        <sys_updated_on>2020-03-05 10:20:41</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=421c5ff7dbb20010d852f7b51d96196a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4902,10 +4947,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:57</sys_created_on>
         <sys_id>021c5ff7dbb20010d852f7b51d96196d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:58</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:55</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=021c5ff7dbb20010d852f7b51d96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4916,13 +4961,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:58</sys_created_on>
         <sys_id>161c5ff7dbb20010d852f7b51d9619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:58</sys_updated_on>
+        <sys_updated_on>2020-03-02 05:04:55</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     inputs = gcc.validateInputVariables(inputs, outputs);
-    gcc.validateMandatoryVariables(inputs, ['projectid','instancetemplates']);
+    gcc.validateMandatoryVariables(inputs, ['projectid', 'instancetemplates']);
     outputs = gcc.maptoOutputFromInput(inputs, outputs, []);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -5332,10 +5377,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:59</sys_created_on>
         <sys_id>121c5ff7dbb20010d852f7b51d9619d0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:59</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=121c5ff7dbb20010d852f7b51d9619d0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5346,9 +5391,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 11:29:59</sys_created_on>
         <sys_id>aa1c5ff7dbb20010d852f7b51d9619ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 11:29:59</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:06:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     if (inputs.statusCode != 200) {
@@ -5357,8 +5402,7 @@
         return;
     }
     outputs.status = 'Success';
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

@@ -6,16 +6,16 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Machine Types Management">e5ff6c17db7200103dbef35eae961972</category>
+        <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>true</ih_action>
         <internal_name>list_machine_types_aggregatedlist</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>e8a1f971db8300103dbef35eae961958</latest_snapshot>
+        <latest_snapshot>a56d3af6db1300103dbef35eae96196c</latest_snapshot>
         <master_snapshot>fb9c8e27dbf200103dbef35eae961900</master_snapshot>
-        <name>List Machine Types</name>
+        <name>Fetch Machine Types</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ba43cdefdbba00103dbef35eae961950</sys_id>
-        <sys_mod_count>87</sys_mod_count>
-        <sys_name>List Machine Types</sys_name>
+        <sys_mod_count>114</sys_mod_count>
+        <sys_name>Fetch Machine Types</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ba43cdefdbba00103dbef35eae961950</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:45:27</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:34</sys_created_on>
         <sys_id>10cec2a7dbf200103dbef35eae961991</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"212a50df-f047-495d-8307-d174107ddd06\"}"}},"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7fbec2a7e5f20010485e5412dcf8a30a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"bff00ef0-9f9f-4581-9401-c65b069a4a49\"}"}},"FlowDesigner:FD7fbec2a7e5f20010485e5412dcf8a30a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7fbec2a7e5f20010485e5412dcf8a30a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="">ffbec2a7dbf200103dbef35eae96190c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ba43cdefdbba00103dbef35eae961950"/>
@@ -141,7 +141,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN02040923dbfa00103dbef35eae96199d,02040923dbfa00103dbef35eae9619ad,1e5841e3dbfa00103dbef35eae9619b2,79040923dbfa00103dbef35eae961979,9a5841e3dbfa00103dbef35eae9619ac,c2040923dbfa00103dbef35eae96198b,c6040923dbfa00103dbef35eae961991,f5040923dbfa00103dbef35eae961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -547,7 +547,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -596,7 +596,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -611,10 +611,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>1e5841e3dbfa00103dbef35eae9619b2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
+        <sys_updated_on>2020-02-19 11:03:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e5841e3dbfa00103dbef35eae9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -625,11 +625,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>e65841e3dbfa00103dbef35eae9619b7</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
+        <sys_updated_on>2020-02-19 11:03:16</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
-&#13;
     var collectMachineTypes = [];&#13;
     var items = JSON.parse(inputs.sourceItem);&#13;
     for (var i in items) {&#13;
@@ -673,7 +672,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1103,7 +1102,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1190,7 +1189,7 @@
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1239,7 +1238,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1453,7 +1452,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1527,7 +1526,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950</name>
@@ -1608,7 +1607,7 @@
         <label>Filter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_ba43cdefdbba00103dbef35eae961950</name>
@@ -1692,7 +1691,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1715,14 +1714,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>48cec2a7dbf200103dbef35eae961965</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1775,7 +1774,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1798,14 +1797,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>4ccec2a7dbf200103dbef35eae96195f</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1858,7 +1857,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -1881,14 +1880,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:32</sys_created_on>
         <sys_id>80cec2a7dbf200103dbef35eae961942</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1941,7 +1940,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2024,7 +2023,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2107,7 +2106,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2130,14 +2129,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>88cec2a7dbf200103dbef35eae96194d</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2190,7 +2189,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2213,14 +2212,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:13:33</sys_created_on>
         <sys_id>8ccec2a7dbf200103dbef35eae961947</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:35</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2273,7 +2272,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2356,7 +2355,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2439,7 +2438,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2522,7 +2521,7 @@
         <label>List Machine Types</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2605,7 +2604,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</model>
+        <model display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</model>
         <model_id>ba43cdefdbba00103dbef35eae961950</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_ba43cdefdbba00103dbef35eae961950</name>
@@ -2649,7 +2648,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN02040923dbfa00103dbef35eae96199d,02040923dbfa00103dbef35eae9619ad,1e5841e3dbfa00103dbef35eae9619b2,79040923dbfa00103dbef35eae961979,9a5841e3dbfa00103dbef35eae9619ac,c2040923dbfa00103dbef35eae96198b,c6040923dbfa00103dbef35eae961991,f5040923dbfa00103dbef35eae961974"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3055,7 +3054,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3104,7 +3103,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3119,10 +3118,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>1e5841e3dbfa00103dbef35eae9619b2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
+        <sys_updated_on>2020-02-19 11:03:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e5841e3dbfa00103dbef35eae9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3133,11 +3132,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:05:58</sys_created_on>
         <sys_id>e65841e3dbfa00103dbef35eae9619b7</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:24</sys_updated_on>
+        <sys_updated_on>2020-02-19 11:03:16</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
-&#13;
     var collectMachineTypes = [];&#13;
     var items = JSON.parse(inputs.sourceItem);&#13;
     for (var i in items) {&#13;
@@ -3181,7 +3179,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3611,7 +3609,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3698,7 +3696,7 @@
         <value>{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3747,7 +3745,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3961,7 +3959,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action>
+        <action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4321,19 +4319,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=ba43cdefdbba00103dbef35eae961950^sys_idNOT IN1aac0267dbf200103dbef35eae96191d"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</action_id>
+        <action_id display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1aac0267dbf200103dbef35eae96191d","name":"plan"}}</plan>
-        <snapshot>e8a1f971db8300103dbef35eae961958</snapshot>
+        <snapshot>a56d3af6db1300103dbef35eae96196c</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aac0267dbf200103dbef35eae96191d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:50</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:31</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4341,25 +4339,25 @@
         <action_template>DATASTREAM</action_template>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Machine Types Management">e5ff6c17db7200103dbef35eae961972</category>
+        <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>list__aggregated_machine_types</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[86bfff01-7e45-44c3-8cfc-a769137aeb7c].api_version}}","label":"step➛Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8].nextpageToken}}","label":"step➛Pagination Setup➛nextpageToken","type":"step","ref":""},{"name":"{{step[7b17ba8d-6806-4f42-a73d-943c6213ebef].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>List Machine Types</name>
+        <name>Fetch Machine Types</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="List Machine Types">ba43cdefdbba00103dbef35eae961950</parent_action>
+        <parent_action display_value="Fetch Machine Types">ba43cdefdbba00103dbef35eae961950</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb9c8e27dbf200103dbef35eae961900</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4367,7 +4365,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 06:13:29</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -4409,10 +4407,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:19</sys_created_on>
         <sys_id>85ac8e27dbf200103dbef35eae9619f9</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD7da13d71fb830010308f3e16f7edb1bc":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"$296:machinetypes\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"212a50df-f047-495d-8307-d174107ddd06\"}"}},"FlowDesigner:FD7da13d71fb830010308f3e16f7edb1bc.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7da13d71fb830010308f3e16f7edb1bc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\"}"}},"serializationFormat":"JSON","complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD8b6d7af64b130010f36be5ab405056b5":{"machinetypes":[{"machinetypes":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"machinetypes.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Machine Types\",\"mandatory\":\"false\",\"child_name\":\"machinetype\",\"uiTypeLabel\":\"$62:machinetypes\",\"child_label\":\"Machine Type\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"bff00ef0-9f9f-4581-9401-c65b069a4a49\"}"}},"FlowDesigner:FD8b6d7af64b130010f36be5ab405056b5.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8b6d7af64b130010f36be5ab405056b5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"List Machine Types\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"d54b7ed8-91ff-4b3e-9329-707eba97d79c\"}"}},"complexObject":{"machinetypes":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="">54ac8e27dbf200103dbef35eae961974</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4566,7 +4564,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=fb9c8e27dbf200103dbef35eae961900^sys_idNOT IN0cac8e27dbf200103dbef35eae961933,1cac8e27dbf200103dbef35eae961962,339c8e27dbf200103dbef35eae961909,379c8e27dbf200103dbef35eae96190d,40ac8e27dbf200103dbef35eae961922,90ac8e27dbf200103dbef35eae961945,90ac8e27dbf200103dbef35eae96196d,d8ac8e27dbf200103dbef35eae961967"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4780,7 +4778,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4829,7 +4827,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4864,7 +4862,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5294,7 +5292,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5343,7 +5341,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5749,7 +5747,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5764,10 +5762,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae96196d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:56:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5778,11 +5776,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>14ac8e27dbf200103dbef35eae961971</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:56:09</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
-&#13;
     var collectMachineTypes = [];&#13;
     var items = JSON.parse(inputs.sourceItem);&#13;
     for (var i in items) {&#13;
@@ -5826,7 +5823,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5952,7 +5949,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6033,7 +6030,7 @@
         <label>Filter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6117,7 +6114,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6200,7 +6197,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6283,7 +6280,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6306,14 +6303,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:19</sys_created_on>
         <sys_id>34ac8e27dbf200103dbef35eae9619cc</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6329,7 +6326,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD7da13d71fb830010308f3e16f7edb1bc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d54b7ed8-91ff-4b3e-9329-707eba97d79c</attributes>
+        <attributes>co_type_name=FD8b6d7af64b130010f36be5ab405056b5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d54b7ed8-91ff-4b3e-9329-707eba97d79c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6366,7 +6363,7 @@
         <label>List Machine Types</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6389,14 +6386,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>54ac8e27dbf200103dbef35eae961974</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6449,7 +6446,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6472,14 +6469,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>60ac8e27dbf200103dbef35eae9619a9</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6532,7 +6529,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6615,7 +6612,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6638,14 +6635,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>78ac8e27dbf200103dbef35eae9619c6</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6698,7 +6695,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6781,7 +6778,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6864,7 +6861,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6887,14 +6884,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>bcac8e27dbf200103dbef35eae9619c0</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6947,7 +6944,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -6970,14 +6967,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:18</sys_created_on>
         <sys_id>e0ac8e27dbf200103dbef35eae9619bb</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:45</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:13:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7030,7 +7027,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
+        <model display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</model>
         <model_id>fb9c8e27dbf200103dbef35eae961900</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_fb9c8e27dbf200103dbef35eae961900</name>
@@ -7074,7 +7071,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=fb9c8e27dbf200103dbef35eae961900^sys_idNOT IN0cac8e27dbf200103dbef35eae961933,1cac8e27dbf200103dbef35eae961962,339c8e27dbf200103dbef35eae961909,379c8e27dbf200103dbef35eae96190d,40ac8e27dbf200103dbef35eae961922,90ac8e27dbf200103dbef35eae961945,90ac8e27dbf200103dbef35eae96196d,d8ac8e27dbf200103dbef35eae961967"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>1e6b3794-b3c5-4fbf-8aa7-b6d3fef83de8</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7288,7 +7285,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>6ed7d6e6-adb0-49ca-862e-cad8a0054c82</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7337,7 +7334,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>d0bb4067-9919-4e5b-aed8-b970e0568c9f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7372,7 +7369,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>7b17ba8d-6806-4f42-a73d-943c6213ebef</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -7802,7 +7799,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>cbe61c38-844c-4c30-afb8-63c12e6269ca</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7851,7 +7848,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>86bfff01-7e45-44c3-8cfc-a769137aeb7c</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -8257,7 +8254,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>e46d3847-e99b-4144-b313-376c7ecec683</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -8272,10 +8269,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>90ac8e27dbf200103dbef35eae96196d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:56:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac8e27dbf200103dbef35eae96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8286,11 +8283,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 11:04:17</sys_created_on>
         <sys_id>14ac8e27dbf200103dbef35eae961971</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 08:52:44</sys_updated_on>
+        <sys_updated_on>2020-02-21 05:56:09</sys_updated_on>
         <value>(function parse(inputs, outputs) {&#13;
-&#13;
     var collectMachineTypes = [];&#13;
     var items = JSON.parse(inputs.sourceItem);&#13;
     for (var i in items) {&#13;
@@ -8334,7 +8330,7 @@
         <value>{{step[335ba15e-c3c9-4b40-8063-fc46bdeb17bf].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
+        <action display_value="Fetch Machine Types">fb9c8e27dbf200103dbef35eae961900</action>
         <cid>335ba15e-c3c9-4b40-8063-fc46bdeb17bf</cid>
         <extended_inputs/>
         <extended_outputs/>

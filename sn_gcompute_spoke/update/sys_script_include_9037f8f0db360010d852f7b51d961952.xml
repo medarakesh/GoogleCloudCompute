@@ -39,6 +39,134 @@ GoogleCloudComputeUtils.prototype = {
         return outputs;
 
     },
+    createInstanceTemplate: function(inputs, outputs) {
+        var requestBody = {
+            "name": inputs.name.toLowerCase(),
+            "description": inputs.description,
+            "properties": {}
+        };
+        var prop = inputs.properties;
+        if (prop.machineType.trim())
+            requestBody.properties.machineType = prop.machineType;
+        if (prop.disks.length > 0) {
+            var disks = [];
+            prop.disks.forEach(function(disk) {
+                if (disk['name'].trim())
+                    disks.push({
+                        "deviceName": disk['name'].toLowerCase(),
+                        "source": disk['name'].toLowerCase(),
+                        "boot": disk['boot'],
+                        "autoDelete": disk['autoDelete'],
+                        "diskSizeGb": disk['diskSizeGb']
+
+                    });
+            });
+            if (disks.length < 1)
+                throw new Error("Atleast on disk to be attached");
+
+            requestBody.properties.disks = disks;
+        }
+        if (prop.networkInterfaces.length > 0) {
+            var networkInterfaces = [];
+            prop.networkInterfaces.forEach(function(networkinteface) {
+                var networkObject = {
+                    "name": networkinteface['name'],
+                    "network": networkinteface['network'],
+
+                };
+                if (networkinteface['subnetwork'])
+                    networkObject['subnetwork'] = networkinteface['subnetwork'];
+                if (networkinteface['network'].trim())
+                    networkInterfaces.push(networkObject);
+            });
+            if (networkInterfaces.length > 0)
+                requestBody.properties.networkInterfaces = networkInterfaces;
+        }
+        if (prop.labels.length > 0) {
+            var labels = {};
+            prop.labels.forEach(function(label) {
+                if (label['key'].trim() && label['value'].trim())
+                    labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
+            });
+            requestBody.properties.labels = labels;
+        }
+        if (prop.tags.length > 0) {
+            var tags = [];
+            prop.tags.forEach(function(tag) {
+                if (tag.trim())
+                    tags.push(tag.toLowerCase());
+            });
+            if (tags.length > 0)
+                requestBody.properties.tags = {
+                    "items": tags
+                };
+        }
+        return outputs.requestbody = JSON.stringify(requestBody);
+
+    },
+    createInstance: function(inputs, outputs) {
+        var requestBody = {
+            "name": inputs.name.toLowerCase(),
+            "description": inputs.description,
+            "machineType": "zones/" + inputs.zone + "/machineTypes/" + inputs.machinetype
+        };
+        if (inputs.instancetemplate)
+            outputs.instancetemplate = "projects/" + inputs.projectid + "/global/instanceTemplates/" + inputs.instancetemplate;
+
+        if (inputs.disks.length > 0) {
+            var source = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/disks/";
+            var disks = [];
+            inputs.disks.forEach(function(disk) {
+                if (disk['name'].trim())
+                    disks.push({
+                        "deviceName": disk['name'].toLowerCase(),
+                        "source": source + disk['name'].toLowerCase(),
+                        "boot": disk['boot'],
+                        "autoDelete": disk['autoDelete'],
+                        "diskSizeGb": disk['diskSizeGb']
+                    });
+            });
+            if (disks.length > 0)
+                requestBody.disks = disks;
+        }
+        if (inputs.networkintefaces.length > 0) {
+            var networkInterfaces = [];
+            inputs.networkintefaces.forEach(function(networkinteface) {
+                var networkObject = {
+                    "name": networkinteface['name'],
+                    "network": networkinteface['network'],
+
+                };
+                if (networkinteface['subnetwork'].trim())
+                    networkObject['subnetwork'] = networkinteface['subnetwork'];
+                if (networkinteface['network'].trim())
+                    networkInterfaces.push(networkObject);
+            });
+            if (networkInterfaces.length > 0)
+                requestBody.networkInterfaces = networkInterfaces;
+        }
+        if (inputs.labels.length > 0) {
+            var labels = {};
+            inputs.labels.forEach(function(label) {
+                if (label['key'].trim() && label['value'].trim())
+                    labels[label['key'].toLowerCase()] = label['value'].toLowerCase();
+            });
+            requestBody.labels = labels;
+        }
+        if (inputs.tags.length > 0) {
+            var tags = [];
+            inputs.tags.forEach(function(tag) {
+                if (tag.trim())
+                    tags.push(tag.toLowerCase());
+            });
+            if (tags.length > 0)
+                requestBody.tags = {
+                    "items": tags
+                };
+        }
+        return outputs.requestbody = JSON.stringify(requestBody);
+
+    },
 
     type: 'GoogleCloudComputeUtils'
 };]]></script>
@@ -46,13 +174,13 @@ GoogleCloudComputeUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-03 15:48:04</sys_created_on>
         <sys_id>9037f8f0db360010d852f7b51d961952</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>GoogleCloudComputeUtils</sys_name>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_script_include_9037f8f0db360010d852f7b51d961952</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-04 06:44:29</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:39:56</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -6,16 +6,16 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>true</ih_action>
         <internal_name>fetch_regions</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].variable}}","label":"step➛Fetch Regions➛variable","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].data}}","label":"step➛Fetch Regions➛Data","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].regions}}","label":"step➛Fetch Regions➛Regions","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].response_body}}","label":"Fetch Regionsstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable1}}","label":"Post Processingstep➛➛variable1","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].region}}","label":"Post Processingstep➛➛Region","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].regions}}","label":"Post Processingstep➛➛Regions","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].projectid}}","label":"Post Processingstep➛➛projectid","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].api_version}}","label":"step➛Fetch Regions➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>cc6a73c3dbf20010d852f7b51d9619cd</latest_snapshot>
+        <latest_snapshot>9800cb3edb1300103dbef35eae961935</latest_snapshot>
         <master_snapshot>d5413959dbb200103dbef35eae9619c5</master_snapshot>
-        <name>Fetch Regions</name>
+        <name>List Regions</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b1e65d5dbb200103dbef35eae9619ff</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_name>Fetch Regions</sys_name>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>List Regions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8b1e65d5dbb200103dbef35eae9619ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:43:40</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:24:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +55,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=8b1e65d5dbb200103dbef35eae9619ff^sys_idNOT IN0d4f3d51dbf200103dbef35eae961965,39868a55dbf200103dbef35eae96198c,994f3d51dbf200103dbef35eae961983"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>e21c5885-8dc2-46f6-8ff2-a9f6a41b7106</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -449,7 +449,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -705,7 +705,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>026674bb-7a51-4ac9-aa38-3751ce9619c3</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -720,10 +720,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>994f3d51dbf200103dbef35eae961983</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=994f3d51dbf200103dbef35eae961983"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -748,9 +748,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>d14f3d51dbf200103dbef35eae961995</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -765,7 +765,6 @@
     outputs.regions = {
         data: listRegions
     }
-
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -1010,7 +1009,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</model>
+        <model display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</model>
         <model_id>8b1e65d5dbb200103dbef35eae9619ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_8b1e65d5dbb200103dbef35eae9619ff</name>
@@ -1094,7 +1093,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</model>
+        <model display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</model>
         <model_id>8b1e65d5dbb200103dbef35eae9619ff</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8b1e65d5dbb200103dbef35eae9619ff</name>
@@ -1138,7 +1137,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=8b1e65d5dbb200103dbef35eae9619ff^sys_idNOT IN0d4f3d51dbf200103dbef35eae961965,39868a55dbf200103dbef35eae96198c,994f3d51dbf200103dbef35eae961983"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>e21c5885-8dc2-46f6-8ff2-a9f6a41b7106</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1532,7 +1531,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1788,7 +1787,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
+        <action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action>
         <cid>026674bb-7a51-4ac9-aa38-3751ce9619c3</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1803,10 +1802,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>994f3d51dbf200103dbef35eae961983</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=994f3d51dbf200103dbef35eae961983"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1831,9 +1830,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>d14f3d51dbf200103dbef35eae961995</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:29</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -1848,7 +1847,6 @@
     outputs.regions = {
         data: listRegions
     }
-
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -2067,11 +2065,11 @@
         <sys_created_on>2020-02-05 09:18:19</sys_created_on>
         <sys_id>c441f159dbb200103dbef35eae96190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8b1e65d5dbb200103dbef35eae9619ff_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:19</sys_updated_on>
         <url/>
@@ -2091,11 +2089,11 @@
         <sys_created_on>2020-02-05 09:18:20</sys_created_on>
         <sys_id>94413959dbb200103dbef35eae961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8b1e65d5dbb200103dbef35eae9619ff_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:20</sys_updated_on>
         <url/>
@@ -2103,19 +2101,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=8b1e65d5dbb200103dbef35eae9619ff^sys_idNOT INb5417959dbb200103dbef35eae961925"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</action_id>
+        <action_id display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b5417959dbb200103dbef35eae961925","name":"plan"}}</plan>
-        <snapshot>cc6a73c3dbf20010d852f7b51d9619cd</snapshot>
+        <snapshot>9800cb3edb1300103dbef35eae961935</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:18:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5417959dbb200103dbef35eae961925</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 09:09:21</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:24:46</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2123,25 +2121,25 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>fetch_regions</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].variable}}","label":"step➛Fetch Regions➛variable","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].data}}","label":"step➛Fetch Regions➛Data","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].regions}}","label":"step➛Fetch Regions➛Regions","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].response_body}}","label":"Fetch Regionsstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable1}}","label":"Post Processingstep➛➛variable1","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].region}}","label":"Post Processingstep➛➛Region","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].regions}}","label":"Post Processingstep➛➛Regions","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].projectid}}","label":"Post Processingstep➛➛projectid","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].api_version}}","label":"step➛Fetch Regions➛API Version","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Fetch Regions</name>
+        <name>List Regions</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Fetch Regions">8b1e65d5dbb200103dbef35eae9619ff</parent_action>
+        <parent_action display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:18:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d5413959dbb200103dbef35eae9619c5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2149,7 +2147,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-06 09:09:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:24:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2170,7 +2168,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d5413959dbb200103dbef35eae9619c5^sys_idNOT IN274f7d51dbf200103dbef35eae9619e8,f2e60295dbf200103dbef35eae961979,f34fbd51dbf200103dbef35eae961912"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>e21c5885-8dc2-46f6-8ff2-a9f6a41b7106</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2564,7 +2562,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2820,7 +2818,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>026674bb-7a51-4ac9-aa38-3751ce9619c3</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2835,10 +2833,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>f34fbd51dbf200103dbef35eae961912</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:42</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f34fbd51dbf200103dbef35eae961912"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2849,9 +2847,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>b34fbd51dbf200103dbef35eae961924</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:42</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -2866,7 +2864,6 @@
     outputs.regions = {
         data: listRegions
     }
-
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -3125,7 +3122,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</model>
+        <model display_value="List Regions">d5413959dbb200103dbef35eae9619c5</model>
         <model_id>d5413959dbb200103dbef35eae9619c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_d5413959dbb200103dbef35eae9619c5</name>
@@ -3209,7 +3206,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</model>
+        <model display_value="List Regions">d5413959dbb200103dbef35eae9619c5</model>
         <model_id>d5413959dbb200103dbef35eae9619c5</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d5413959dbb200103dbef35eae9619c5</name>
@@ -3253,7 +3250,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=d5413959dbb200103dbef35eae9619c5^sys_idNOT IN274f7d51dbf200103dbef35eae9619e8,f2e60295dbf200103dbef35eae961979,f34fbd51dbf200103dbef35eae961912"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>e21c5885-8dc2-46f6-8ff2-a9f6a41b7106</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3647,7 +3644,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3903,7 +3900,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Regions">d5413959dbb200103dbef35eae9619c5</action>
+        <action display_value="List Regions">d5413959dbb200103dbef35eae9619c5</action>
         <cid>026674bb-7a51-4ac9-aa38-3751ce9619c3</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3918,10 +3915,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>f34fbd51dbf200103dbef35eae961912</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:42</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f34fbd51dbf200103dbef35eae961912"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3932,9 +3929,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>b34fbd51dbf200103dbef35eae961924</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-05 11:18:42</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -3949,7 +3946,6 @@
     outputs.regions = {
         data: listRegions
     }
-
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -4182,11 +4178,11 @@
         <sys_created_on>2020-02-05 09:18:24</sys_created_on>
         <sys_id>59413959dbb200103dbef35eae9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d5413959dbb200103dbef35eae9619c5_project_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:24</sys_updated_on>
         <url/>
@@ -4206,11 +4202,11 @@
         <sys_created_on>2020-02-05 09:18:25</sys_created_on>
         <sys_id>d9413959dbb200103dbef35eae9619e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d5413959dbb200103dbef35eae9619c5_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 09:18:25</sys_updated_on>
         <url/>

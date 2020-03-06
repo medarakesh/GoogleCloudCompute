@@ -3,19 +3,19 @@
         <access>public</access>
         <acls/>
         <action_template>DATASTREAM</action_template>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="VM Instance Management">0a70690adb3600103dbef35eae96199e</category>
+        <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>true</ih_action>
         <internal_name>list_instances</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].filetr}}","label":"step➛Pre Processing➛Filetr","type":"step","ref":""},{"name":"{{step[c2494744-edbb-4224-8168-e46fbdc19f24].api_version}}","label":"step➛List Instances➛API Version","type":"step","ref":""},{"name":"{{step[519f3db3-b999-49be-a156-0aa849c65186].nextPageToken}}","label":"step➛Pagination Setup➛nextPageToken","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>b473bab7db7600103dbef35eae961928</latest_snapshot>
+        <latest_snapshot>192ebe3adb1300103dbef35eae96197d</latest_snapshot>
         <master_snapshot>1a6659ebdbfa00103dbef35eae96192d</master_snapshot>
-        <name>List Instances</name>
+        <name>Fetch Instances By Zone</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1efb0167dbfa00103dbef35eae9619b0</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>List Instances</sys_name>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Fetch Instances By Zone</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_1efb0167dbfa00103dbef35eae9619b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:44:00</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:33:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:21</sys_created_on>
         <sys_id>1a8fcda7dbfa00103dbef35eae961954</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 07:00:23</sys_updated_on>
-        <value>{"complexObjectSchema":{"FlowDesigner:FD758f8da706fa0010bcea4a6370676bc0":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD758f8da706fa0010bcea4a6370676bc0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Instance\",\"mandatory\":\"false\",\"uiUniqueId\":\"20d61c38-9ea3-4d3d-97f8-b2a6539f19bd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD758f8da706fa0010bcea4a6370676bc0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0"}</value>
+        <sys_updated_on>2020-03-06 03:15:59</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD758f8da706fa0010bcea4a6370676bc0":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD758f8da706fa0010bcea4a6370676bc0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Instance\",\"mandatory\":\"false\",\"uiUniqueId\":\"20d61c38-9ea3-4d3d-97f8-b2a6539f19bd\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD758f8da706fa0010bcea4a6370676bc0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="">f98f8da7dbfa00103dbef35eae9619c2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1efb0167dbfa00103dbef35eae9619b0"/>
@@ -129,7 +129,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=1efb0167dbfa00103dbef35eae9619b0^sys_idNOT IN198f8da7dbfa00103dbef35eae961941,258f8da7dbfa00103dbef35eae96198f,3d8f8da7dbfa00103dbef35eae9619ad,618f8da7dbfa00103dbef35eae96197d,6d8f8da7dbfa00103dbef35eae961976,758f8da7dbfa00103dbef35eae9619ba,7d8f8da7dbfa00103dbef35eae9619b3,918f8da7dbfa00103dbef35eae96193c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>d25f9202-fd90-4303-8b43-ae1a7c3738d9</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -733,7 +733,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>c2494744-edbb-4224-8168-e46fbdc19f24</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -980,7 +980,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=7a16bc97-6e3e-4873-b25c-99dbe5b78050</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=f6c2e427-e968-4b85-8713-e546f719cca6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1038,14 +1038,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:19</sys_created_on>
         <sys_id>218f8da7dbfa00103dbef35eae96199d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 07:00:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 10:54:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1139,7 +1139,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>7df406f6-d0ad-4dea-9bdf-ccb7239baa6f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1188,7 +1188,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>519f3db3-b999-49be-a156-0aa849c65186</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1402,7 +1402,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>2bee1d0f-9baa-47c7-8b60-82d52089df11</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1451,7 +1451,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>97979bab-b3af-44d4-94d5-439ff0073d43</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1514,7 +1514,7 @@
         <value>{{step[be2e3dc7-6240-4822-8119-a8de6c63978a].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>be2e3dc7-6240-4822-8119-a8de6c63978a</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1601,7 +1601,7 @@
         <value>{{step[c2494744-edbb-4224-8168-e46fbdc19f24].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>cb86f498-87a2-4557-a82b-e7ce3eb26209</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1675,7 +1675,7 @@
         <label>Filter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -1756,7 +1756,7 @@
         <label>Zone</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -1802,13 +1802,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">418f8da7dbfa00103dbef35eae96192c</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="List Zones">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:17</sys_created_on>
         <sys_id>858f8da7dbfa00103dbef35eae961932</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:13</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:26</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=858f8da7dbfa00103dbef35eae961932"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1864,7 +1864,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -1948,7 +1948,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2031,7 +2031,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2114,7 +2114,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2137,14 +2137,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:20</sys_created_on>
         <sys_id>828fcda7dbfa00103dbef35eae961923</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:15</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2197,7 +2197,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2220,14 +2220,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:20</sys_created_on>
         <sys_id>868fcda7dbfa00103dbef35eae96191d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:15</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2280,7 +2280,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2303,14 +2303,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:21</sys_created_on>
         <sys_id>868fcda7dbfa00103dbef35eae961934</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:16</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2363,7 +2363,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2446,7 +2446,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2469,14 +2469,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:20</sys_created_on>
         <sys_id>8a8fcda7dbfa00103dbef35eae96192e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:16</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2529,7 +2529,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2552,14 +2552,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:20</sys_created_on>
         <sys_id>8e8fcda7dbfa00103dbef35eae961928</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:15</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2612,7 +2612,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2695,7 +2695,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2778,7 +2778,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2861,7 +2861,7 @@
         <label>Instance</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</model>
+        <model display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</model>
         <model_id>1efb0167dbfa00103dbef35eae9619b0</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_1efb0167dbfa00103dbef35eae9619b0</name>
@@ -2905,7 +2905,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=1efb0167dbfa00103dbef35eae9619b0^sys_idNOT IN198f8da7dbfa00103dbef35eae961941,258f8da7dbfa00103dbef35eae96198f,3d8f8da7dbfa00103dbef35eae9619ad,618f8da7dbfa00103dbef35eae96197d,6d8f8da7dbfa00103dbef35eae961976,758f8da7dbfa00103dbef35eae9619ba,7d8f8da7dbfa00103dbef35eae9619b3,918f8da7dbfa00103dbef35eae96193c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>d25f9202-fd90-4303-8b43-ae1a7c3738d9</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3509,7 +3509,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>c2494744-edbb-4224-8168-e46fbdc19f24</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3756,7 +3756,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=7a16bc97-6e3e-4873-b25c-99dbe5b78050</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=f6c2e427-e968-4b85-8713-e546f719cca6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3814,14 +3814,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 06:37:19</sys_created_on>
         <sys_id>218f8da7dbfa00103dbef35eae96199d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 07:00:18</sys_updated_on>
+        <sys_updated_on>2020-02-20 10:54:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3915,7 +3915,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>7df406f6-d0ad-4dea-9bdf-ccb7239baa6f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3964,7 +3964,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>519f3db3-b999-49be-a156-0aa849c65186</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4178,7 +4178,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>2bee1d0f-9baa-47c7-8b60-82d52089df11</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4227,7 +4227,7 @@
         <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>97979bab-b3af-44d4-94d5-439ff0073d43</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4290,7 +4290,7 @@
         <value>{{step[be2e3dc7-6240-4822-8119-a8de6c63978a].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>be2e3dc7-6240-4822-8119-a8de6c63978a</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4377,7 +4377,7 @@
         <value>{{step[c2494744-edbb-4224-8168-e46fbdc19f24].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action>
+        <action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action>
         <cid>cb86f498-87a2-4557-a82b-e7ce3eb26209</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5998,19 +5998,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=1efb0167dbfa00103dbef35eae9619b0^sys_idNOT IN64761debdbfa00103dbef35eae961906"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</action_id>
+        <action_id display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"64761debdbfa00103dbef35eae961906","name":"plan"}}</plan>
-        <snapshot>b473bab7db7600103dbef35eae961928</snapshot>
+        <snapshot>192ebe3adb1300103dbef35eae96197d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64761debdbfa00103dbef35eae961906</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:36</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -6018,25 +6018,25 @@
         <action_template>DATASTREAM</action_template>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="VM Instance Management">0a70690adb3600103dbef35eae96199e</category>
+        <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>list_instances</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.filter}}","label":"action➛Filter","type":"action","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].filetr}}","label":"step➛Pre Processing➛Filetr","type":"step","ref":""},{"name":"{{step[c2494744-edbb-4224-8168-e46fbdc19f24].api_version}}","label":"step➛List Instances➛API Version","type":"step","ref":""},{"name":"{{step[519f3db3-b999-49be-a156-0aa849c65186].nextPageToken}}","label":"step➛Pagination Setup➛nextPageToken","type":"step","ref":""},{"name":"{{step[d25f9202-fd90-4303-8b43-ae1a7c3738d9].filter}}","label":"step➛Pre Processing➛Filter","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>List Instances</name>
+        <name>Fetch Instances By Zone</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="List Instances">1efb0167dbfa00103dbef35eae9619b0</parent_action>
+        <parent_action display_value="Fetch Instances By Zone">1efb0167dbfa00103dbef35eae9619b0</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a6659ebdbfa00103dbef35eae96192d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -6044,7 +6044,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:27:51</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -6114,10 +6114,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:28</sys_created_on>
         <sys_id>db6699ebdbfa00103dbef35eae96196b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
-        <value>{"complexObjectSchema":{"FlowDesigner:FDa2733eb7767600108bd15a05b6cb1c4a":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa2733eb7767600108bd15a05b6cb1c4a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa2733eb7767600108bd15a05b6cb1c4a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Instance\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"20d61c38-9ea3-4d3d-97f8-b2a6539f19bd\"}"}},"serializationFormat":"JSON","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0"}</value>
+        <sys_updated_on>2020-03-06 03:16:42</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD032e327acf130010785abe2102aaa531":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD032e327acf130010785abe2102aaa531.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD032e327acf130010785abe2102aaa531\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Instance\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"20d61c38-9ea3-4d3d-97f8-b2a6539f19bd\"}"}},"complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="">0f6699ebdbfa00103dbef35eae961906</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1a6659ebdbfa00103dbef35eae96192d"/>
@@ -6243,7 +6243,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=1a6659ebdbfa00103dbef35eae96192d^sys_idNOT IN4f6659ebdbfa00103dbef35eae9619ff,666659ebdbfa00103dbef35eae961989,6a6659ebdbfa00103dbef35eae96198d,876659ebdbfa00103dbef35eae9619fa,b26659ebdbfa00103dbef35eae9619bc,be6659ebdbfa00103dbef35eae9619b6,c76659ebdbfa00103dbef35eae9619f5,f66659ebdbfa00103dbef35eae9619cc"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>97979bab-b3af-44d4-94d5-439ff0073d43</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6306,7 +6306,7 @@
         <value>{{step[be2e3dc7-6240-4822-8119-a8de6c63978a].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>cb86f498-87a2-4557-a82b-e7ce3eb26209</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -6341,7 +6341,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>d25f9202-fd90-4303-8b43-ae1a7c3738d9</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -6945,7 +6945,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>be2e3dc7-6240-4822-8119-a8de6c63978a</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7032,7 +7032,7 @@
         <value>{{step[c2494744-edbb-4224-8168-e46fbdc19f24].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>519f3db3-b999-49be-a156-0aa849c65186</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7246,7 +7246,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>2bee1d0f-9baa-47c7-8b60-82d52089df11</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7295,7 +7295,7 @@
         <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>7df406f6-d0ad-4dea-9bdf-ccb7239baa6f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7344,7 +7344,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>c2494744-edbb-4224-8168-e46fbdc19f24</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7591,7 +7591,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=7a16bc97-6e3e-4873-b25c-99dbe5b78050</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=f6c2e427-e968-4b85-8713-e546f719cca6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7649,14 +7649,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:26</sys_created_on>
         <sys_id>766659ebdbfa00103dbef35eae9619d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 07:07:26</sys_updated_on>
+        <sys_updated_on>2020-02-20 10:54:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7789,7 +7789,7 @@
         <label>Zone</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -7835,13 +7835,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">d26659ebdbfa00103dbef35eae961934</action_input>
         <action_inputs/>
-        <action_type display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_type>
+        <action_type display_value="List Zones">2e674695dbf200103dbef35eae961921</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:24</sys_created_on>
         <sys_id>e26659ebdbfa00103dbef35eae961968</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:28</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:39</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e26659ebdbfa00103dbef35eae961968"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7897,7 +7897,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -7978,7 +7978,7 @@
         <label>Filter</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8062,7 +8062,7 @@
         <label>response_headers</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8085,14 +8085,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:27</sys_created_on>
         <sys_id>036699ebdbfa00103dbef35eae961938</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8108,7 +8108,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDa2733eb7767600108bd15a05b6cb1c4a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=20d61c38-9ea3-4d3d-97f8-b2a6539f19bd</attributes>
+        <attributes>co_type_name=FD032e327acf130010785abe2102aaa531,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=20d61c38-9ea3-4d3d-97f8-b2a6539f19bd</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -8145,7 +8145,7 @@
         <label>Instance</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8168,14 +8168,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:26</sys_created_on>
         <sys_id>0f6699ebdbfa00103dbef35eae961906</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:29</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8228,7 +8228,7 @@
         <label>ds_parsed_stream</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8251,14 +8251,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:27</sys_created_on>
         <sys_id>1f6699ebdbfa00103dbef35eae96194c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8311,7 +8311,7 @@
         <label>count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8394,7 +8394,7 @@
         <label>ds_output_page_variables</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8477,7 +8477,7 @@
         <label>error_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8500,14 +8500,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:27</sys_created_on>
         <sys_id>5b6699ebdbfa00103dbef35eae961947</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8560,7 +8560,7 @@
         <label>Page Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8643,7 +8643,7 @@
         <label>item</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8726,7 +8726,7 @@
         <label>status_code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8749,14 +8749,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:27</sys_created_on>
         <sys_id>976699ebdbfa00103dbef35eae961942</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8809,7 +8809,7 @@
         <label>error_message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8832,14 +8832,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:27</sys_created_on>
         <sys_id>c36699ebdbfa00103dbef35eae96193d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:32:30</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:16:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8892,7 +8892,7 @@
         <label>Item Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -8975,7 +8975,7 @@
         <label>ds_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</model>
+        <model display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</model>
         <model_id>1a6659ebdbfa00103dbef35eae96192d</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_1a6659ebdbfa00103dbef35eae96192d</name>
@@ -9019,7 +9019,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=1a6659ebdbfa00103dbef35eae96192d^sys_idNOT IN4f6659ebdbfa00103dbef35eae9619ff,666659ebdbfa00103dbef35eae961989,6a6659ebdbfa00103dbef35eae96198d,876659ebdbfa00103dbef35eae9619fa,b26659ebdbfa00103dbef35eae9619bc,be6659ebdbfa00103dbef35eae9619b6,c76659ebdbfa00103dbef35eae9619f5,f66659ebdbfa00103dbef35eae9619cc"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>97979bab-b3af-44d4-94d5-439ff0073d43</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -9082,7 +9082,7 @@
         <value>{{step[be2e3dc7-6240-4822-8119-a8de6c63978a].split_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>cb86f498-87a2-4557-a82b-e7ce3eb26209</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -9117,7 +9117,7 @@
         <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>d25f9202-fd90-4303-8b43-ae1a7c3738d9</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -9721,7 +9721,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>be2e3dc7-6240-4822-8119-a8de6c63978a</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -9808,7 +9808,7 @@
         <value>{{step[c2494744-edbb-4224-8168-e46fbdc19f24].response_stream}}</value>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>519f3db3-b999-49be-a156-0aa849c65186</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -10022,7 +10022,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>2bee1d0f-9baa-47c7-8b60-82d52089df11</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -10071,7 +10071,7 @@
         <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>7df406f6-d0ad-4dea-9bdf-ccb7239baa6f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -10120,7 +10120,7 @@
         <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Instances">1a6659ebdbfa00103dbef35eae96192d</action>
+        <action display_value="Fetch Instances By Zone">1a6659ebdbfa00103dbef35eae96192d</action>
         <cid>c2494744-edbb-4224-8168-e46fbdc19f24</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -10367,7 +10367,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=7a16bc97-6e3e-4873-b25c-99dbe5b78050</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=f6c2e427-e968-4b85-8713-e546f719cca6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -10425,14 +10425,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 07:07:26</sys_created_on>
         <sys_id>766659ebdbfa00103dbef35eae9619d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 07:07:26</sys_updated_on>
+        <sys_updated_on>2020-02-20 10:54:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

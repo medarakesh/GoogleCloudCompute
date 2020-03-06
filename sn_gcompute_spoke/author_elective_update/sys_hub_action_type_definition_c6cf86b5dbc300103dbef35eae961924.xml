@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="VM Instance Management">0a70690adb3600103dbef35eae96199e</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>update_instance</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Update Instance</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 11:04:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6cf86b5dbc300103dbef35eae961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Instance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c6cf86b5dbc300103dbef35eae961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 11:04:23</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=c6cf86b5dbc300103dbef35eae961924"/>
+    <sys_variable_value action="DELETE" query="document_key=c6cf86b5dbc300103dbef35eae961924"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</application>
+        <file_path/>
+        <instance_id>c3885340dbd548903050ac44d49619c4</instance_id>
+        <instance_name>empmrakesh</instance_name>
+        <name>sys_hub_action_type_definition_c6cf86b5dbc300103dbef35eae961924</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="VM Instance Management">0a70690adb3600103dbef35eae96199e</category><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>update_instance</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Update Instance</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 11:04:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c6cf86b5dbc300103dbef35eae961924</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update Instance</sys_name><sys_overrides/><sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package><sys_policy/><sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope><sys_update_name>sys_hub_action_type_definition_c6cf86b5dbc300103dbef35eae961924</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 11:04:23</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=c6cf86b5dbc300103dbef35eae961924"/><sys_variable_value action="delete_multiple" query="document_key=c6cf86b5dbc300103dbef35eae961924"/></record_update>]]></payload>
+        <payload_hash>-2024030353</payload_hash>
+        <record_name>Update Instance</record_name>
+        <reverted_from/>
+        <source>92835d47dbb60010d852f7b51d9619c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 11:04:23</sys_created_on>
+        <sys_id>42cf86b5dbc300103dbef35eae961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705d1ec8280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 11:04:23</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>8acf86b559c30010242000c96be4b227</update_guid>
+        <update_guid_history>8acf86b559c30010242000c96be4b227:-2024030353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 05:30:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>07c26d19e50a42dc83ae02a114002c11</sys_id>
+        <sys_metadata>c6cf86b5dbc300103dbef35eae961924</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Instance</sys_name>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_scope_delete display_value="">1de0c871da9f4987becf0b839c22f911</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_c6cf86b5dbc300103dbef35eae961924</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_c6cf86b5dbc300103dbef35eae961924">42cf86b5dbc300103dbef35eae961928</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 05:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -6,16 +6,16 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>true</ih_action>
         <internal_name>fetch_zones</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].response_body}}","label":"step➛Fetch Zones➛Response Body","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].status_code}}","label":"step➛Fetch Zones➛Status Code","type":"step","ref":""},{"name":"{{step[7fd91866-a763-4eef-855f-358d5cdb5c38].zones}}","label":"step➛Post Processing➛Zones","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>41664bc3db720010d852f7b51d96196b</latest_snapshot>
+        <latest_snapshot>aebf763edb1300103dbef35eae96194a</latest_snapshot>
         <master_snapshot>aa1b4619dbf200103dbef35eae961994</master_snapshot>
-        <name>Fetch Zones</name>
+        <name>List Zones</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e674695dbf200103dbef35eae961921</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_name>Fetch Zones</sys_name>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>List Zones</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2e674695dbf200103dbef35eae961921</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-19 09:43:47</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:23:31</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -55,7 +55,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=2e674695dbf200103dbef35eae961921^sys_idNOT IN270bc219dbf200103dbef35eae9619db,6f0bc219dbf200103dbef35eae9619f8,9f0bc219dbf200103dbef35eae9619c6"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -435,7 +435,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -747,7 +747,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Zones</label>
+        <label>zones</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">6f0bc219dbf200103dbef35eae9619f8</model>
@@ -773,14 +773,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:04</sys_created_on>
         <sys_id>af0b0619dbf200103dbef35eae961904</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:15:56</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -793,7 +793,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -808,10 +808,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>9f0bc219dbf200103dbef35eae9619c6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:08:06</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f0bc219dbf200103dbef35eae9619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -822,16 +822,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>6b0bc219dbf200103dbef35eae9619d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:08:06</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1089,7 +1088,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</model>
+        <model display_value="List Zones">2e674695dbf200103dbef35eae961921</model>
         <model_id>2e674695dbf200103dbef35eae961921</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_2e674695dbf200103dbef35eae961921</name>
@@ -1173,7 +1172,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</model>
+        <model display_value="List Zones">2e674695dbf200103dbef35eae961921</model>
         <model_id>2e674695dbf200103dbef35eae961921</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_2e674695dbf200103dbef35eae961921</name>
@@ -1217,7 +1216,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=2e674695dbf200103dbef35eae961921^sys_idNOT IN270bc219dbf200103dbef35eae9619db,6f0bc219dbf200103dbef35eae9619f8,9f0bc219dbf200103dbef35eae9619c6"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1597,7 +1596,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1909,7 +1908,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Zones</label>
+        <label>zones</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">6f0bc219dbf200103dbef35eae9619f8</model>
@@ -1935,14 +1934,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:04</sys_created_on>
         <sys_id>af0b0619dbf200103dbef35eae961904</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:15:56</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1955,7 +1954,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action>
+        <action display_value="List Zones">2e674695dbf200103dbef35eae961921</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1970,10 +1969,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>9f0bc219dbf200103dbef35eae9619c6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:08:06</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9f0bc219dbf200103dbef35eae9619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1984,16 +1983,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>6b0bc219dbf200103dbef35eae9619d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:08:06</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2225,11 +2223,11 @@
         <sys_created_on>2020-02-05 11:11:03</sys_created_on>
         <sys_id>530b8219dbf200103dbef35eae9619cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2e674695dbf200103dbef35eae961921_projectid_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:03</sys_updated_on>
         <url/>
@@ -2249,11 +2247,11 @@
         <sys_created_on>2020-02-05 11:11:04</sys_created_on>
         <sys_id>b30b0619dbf200103dbef35eae961916</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2e674695dbf200103dbef35eae961921_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:04</sys_updated_on>
         <url/>
@@ -2261,19 +2259,19 @@
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=2e674695dbf200103dbef35eae961921^sys_idNOT INf31b8619dbf200103dbef35eae9619be"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</action_id>
+        <action_id display_value="List Zones">2e674695dbf200103dbef35eae961921</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f31b8619dbf200103dbef35eae9619be","name":"plan"}}</plan>
-        <snapshot>41664bc3db720010d852f7b51d96196b</snapshot>
+        <snapshot>aebf763edb1300103dbef35eae96194a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f31b8619dbf200103dbef35eae9619be</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:16:51</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:23:34</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2281,25 +2279,25 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Metadata Retrival Management">ade7c631dbc300103dbef35eae96194e</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>fetch_zones</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.projectid}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cd2c8a80-bd64-4c7a-9f14-b86fd210347f].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].response_body}}","label":"step➛Fetch Zones➛Response Body","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].status_code}}","label":"step➛Fetch Zones➛Status Code","type":"step","ref":""},{"name":"{{step[7fd91866-a763-4eef-855f-358d5cdb5c38].zones}}","label":"step➛Post Processing➛Zones","type":"step","ref":""},{"name":"{{step[022f00a0-0b27-48e3-9158-e6c341c69f68].api_version}}","label":"step➛Fetch Zones➛API Version","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Fetch Zones</name>
+        <name>List Zones</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Fetch Zones">2e674695dbf200103dbef35eae961921</parent_action>
+        <parent_action display_value="List Zones">2e674695dbf200103dbef35eae961921</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aa1b4619dbf200103dbef35eae961994</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2307,7 +2305,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:16:47</sys_updated_on>
+        <sys_updated_on>2020-03-06 03:23:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2328,7 +2326,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=aa1b4619dbf200103dbef35eae961994^sys_idNOT IN6e1b4619dbf200103dbef35eae96199c,ba1b4619dbf200103dbef35eae9619b1,fa1b4619dbf200103dbef35eae9619ce"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2343,10 +2341,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:16</sys_created_on>
         <sys_id>6e1b4619dbf200103dbef35eae96199c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:09:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:40</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e1b4619dbf200103dbef35eae96199c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2357,16 +2355,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:17</sys_created_on>
         <sys_id>be1b4619dbf200103dbef35eae9619ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:09:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:40</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2585,7 +2582,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2965,7 +2962,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3277,7 +3274,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Zones</label>
+        <label>zones</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">fa1b4619dbf200103dbef35eae9619ce</model>
@@ -3303,14 +3300,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:18</sys_created_on>
         <sys_id>c71b4619dbf200103dbef35eae9619dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:16:48</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3362,7 +3359,7 @@
         <label>Project ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</model>
+        <model display_value="List Zones">aa1b4619dbf200103dbef35eae961994</model>
         <model_id>aa1b4619dbf200103dbef35eae961994</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_aa1b4619dbf200103dbef35eae961994</name>
@@ -3446,7 +3443,7 @@
         <label>output</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</model>
+        <model display_value="List Zones">aa1b4619dbf200103dbef35eae961994</model>
         <model_id>aa1b4619dbf200103dbef35eae961994</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_aa1b4619dbf200103dbef35eae961994</name>
@@ -3490,7 +3487,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=aa1b4619dbf200103dbef35eae961994^sys_idNOT IN6e1b4619dbf200103dbef35eae96199c,ba1b4619dbf200103dbef35eae9619b1,fa1b4619dbf200103dbef35eae9619ce"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>cd2c8a80-bd64-4c7a-9f14-b86fd210347f</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3505,10 +3502,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:16</sys_created_on>
         <sys_id>6e1b4619dbf200103dbef35eae96199c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:09:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:40</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e1b4619dbf200103dbef35eae96199c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3519,16 +3516,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:17</sys_created_on>
         <sys_id>be1b4619dbf200103dbef35eae9619ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:09:19</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:40</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var gcc = new GoogleCloudComputeUtils();
     gcc.validateInputVariables(inputs, outputs);
     gcc.validateMandatoryVariables(inputs, ['projectid']);
     gcc.maptoOutputFromInput(inputs, outputs, []);
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3747,7 +3743,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>022f00a0-0b27-48e3-9158-e6c341c69f68</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4127,7 +4123,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Fetch Zones">aa1b4619dbf200103dbef35eae961994</action>
+        <action display_value="List Zones">aa1b4619dbf200103dbef35eae961994</action>
         <cid>7fd91866-a763-4eef-855f-358d5cdb5c38</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4439,7 +4435,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Zones</label>
+        <label>zones</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Post Processing">fa1b4619dbf200103dbef35eae9619ce</model>
@@ -4465,14 +4461,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 11:11:18</sys_created_on>
         <sys_id>c71b4619dbf200103dbef35eae9619dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-07 16:16:48</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:08:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4498,11 +4494,11 @@
         <sys_created_on>2020-02-05 11:11:16</sys_created_on>
         <sys_id>2e1b4619dbf200103dbef35eae96199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aa1b4619dbf200103dbef35eae961994_projectid_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:16</sys_updated_on>
         <url/>
@@ -4522,11 +4518,11 @@
         <sys_created_on>2020-02-05 11:11:18</sys_created_on>
         <sys_id>8b1b4619dbf200103dbef35eae9619ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>output</sys_name>
+        <sys_name/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aa1b4619dbf200103dbef35eae961994_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-05 11:11:18</sys_updated_on>
         <url/>
