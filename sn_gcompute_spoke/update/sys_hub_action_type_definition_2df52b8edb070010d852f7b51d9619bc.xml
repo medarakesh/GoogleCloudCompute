@@ -33,13 +33,13 @@
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; To use this action, a corresponding Google Compute Engine connection and credential must be created and associated with the Google Compute Engine Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>detach_disk</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.instance}}","label":"action➛Instance","type":"action","ref":""},{"name":"{{action.disk}}","label":"action➛Device Name","type":"action","ref":""},{"name":"{{action.devicename}}","label":"action➛Device Name","type":"action","ref":""},{"name":"{{step[138bf82c-abef-473e-8ee2-646473efec1b].api_version}}","label":"step➛Detach Disk➛API Version","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}","label":"step➛Post Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}","label":"step➛Post Processing➛Zone","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}","label":"step➛Post Processing➛Instance","type":"step","ref":""},{"name":"{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].devicename}}","label":"step➛Post Processing➛DeviceName","type":"step","ref":""},{"name":"{{step[138bf82c-abef-473e-8ee2-646473efec1b].status_code}}","label":"step➛Detach Disk➛Status Code","type":"step","ref":""},{"name":"{{step[138bf82c-abef-473e-8ee2-646473efec1b].response_body}}","label":"step➛Detach Disk➛Response Body","type":"step","ref":""},{"name":"{{step[07a2a7d7-855a-4020-935f-958f436c03d9].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[07a2a7d7-855a-4020-935f-958f436c03d9].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[07a2a7d7-855a-4020-935f-958f436c03d9].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[07a2a7d7-855a-4020-935f-958f436c03d9].errormessage}}","label":"step➛Post Processing➛errormessage","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>04a95f62db1700103dbef35eae96196b</latest_snapshot>
+        <latest_snapshot>a7c2f003dbd70010d852f7b51d9619cc</latest_snapshot>
         <master_snapshot>ad17584edb5300103dbef35eae96199a</master_snapshot>
         <name>Detach Disk</name>
         <natlang/>
@@ -52,15 +52,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2df52b8edb070010d852f7b51d9619bc</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Detach Disk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2df52b8edb070010d852f7b51d9619bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:13</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -108,10 +108,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>1b13148adb5300103dbef35eae9619f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:06:22</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1b13148adb5300103dbef35eae9619f6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -201,6 +201,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>b8a2fccfdb970010d852f7b51d96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
         <order>25</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -220,11 +234,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>d713548adb5300103dbef35eae96190f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value/>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>f4a2fccfdb970010d852f7b51d96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 06:53:53</sys_updated_on>
-        <value>55d2e403db6a0010d852f7b51d9619c6</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1b13148adb5300103dbef35eae9619f6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -264,6 +292,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>1b13148adb5300103dbef35eae9619f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>fca2fccfdb970010d852f7b51d96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>1b13148adb5300103dbef35eae9619f6</id>
         <sys_created_by>admin</sys_created_by>
@@ -272,6 +312,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-03 06:53:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>1b13148adb5300103dbef35eae9619f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>b0a2fccfdb970010d852f7b51d96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -317,11 +369,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>d313548adb5300103dbef35eae96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:06:22</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[138bf82c-abef-473e-8ee2-646473efec1b].api_version}}/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
+        <value>compute/v1/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -335,93 +387,12 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=1b13148adb5300103dbef35eae9619f6^sys_idNOT IN5f13548adb5300103dbef35eae961903,9313148adb5300103dbef35eae9619fe"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1b13148adb5300103dbef35eae9619f6^sys_idNOT IN9313148adb5300103dbef35eae9619fe"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=69b3d30d-5de7-4ac1-9df1-a224b5261b6c</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Detach Disk">1b13148adb5300103dbef35eae9619f6</model>
-        <model_id>1b13148adb5300103dbef35eae9619f6</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_1b13148adb5300103dbef35eae9619f6</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-03 06:53:53</sys_created_on>
-        <sys_id>5f13548adb5300103dbef35eae961903</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:02:39</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=531f87e3-fc54-4181-99d0-3f5680662fa9</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7efb6f9d-2ef1-412a-bb78-4172ba179334</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -479,14 +450,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>9313148adb5300103dbef35eae9619fe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:02:38</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1775,14 +1746,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-20 12:01:59</sys_created_on>
         <sys_id>6786eb8edb070010d852f7b51d9619a7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 12:01:59</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1856,14 +1827,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:02:38</sys_created_on>
         <sys_id>9715dccadb5300103dbef35eae9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:02:38</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1937,14 +1908,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-20 12:01:59</sys_created_on>
         <sys_id>bf86ef8edb070010d852f7b51d961902</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:01</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1960,13 +1931,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">bf86ef8edb070010d852f7b51d961902</action_input>
         <action_inputs/>
-        <action_type display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</action_type>
+        <action_type display_value="List VM Instances By Zone">164ca1a7db7200103dbef35eae96193c</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-20 12:01:59</sys_created_on>
         <sys_id>f386ef8edb070010d852f7b51d96190b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:02</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:09</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f386ef8edb070010d852f7b51d96190b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2059,14 +2030,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-20 12:01:59</sys_created_on>
         <sys_id>fb86eb8edb070010d852f7b51d9619ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:01</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2086,9 +2057,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-20 12:01:59</sys_created_on>
         <sys_id>bf86ef8edb070010d852f7b51d961901</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:02</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:09</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bf86ef8edb070010d852f7b51d961901"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2170,14 +2141,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:09:44</sys_created_on>
         <sys_id>2fb6904edb5300103dbef35eae961985</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:09:44</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2253,14 +2224,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:09:44</sys_created_on>
         <sys_id>ebb6904edb5300103dbef35eae96199a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:02</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2289,10 +2260,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>1b13148adb5300103dbef35eae9619f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:06:22</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1b13148adb5300103dbef35eae9619f6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2382,6 +2353,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>b8a2fccfdb970010d852f7b51d96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
         <order>25</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -2401,11 +2386,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>d713548adb5300103dbef35eae96190f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value/>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1b13148adb5300103dbef35eae9619f6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>f4a2fccfdb970010d852f7b51d96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 06:53:53</sys_updated_on>
-        <value>55d2e403db6a0010d852f7b51d9619c6</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1b13148adb5300103dbef35eae9619f6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2445,6 +2444,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>1b13148adb5300103dbef35eae9619f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>fca2fccfdb970010d852f7b51d96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>1b13148adb5300103dbef35eae9619f6</id>
         <sys_created_by>admin</sys_created_by>
@@ -2453,6 +2464,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-03 06:53:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>1b13148adb5300103dbef35eae9619f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:45:31</sys_created_on>
+        <sys_id>b0a2fccfdb970010d852f7b51d96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -2498,11 +2521,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>d313548adb5300103dbef35eae96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:06:22</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:45:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[138bf82c-abef-473e-8ee2-646473efec1b].api_version}}/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
+        <value>compute/v1/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -2516,93 +2539,12 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=1b13148adb5300103dbef35eae9619f6^sys_idNOT IN5f13548adb5300103dbef35eae961903,9313148adb5300103dbef35eae9619fe"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1b13148adb5300103dbef35eae9619f6^sys_idNOT IN9313148adb5300103dbef35eae9619fe"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=69b3d30d-5de7-4ac1-9df1-a224b5261b6c</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Detach Disk">1b13148adb5300103dbef35eae9619f6</model>
-        <model_id>1b13148adb5300103dbef35eae9619f6</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_1b13148adb5300103dbef35eae9619f6</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-03 06:53:53</sys_created_on>
-        <sys_id>5f13548adb5300103dbef35eae961903</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:02:39</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=531f87e3-fc54-4181-99d0-3f5680662fa9</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7efb6f9d-2ef1-412a-bb78-4172ba179334</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2660,14 +2602,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 06:53:53</sys_created_on>
         <sys_id>9313148adb5300103dbef35eae9619fe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:02:38</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:49:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3986,7 +3928,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc^sys_idNOT IN7db623cedb070010d852f7b51d9619a7,d607944edb5300103dbef35eae9619cb,fb86af8edb070010d852f7b51d9619fe,8e07944edb5300103dbef35eae961997,0e07944edb5300103dbef35eae961998,c607944edb5300103dbef35eae961999,8207944edb5300103dbef35eae96199a,4e07944edb5300103dbef35eae96199a,0a07944edb5300103dbef35eae96199b,c207944edb5300103dbef35eae96199c,8e07944edb5300103dbef35eae96199c,4a07944edb5300103dbef35eae96199d,0607944edb5300103dbef35eae96199e,ce07944edb5300103dbef35eae96199e,8a07944edb5300103dbef35eae96199f,4607944edb5300103dbef35eae9619a0,0207944edb5300103dbef35eae9619a1,ca07944edb5300103dbef35eae9619a1,8607944edb5300103dbef35eae9619a2,4207944edb5300103dbef35eae9619a3,0e07944edb5300103dbef35eae9619a3,c607944edb5300103dbef35eae9619a4,8207944edb5300103dbef35eae9619a5,4e07944edb5300103dbef35eae9619a5,0a07944edb5300103dbef35eae9619a6,c207944edb5300103dbef35eae9619a7,8e07944edb5300103dbef35eae9619a7,4a07944edb5300103dbef35eae9619a8,0607944edb5300103dbef35eae9619a9,ce07944edb5300103dbef35eae9619a9,8a07944edb5300103dbef35eae9619aa,4607944edb5300103dbef35eae9619ab,0207944edb5300103dbef35eae9619ac,ca07944edb5300103dbef35eae9619ac,8607944edb5300103dbef35eae9619ad,4207944edb5300103dbef35eae9619ae,0e07944edb5300103dbef35eae9619ae,c607944edb5300103dbef35eae9619af,8207944edb5300103dbef35eae9619b0,4e07944edb5300103dbef35eae9619b0,0a07944edb5300103dbef35eae9619b1,c207944edb5300103dbef35eae9619b2,9e07944edb5300103dbef35eae9619b2,5a07944edb5300103dbef35eae9619b3,1607944edb5300103dbef35eae9619b4,de07944edb5300103dbef35eae9619b4,9a07944edb5300103dbef35eae9619b5,5607944edb5300103dbef35eae9619b6,1207944edb5300103dbef35eae9619b7,da07944edb5300103dbef35eae9619b7,9607944edb5300103dbef35eae9619b8,5207944edb5300103dbef35eae9619b9,1e07944edb5300103dbef35eae9619b9,d607944edb5300103dbef35eae9619ba,9207944edb5300103dbef35eae9619bb,5e07944edb5300103dbef35eae9619bb,1a07944edb5300103dbef35eae9619bc,d207944edb5300103dbef35eae9619bd,9e07944edb5300103dbef35eae9619bd,5a07944edb5300103dbef35eae9619be,1607944edb5300103dbef35eae9619bf,de07944edb5300103dbef35eae9619bf,9a07944edb5300103dbef35eae9619c0,5607944edb5300103dbef35eae9619c1,1207944edb5300103dbef35eae9619c2,da07944edb5300103dbef35eae9619c2,9607944edb5300103dbef35eae9619c3,5207944edb5300103dbef35eae9619c4,1e07944edb5300103dbef35eae9619c4,d607944edb5300103dbef35eae9619c5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc^sys_idNOT IN7db623cedb070010d852f7b51d9619a7,d607944edb5300103dbef35eae9619cb,fb86af8edb070010d852f7b51d9619fe"/>
     <sys_choice field="instance" table="var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -4046,1279 +3988,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
             <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e07944edb5300103dbef35eae961997</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e07944edb5300103dbef35eae961998</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-D</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c607944edb5300103dbef35eae961999</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east1-d</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8207944edb5300103dbef35eae96199a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east4-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e07944edb5300103dbef35eae96199a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east4-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>6</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a07944edb5300103dbef35eae96199b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-east4-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>7</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c207944edb5300103dbef35eae96199c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-central1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>8</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e07944edb5300103dbef35eae96199c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-central1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-F</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>9</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a07944edb5300103dbef35eae96199d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-central1-f</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>10</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0607944edb5300103dbef35eae96199e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-central1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>11</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ce07944edb5300103dbef35eae96199e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-west1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>12</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8a07944edb5300103dbef35eae96199f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-west1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>13</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4607944edb5300103dbef35eae9619a0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>us-west1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>14</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0207944edb5300103dbef35eae9619a1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west4-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>15</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca07944edb5300103dbef35eae9619a1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west4-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>16</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8607944edb5300103dbef35eae9619a2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west4-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>17</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4207944edb5300103dbef35eae9619a3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-D</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>18</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e07944edb5300103dbef35eae9619a3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west1-d</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>19</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c607944edb5300103dbef35eae9619a4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>20</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8207944edb5300103dbef35eae9619a5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west3-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>21</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e07944edb5300103dbef35eae9619a5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>22</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a07944edb5300103dbef35eae9619a6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>23</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c207944edb5300103dbef35eae9619a7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>24</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e07944edb5300103dbef35eae9619a7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>25</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4a07944edb5300103dbef35eae9619a8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>europe-west2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>26</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0607944edb5300103dbef35eae9619a9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>asia-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>27</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ce07944edb5300103dbef35eae9619a9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>asia-east1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>28</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8a07944edb5300103dbef35eae9619aa</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>asia-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>29</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4607944edb5300103dbef35eae9619ab</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>asia-southeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>30</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0207944edb5300103dbef35eae9619ac</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:07</sys_updated_on>
-            <value>asia-southeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>31</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca07944edb5300103dbef35eae9619ac</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-southeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>32</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8607944edb5300103dbef35eae9619ad</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>33</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4207944edb5300103dbef35eae9619ae</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>34</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e07944edb5300103dbef35eae9619ae</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>35</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c607944edb5300103dbef35eae9619af</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-south1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>36</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8207944edb5300103dbef35eae9619b0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-south1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>37</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e07944edb5300103dbef35eae9619b0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-south1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>38</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a07944edb5300103dbef35eae9619b1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>australia-southeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>39</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c207944edb5300103dbef35eae9619b2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>australia-southeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>40</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9e07944edb5300103dbef35eae9619b2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>australia-southeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>41</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5a07944edb5300103dbef35eae9619b3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>southamerica-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>42</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1607944edb5300103dbef35eae9619b4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>southamerica-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>43</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>de07944edb5300103dbef35eae9619b4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>southamerica-east1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>44</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9a07944edb5300103dbef35eae9619b5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-east2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>45</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5607944edb5300103dbef35eae9619b6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-east2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>46</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1207944edb5300103dbef35eae9619b7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-east2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>47</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>da07944edb5300103dbef35eae9619b7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>48</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9607944edb5300103dbef35eae9619b8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>49</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5207944edb5300103dbef35eae9619b9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>50</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1e07944edb5300103dbef35eae9619b9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>51</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d607944edb5300103dbef35eae9619ba</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>52</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9207944edb5300103dbef35eae9619bb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>asia-northeast3-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>53</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5e07944edb5300103dbef35eae9619bb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-north1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>54</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1a07944edb5300103dbef35eae9619bc</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-north1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>55</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d207944edb5300103dbef35eae9619bd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-north1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>56</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9e07944edb5300103dbef35eae9619bd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-west6-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>57</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5a07944edb5300103dbef35eae9619be</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-west6-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>58</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1607944edb5300103dbef35eae9619bf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>europe-west6-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>59</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>de07944edb5300103dbef35eae9619bf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>northamerica-northeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>60</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9a07944edb5300103dbef35eae9619c0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>northamerica-northeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>61</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5607944edb5300103dbef35eae9619c1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>northamerica-northeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>62</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1207944edb5300103dbef35eae9619c2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>63</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>da07944edb5300103dbef35eae9619c2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>64</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9607944edb5300103dbef35eae9619c3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>65</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5207944edb5300103dbef35eae9619c4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>66</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1e07944edb5300103dbef35eae9619c4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_2df52b8edb070010d852f7b51d9619bc</name>
-            <sequence>67</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d607944edb5300103dbef35eae9619c5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:08</sys_updated_on>
-            <value>us-west3-c</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2df52b8edb070010d852f7b51d9619bc^sys_idNOT INafb6904edb5300103dbef35eae96198c,efb6904edb5300103dbef35eae96199e"/>
@@ -5432,17 +4101,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Detach Disk">2df52b8edb070010d852f7b51d9619bc</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bb17d84edb5300103dbef35eae961975","name":"plan"}}</plan>
-        <snapshot>04a95f62db1700103dbef35eae96196b</snapshot>
+        <snapshot>a7c2f003dbd70010d852f7b51d9619cc</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb17d84edb5300103dbef35eae961975</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:25</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5477,7 +4146,7 @@
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; To use this action, a corresponding Google Compute Engine connection and credential must be created and associated with the Google Compute Engine Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>detach_disk</internal_name>
@@ -5494,7 +4163,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad17584edb5300103dbef35eae96199a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -5502,7 +4171,7 @@
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:11</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -5550,10 +4219,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>8217984edb5300103dbef35eae961939</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8217984edb5300103dbef35eae961939"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5564,10 +4233,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>1217984edb5300103dbef35eae961951</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
-        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value/>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5615,6 +4284,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>8217984edb5300103dbef35eae961939</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>7cd27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8217984edb5300103dbef35eae961939</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -5639,6 +4322,20 @@
         <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8217984edb5300103dbef35eae961939</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>b8d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5706,6 +4403,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>8217984edb5300103dbef35eae961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>b0d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>8217984edb5300103dbef35eae961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -5714,6 +4423,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>8217984edb5300103dbef35eae961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>74d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -5759,11 +4480,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>5a17984edb5300103dbef35eae96194f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[138bf82c-abef-473e-8ee2-646473efec1b].api_version}}/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
+        <value>compute/v1/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -5777,12 +4498,12 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=8217984edb5300103dbef35eae961939^sys_idNOT IN0617984edb5300103dbef35eae96193f,4217984edb5300103dbef35eae961945"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8217984edb5300103dbef35eae961939^sys_idNOT IN0617984edb5300103dbef35eae96193f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=531f87e3-fc54-4181-99d0-3f5680662fa9</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7efb6f9d-2ef1-412a-bb78-4172ba179334</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5840,95 +4561,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>0617984edb5300103dbef35eae96193f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=69b3d30d-5de7-4ac1-9df1-a224b5261b6c</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Detach Disk">8217984edb5300103dbef35eae961939</model>
-        <model_id>8217984edb5300103dbef35eae961939</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_8217984edb5300103dbef35eae961939</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-03 07:11:17</sys_created_on>
-        <sys_id>4217984edb5300103dbef35eae961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7325,9 +5965,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:15</sys_created_on>
         <sys_id>f917584edb5300103dbef35eae9619f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:12</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:19</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f917584edb5300103dbef35eae9619f0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7510,13 +6150,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">f917584edb5300103dbef35eae9619f1</action_input>
         <action_inputs/>
-        <action_type display_value="List VM Instances">164ca1a7db7200103dbef35eae96193c</action_type>
+        <action_type display_value="List VM Instances By Zone">164ca1a7db7200103dbef35eae96193c</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:16</sys_created_on>
         <sys_id>b517584edb5300103dbef35eae9619fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:38:12</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:19</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b517584edb5300103dbef35eae9619fa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7731,10 +6371,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>8217984edb5300103dbef35eae961939</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8217984edb5300103dbef35eae961939"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7745,10 +6385,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>1217984edb5300103dbef35eae961951</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
-        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value/>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7796,6 +6436,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>8217984edb5300103dbef35eae961939</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>7cd27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8217984edb5300103dbef35eae961939</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -7820,6 +6474,20 @@
         <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
         <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8217984edb5300103dbef35eae961939</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>b8d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7887,6 +6555,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>8217984edb5300103dbef35eae961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>b0d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>8217984edb5300103dbef35eae961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -7895,6 +6575,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>8217984edb5300103dbef35eae961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:46:20</sys_created_on>
+        <sys_id>74d27403dbd70010d852f7b51d96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -7940,11 +6632,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>5a17984edb5300103dbef35eae96194f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[138bf82c-abef-473e-8ee2-646473efec1b].api_version}}/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
+        <value>compute/v1/projects/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].projectid}}/zones/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].zone}}/instances/{{step[3d115753-b9a0-4145-b464-d7bdf1f819c7].instance}}/detachDisk</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -7958,12 +6650,12 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=8217984edb5300103dbef35eae961939^sys_idNOT IN0617984edb5300103dbef35eae96193f,4217984edb5300103dbef35eae961945"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=8217984edb5300103dbef35eae961939^sys_idNOT IN0617984edb5300103dbef35eae96193f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=531f87e3-fc54-4181-99d0-3f5680662fa9</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7efb6f9d-2ef1-412a-bb78-4172ba179334</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -8021,95 +6713,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 07:11:17</sys_created_on>
         <sys_id>0617984edb5300103dbef35eae96193f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=69b3d30d-5de7-4ac1-9df1-a224b5261b6c</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Detach Disk">8217984edb5300103dbef35eae961939</model>
-        <model_id>8217984edb5300103dbef35eae961939</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_8217984edb5300103dbef35eae961939</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-03 07:11:17</sys_created_on>
-        <sys_id>4217984edb5300103dbef35eae961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 07:11:17</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:46:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9428,7 +8039,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a^sys_idNOT IN3917584edb5300103dbef35eae9619f4,f117584edb5300103dbef35eae9619f5,7917584edb5300103dbef35eae9619a4,f917584edb5300103dbef35eae9619b1,b517584edb5300103dbef35eae9619b2,7117584edb5300103dbef35eae9619b3,3d17584edb5300103dbef35eae9619b3,f517584edb5300103dbef35eae9619b4,b117584edb5300103dbef35eae9619b5,7d17584edb5300103dbef35eae9619b5,3917584edb5300103dbef35eae9619b6,f117584edb5300103dbef35eae9619b7,bd17584edb5300103dbef35eae9619b7,7917584edb5300103dbef35eae9619b8,3517584edb5300103dbef35eae9619b9,fd17584edb5300103dbef35eae9619b9,b917584edb5300103dbef35eae9619ba,7517584edb5300103dbef35eae9619bb,3117584edb5300103dbef35eae9619bc,f917584edb5300103dbef35eae9619bc,b517584edb5300103dbef35eae9619bd,7117584edb5300103dbef35eae9619be,3d17584edb5300103dbef35eae9619be,f517584edb5300103dbef35eae9619bf,b117584edb5300103dbef35eae9619c0,7d17584edb5300103dbef35eae9619c0,3917584edb5300103dbef35eae9619c1,f117584edb5300103dbef35eae9619c2,bd17584edb5300103dbef35eae9619c2,7917584edb5300103dbef35eae9619c3,3517584edb5300103dbef35eae9619c4,fd17584edb5300103dbef35eae9619c4,b917584edb5300103dbef35eae9619c5,7517584edb5300103dbef35eae9619c6,3117584edb5300103dbef35eae9619c7,f917584edb5300103dbef35eae9619c7,b517584edb5300103dbef35eae9619c8,7117584edb5300103dbef35eae9619c9,3d17584edb5300103dbef35eae9619c9,f517584edb5300103dbef35eae9619ca,b117584edb5300103dbef35eae9619cb,7d17584edb5300103dbef35eae9619cb,3917584edb5300103dbef35eae9619cc,f117584edb5300103dbef35eae9619cd,bd17584edb5300103dbef35eae9619cd,7917584edb5300103dbef35eae9619ce,3517584edb5300103dbef35eae9619cf,fd17584edb5300103dbef35eae9619cf,b917584edb5300103dbef35eae9619d0,7517584edb5300103dbef35eae9619d1,3117584edb5300103dbef35eae9619d2,f917584edb5300103dbef35eae9619d2,b517584edb5300103dbef35eae9619d3,7117584edb5300103dbef35eae9619d4,3d17584edb5300103dbef35eae9619d4,f517584edb5300103dbef35eae9619d5,b117584edb5300103dbef35eae9619d6,7d17584edb5300103dbef35eae9619d6,3917584edb5300103dbef35eae9619d7,f117584edb5300103dbef35eae9619d8,bd17584edb5300103dbef35eae9619d8,7917584edb5300103dbef35eae9619d9,3517584edb5300103dbef35eae9619da,fd17584edb5300103dbef35eae9619da,b917584edb5300103dbef35eae9619db,7517584edb5300103dbef35eae9619dc,3117584edb5300103dbef35eae9619dd,f917584edb5300103dbef35eae9619dd,b517584edb5300103dbef35eae9619de,7117584edb5300103dbef35eae9619df"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a^sys_idNOT IN3917584edb5300103dbef35eae9619f4,f117584edb5300103dbef35eae9619f5"/>
     <sys_choice field="instance" table="var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -9467,1300 +8078,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-03-03 07:11:16</sys_updated_on>
             <value>instance-1</value>
-        </sys_choice>
-    </sys_choice>
-    <sys_choice field="zone" table="var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7917584edb5300103dbef35eae9619a4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f917584edb5300103dbef35eae9619b1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b517584edb5300103dbef35eae9619b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST1-D</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7117584edb5300103dbef35eae9619b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east1-d</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d17584edb5300103dbef35eae9619b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east4-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f517584edb5300103dbef35eae9619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east4-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-EAST4-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>6</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b117584edb5300103dbef35eae9619b5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-east4-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>7</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d17584edb5300103dbef35eae9619b5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-central1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>8</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3917584edb5300103dbef35eae9619b6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-central1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-F</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>9</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f117584edb5300103dbef35eae9619b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-central1-f</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-CENTRAL1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>10</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd17584edb5300103dbef35eae9619b7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-central1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>11</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7917584edb5300103dbef35eae9619b8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>12</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3517584edb5300103dbef35eae9619b9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>13</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd17584edb5300103dbef35eae9619b9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>14</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b917584edb5300103dbef35eae9619ba</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west4-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>15</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7517584edb5300103dbef35eae9619bb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west4-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST4-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>16</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3117584edb5300103dbef35eae9619bc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west4-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>17</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f917584edb5300103dbef35eae9619bc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-D</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>18</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b517584edb5300103dbef35eae9619bd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west1-d</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>19</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7117584edb5300103dbef35eae9619be</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>20</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d17584edb5300103dbef35eae9619be</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west3-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>21</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f517584edb5300103dbef35eae9619bf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>22</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b117584edb5300103dbef35eae9619c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>23</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d17584edb5300103dbef35eae9619c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>24</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3917584edb5300103dbef35eae9619c1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>25</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f117584edb5300103dbef35eae9619c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>26</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd17584edb5300103dbef35eae9619c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>27</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7917584edb5300103dbef35eae9619c3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>28</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3517584edb5300103dbef35eae9619c4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>29</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd17584edb5300103dbef35eae9619c4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-southeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>30</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b917584edb5300103dbef35eae9619c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-southeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>31</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7517584edb5300103dbef35eae9619c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-southeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>32</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3117584edb5300103dbef35eae9619c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>33</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f917584edb5300103dbef35eae9619c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>34</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b517584edb5300103dbef35eae9619c8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>35</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7117584edb5300103dbef35eae9619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-south1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>36</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d17584edb5300103dbef35eae9619c9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-south1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-SOUTH1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>37</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f517584edb5300103dbef35eae9619ca</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-south1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>38</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b117584edb5300103dbef35eae9619cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>australia-southeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>39</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d17584edb5300103dbef35eae9619cb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>australia-southeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>AUSTRALIA-SOUTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>40</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3917584edb5300103dbef35eae9619cc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>australia-southeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>41</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f117584edb5300103dbef35eae9619cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>southamerica-east1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>42</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd17584edb5300103dbef35eae9619cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>southamerica-east1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>SOUTHAMERICA-EAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>43</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7917584edb5300103dbef35eae9619ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>southamerica-east1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>44</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3517584edb5300103dbef35eae9619cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>45</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd17584edb5300103dbef35eae9619cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-EAST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>46</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b917584edb5300103dbef35eae9619d0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-east2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>47</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7517584edb5300103dbef35eae9619d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>48</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3117584edb5300103dbef35eae9619d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>49</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f917584edb5300103dbef35eae9619d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>50</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b517584edb5300103dbef35eae9619d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>51</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7117584edb5300103dbef35eae9619d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>ASIA-NORTHEAST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>52</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d17584edb5300103dbef35eae9619d4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>asia-northeast3-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>53</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f517584edb5300103dbef35eae9619d5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-north1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>54</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b117584edb5300103dbef35eae9619d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-north1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-NORTH1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>55</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d17584edb5300103dbef35eae9619d6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-north1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>56</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3917584edb5300103dbef35eae9619d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west6-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>57</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f117584edb5300103dbef35eae9619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west6-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>EUROPE-WEST6-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>58</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd17584edb5300103dbef35eae9619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>europe-west6-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>59</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7917584edb5300103dbef35eae9619d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>northamerica-northeast1-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>60</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3517584edb5300103dbef35eae9619da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>northamerica-northeast1-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>NORTHAMERICA-NORTHEAST1-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>61</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd17584edb5300103dbef35eae9619da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>northamerica-northeast1-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>62</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b917584edb5300103dbef35eae9619db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west2-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>63</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7517584edb5300103dbef35eae9619dc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west2-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST2-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>64</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3117584edb5300103dbef35eae9619dd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>65</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f917584edb5300103dbef35eae9619dd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>66</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b517584edb5300103dbef35eae9619de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_ad17584edb5300103dbef35eae96199a</name>
-            <sequence>67</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-03 07:11:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7117584edb5300103dbef35eae9619df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-03 07:11:15</sys_updated_on>
-            <value>us-west3-c</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ad17584edb5300103dbef35eae96199a^sys_idNOT IN9217984edb5300103dbef35eae961990,9e17984edb5300103dbef35eae96198a"/>

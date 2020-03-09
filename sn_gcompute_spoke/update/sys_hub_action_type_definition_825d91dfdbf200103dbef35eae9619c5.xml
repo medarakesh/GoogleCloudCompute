@@ -33,13 +33,13 @@
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; To use this action, a corresponding Google Compute Engine connection and credential must be created and associated with the Google Compute Engine Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>get_machine_types</internal_name>
         <label_cache>[{"name":"{{action.projectid}}","label":"action➛ProjectID","type":"action","ref":""},{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{action.machines}}","label":"action➛Machine Type","type":"action","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}","label":"step➛Pre Processing➛ProjectID","type":"step","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}","label":"step➛Pre Processing➛Zone","type":"step","ref":""},{"name":"{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}","label":"step➛Pre Processing➛Machines","type":"step","ref":""},{"name":"{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].api_version}}","label":"step➛Get Machine Types➛API Version","type":"step","ref":""},{"name":"{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].status_code}}","label":"step➛Get Machine Types➛Status Code","type":"step","ref":""},{"name":"{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].response_body}}","label":"step➛Get Machine Types➛Response Body","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine}}","label":"step➛Post Processing➛Machine Type","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child1}}","label":"step➛Post Processing➛Machine Type➛Machine_child1","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Name}}","label":"step➛Post Processing➛Machine Type➛Name","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child2}}","label":"step➛Post Processing➛Machine Type➛Machine_child2","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child3}}","label":"step➛Post Processing➛Machine Type➛Machine_child3","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child4}}","label":"step➛Post Processing➛Machine Type➛Machine_child4","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child5}}","label":"step➛Post Processing➛Machine Type➛Machine_child5","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.ID}}","label":"step➛Post Processing➛Machine Type➛ID","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.id}}","label":"step➛Post Processing➛Machine Type➛ID","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Creation_Time_Stamp}}","label":"step➛Post Processing➛Machine Type➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.creationTimestamp}}","label":"step➛Post Processing➛Machine Type➛Creation Time Stamp","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Description}}","label":"step➛Post Processing➛Machine Type➛Description","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.description}}","label":"step➛Post Processing➛Machine Type➛Description","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Guest}}","label":"step➛Post Processing➛Machine Type➛Guest","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Guest_Cpus}}","label":"step➛Post Processing➛Machine Type➛Guest Cpus","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.guestCpus}}","label":"step➛Post Processing➛Machine Type➛Guest CPU's","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].memory_mb}}","label":"step➛Post Processing➛Memory MB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].memorymb}}","label":"step➛Post Processing➛Memory MB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child6}}","label":"step➛Post Processing➛Machine Type➛Machine_child6","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child7}}","label":"step➛Post Processing➛Machine Type➛Machine_child7","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child8}}","label":"step➛Post Processing➛Machine Type➛Machine_child8","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine._}}","label":"step➛Post Processing➛Machine","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Image_Space_GB}}","label":"step➛Post Processing➛Machine Type➛Image Space GB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.imageSpaceGb}}","label":"step➛Post Processing➛Machine Type➛Image Space GB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Maximum_Persistent_Disks}}","label":"step➛Post Processing➛Machine Type➛Maximum Persistent Disks","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.maximumPersistentDisks}}","label":"step➛Post Processing➛Machine Type➛Maximum Persistent Disks","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Maximum_Persistent_Disks_Size_GB}}","label":"step➛Post Processing➛Machine Type➛Maximum Persistent Disks Size GB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.maximumPersistentDisksSizeGb}}","label":"step➛Post Processing➛Machine Type➛Maximum Persistent Disks Size GB","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child9}}","label":"step➛Post Processing➛Machine Type➛Machine_child9","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child10}}","label":"step➛Post Processing➛Machine Type➛Machine_child10","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Zone}}","label":"step➛Post Processing➛Machine Type➛Zone","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.zone}}","label":"step➛Post Processing➛Machine Type➛Zone","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Self_Link}}","label":"step➛Post Processing➛Machine Type➛Self Link","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.selfLink}}","label":"step➛Post Processing➛Machine Type➛Self Link","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child11}}","label":"step➛Post Processing➛Machine Type➛Machine_child11","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.Is_Shared_Cpu}}","label":"step➛Post Processing➛Machine Type➛Is Shared Cpu","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.isSharedCpu}}","label":"step➛Post Processing➛Machine Type➛Is Shared Cpu","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].machine.machine_child12}}","label":"step➛Post Processing➛Machine Type➛Machine_child12","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].variable13}}","label":"step➛Post Processing➛variable13","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""},{"name":"{{step[d5301e78-9d8e-4cae-8371-4a568885f66a].errormessage}}","label":"step➛Post Processing➛ErrorMessage","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>3345db2edbd300103dbef35eae9619ed</latest_snapshot>
+        <latest_snapshot>335c284bdb970010d852f7b51d961958</latest_snapshot>
         <master_snapshot>7970c5afdbba00103dbef35eae9619ef</master_snapshot>
         <name>Get Machine Type By Zone</name>
         <natlang/>
@@ -52,15 +52,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>825d91dfdbf200103dbef35eae9619c5</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>Get Machine Type By Zone</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_825d91dfdbf200103dbef35eae9619c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:24</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:51:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -120,12 +120,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>205fd913db3600103dbef35eae961901</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:57:52</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=205fd913db3600103dbef35eae961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>205fd913db3600103dbef35eae961901</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>134c644bdb970010d852f7b51d9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>205fd913db3600103dbef35eae961901</document_key>
@@ -216,12 +230,26 @@
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
-        <sys_id>f05fd913db3600103dbef35eae961919</sys_id>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>d34c644bdb970010d852f7b51d9619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 13:07:51</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>205fd913db3600103dbef35eae961901</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
+        <sys_id>f05fd913db3600103dbef35eae961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <value/>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=205fd913db3600103dbef35eae961901"/>
@@ -262,6 +290,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>205fd913db3600103dbef35eae961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>1b4c644bdb970010d852f7b51d9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>205fd913db3600103dbef35eae961901</id>
         <sys_created_by>admin</sys_created_by>
@@ -270,6 +310,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-11 13:07:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>205fd913db3600103dbef35eae961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>db4c644bdb970010d852f7b51d9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -303,11 +355,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>745fd913db3600103dbef35eae961918</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:57:52</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].api_version}}/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
+        <value>compute/v1/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -321,12 +373,12 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=205fd913db3600103dbef35eae961901^sys_idNOT IN285fd913db3600103dbef35eae961908,b05fd913db3600103dbef35eae96190e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=205fd913db3600103dbef35eae961901^sys_idNOT IN285fd913db3600103dbef35eae961908"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=9d67055b-d0d0-4456-8b7d-a16c4f57fa8a</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5d5c727-d6d8-4930-bb6d-338b06ab0e15</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -384,95 +436,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>285fd913db3600103dbef35eae961908</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:56:23</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=cbb9b018-3e18-4a3e-913a-1a0dfcd8f866</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Machine Types">205fd913db3600103dbef35eae961901</model>
-        <model_id>205fd913db3600103dbef35eae961901</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_205fd913db3600103dbef35eae961901</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
-        <sys_id>b05fd913db3600103dbef35eae96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:56:23</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1667,14 +1638,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:28:46</sys_created_on>
         <sys_id>6ddf7c6fdbba00103dbef35eae96194e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:30:34</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1694,9 +1665,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:28:46</sys_created_on>
         <sys_id>21df7c6fdbba00103dbef35eae961955</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:12</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:02</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21df7c6fdbba00103dbef35eae961955"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1775,14 +1746,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:50</sys_created_on>
         <sys_id>985f5913db3600103dbef35eae961990</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 13:07:50</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1856,14 +1827,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:50</sys_created_on>
         <sys_id>a05f9913db3600103dbef35eae9619c6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 04:34:02</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1883,9 +1854,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:50</sys_created_on>
         <sys_id>a45f9913db3600103dbef35eae9619d8</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:12</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:02</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a45f9913db3600103dbef35eae9619d8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1981,14 +1952,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-02 05:58:20</sys_created_on>
         <sys_id>7fccba29dbdb00103dbef35eae96198b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 05:59:02</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2064,14 +2035,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:27:54</sys_created_on>
         <sys_id>cdafb86fdbba00103dbef35eae9619d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:27:54</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2147,14 +2118,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-02 05:58:20</sys_created_on>
         <sys_id>fbccba29dbdb00103dbef35eae961986</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-02 05:59:02</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2183,12 +2154,26 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>205fd913db3600103dbef35eae961901</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:57:52</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=205fd913db3600103dbef35eae961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>205fd913db3600103dbef35eae961901</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>134c644bdb970010d852f7b51d9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>205fd913db3600103dbef35eae961901</document_key>
@@ -2279,12 +2264,26 @@ var gcc = new GoogleCloudComputeUtils();
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
-        <sys_id>f05fd913db3600103dbef35eae961919</sys_id>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>d34c644bdb970010d852f7b51d9619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-11 13:07:51</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <value>55d2e403db6a0010d852f7b51d9619c6</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>205fd913db3600103dbef35eae961901</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
+        <sys_id>f05fd913db3600103dbef35eae961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <value/>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=205fd913db3600103dbef35eae961901"/>
@@ -2325,6 +2324,18 @@ var gcc = new GoogleCloudComputeUtils();
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>205fd913db3600103dbef35eae961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>1b4c644bdb970010d852f7b51d9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>205fd913db3600103dbef35eae961901</id>
         <sys_created_by>admin</sys_created_by>
@@ -2333,6 +2344,18 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-11 13:07:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>205fd913db3600103dbef35eae961901</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:17:50</sys_created_on>
+        <sys_id>db4c644bdb970010d852f7b51d9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -2366,11 +2389,11 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>745fd913db3600103dbef35eae961918</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:57:52</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:17:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].api_version}}/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
+        <value>compute/v1/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -2384,12 +2407,12 @@ var gcc = new GoogleCloudComputeUtils();
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=205fd913db3600103dbef35eae961901^sys_idNOT IN285fd913db3600103dbef35eae961908,b05fd913db3600103dbef35eae96190e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=205fd913db3600103dbef35eae961901^sys_idNOT IN285fd913db3600103dbef35eae961908"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=9d67055b-d0d0-4456-8b7d-a16c4f57fa8a</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5d5c727-d6d8-4930-bb6d-338b06ab0e15</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2447,95 +2470,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-11 13:07:51</sys_created_on>
         <sys_id>285fd913db3600103dbef35eae961908</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:56:23</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=cbb9b018-3e18-4a3e-913a-1a0dfcd8f866</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Machine Types">205fd913db3600103dbef35eae961901</model>
-        <model_id>205fd913db3600103dbef35eae961901</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_205fd913db3600103dbef35eae961901</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-11 13:07:51</sys_created_on>
-        <sys_id>b05fd913db3600103dbef35eae96190e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 04:56:23</sys_updated_on>
+        <sys_updated_on>2020-03-09 08:52:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3737,7 +3679,7 @@ var gcc = new GoogleCloudComputeUtils();
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5^sys_idNOT IN205f9913db3600103dbef35eae9619c9,8f68706bdbba00103dbef35eae96197f,cf68706bdbba00103dbef35eae961980,8b68706bdbba00103dbef35eae961981,4768706bdbba00103dbef35eae961982,0368706bdbba00103dbef35eae961983,cb68706bdbba00103dbef35eae961983,8768706bdbba00103dbef35eae961984,4368706bdbba00103dbef35eae961985,0f68706bdbba00103dbef35eae961985,c768706bdbba00103dbef35eae961986,8368706bdbba00103dbef35eae961987,4f68706bdbba00103dbef35eae961987,0b68706bdbba00103dbef35eae961988,c368706bdbba00103dbef35eae961989,8f68706bdbba00103dbef35eae961989,4b68706bdbba00103dbef35eae96198a,0768706bdbba00103dbef35eae96198b,cf68706bdbba00103dbef35eae96198b,8b68706bdbba00103dbef35eae96198c,4768706bdbba00103dbef35eae96198d,0368706bdbba00103dbef35eae96198e,cb68706bdbba00103dbef35eae96198e,c9892ee9db9b00103dbef35eae961900,4368706bdbba00103dbef35eae961990,0f68706bdbba00103dbef35eae961990,c768706bdbba00103dbef35eae961991,8368706bdbba00103dbef35eae961992,4f68706bdbba00103dbef35eae961992,0b68706bdbba00103dbef35eae961993,c368706bdbba00103dbef35eae961994,8f68706bdbba00103dbef35eae961994,4b68706bdbba00103dbef35eae961995,0768706bdbba00103dbef35eae961996,cf68706bdbba00103dbef35eae961996,8b68706bdbba00103dbef35eae961997,4768706bdbba00103dbef35eae961998,0368706bdbba00103dbef35eae961999,cb68706bdbba00103dbef35eae961999,8768706bdbba00103dbef35eae96199a,4368706bdbba00103dbef35eae96199b,c9892ee9db9b00103dbef35eae961906,c768706bdbba00103dbef35eae96199c,8368706bdbba00103dbef35eae96199d,4f68706bdbba00103dbef35eae96199d,0b68706bdbba00103dbef35eae96199e,c368706bdbba00103dbef35eae96199f,8f68706bdbba00103dbef35eae96199f,4b68706bdbba00103dbef35eae9619a0,0768706bdbba00103dbef35eae9619a1,cf68706bdbba00103dbef35eae9619a1,8b68706bdbba00103dbef35eae9619a2,4768706bdbba00103dbef35eae9619a3,2ddf7c6fdbba00103dbef35eae961951,ff3001afdbba00103dbef35eae9619c7,bb3001afdbba00103dbef35eae9619c8,3b3081afdbba00103dbef35eae961995,f33081afdbba00103dbef35eae961996,bf3081afdbba00103dbef35eae961996,7b3081afdbba00103dbef35eae961997,373081afdbba00103dbef35eae961998,ff3081afdbba00103dbef35eae961998,bb3081afdbba00103dbef35eae961999,773081afdbba00103dbef35eae96199a,333081afdbba00103dbef35eae96199b,fb3081afdbba00103dbef35eae96199b,b73081afdbba00103dbef35eae96199c,733081afdbba00103dbef35eae96199d,3f3081afdbba00103dbef35eae96199d,f73081afdbba00103dbef35eae96199e,b33081afdbba00103dbef35eae96199f,7f3081afdbba00103dbef35eae96199f,3b3081afdbba00103dbef35eae9619a0,f33081afdbba00103dbef35eae9619a1,bf3081afdbba00103dbef35eae9619a1,7b3081afdbba00103dbef35eae9619a2,373081afdbba00103dbef35eae9619a3,ff3081afdbba00103dbef35eae9619a3,bb3081afdbba00103dbef35eae9619a4,773081afdbba00103dbef35eae9619a5,333081afdbba00103dbef35eae9619a6,fb3081afdbba00103dbef35eae9619a6,b73081afdbba00103dbef35eae9619a7,733081afdbba00103dbef35eae9619a8,3f3081afdbba00103dbef35eae9619a8,f73081afdbba00103dbef35eae9619a9,b33081afdbba00103dbef35eae9619aa,7f3081afdbba00103dbef35eae9619aa,3b3081afdbba00103dbef35eae9619ab,f33081afdbba00103dbef35eae9619ac,bf3081afdbba00103dbef35eae9619ac,7b3081afdbba00103dbef35eae9619ad,373081afdbba00103dbef35eae9619ae,ff3081afdbba00103dbef35eae9619ae,bb3081afdbba00103dbef35eae9619af,773081afdbba00103dbef35eae9619b0,333081afdbba00103dbef35eae9619b1,fb3081afdbba00103dbef35eae9619b1,b73081afdbba00103dbef35eae9619b2,733081afdbba00103dbef35eae9619b3,3f3081afdbba00103dbef35eae9619b3,f73081afdbba00103dbef35eae9619b4,b33081afdbba00103dbef35eae9619b5,7f3081afdbba00103dbef35eae9619b5,3b3081afdbba00103dbef35eae9619b6,f33081afdbba00103dbef35eae9619b7,bf3081afdbba00103dbef35eae9619b7,7b3081afdbba00103dbef35eae9619b8,044081afdbba00103dbef35eae9619b9,cc4081afdbba00103dbef35eae9619b9,884081afdbba00103dbef35eae9619ba,444081afdbba00103dbef35eae9619bb,004081afdbba00103dbef35eae9619bc,c84081afdbba00103dbef35eae9619bc,844081afdbba00103dbef35eae9619bd,404081afdbba00103dbef35eae9619be,0c4081afdbba00103dbef35eae9619be,c44081afdbba00103dbef35eae9619bf,4989eae9db9b00103dbef35eae9619e9,0589eae9db9b00103dbef35eae9619ea,cd89eae9db9b00103dbef35eae9619ea"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5^sys_idNOT IN205f9913db3600103dbef35eae9619c9,8f68706bdbba00103dbef35eae96197f,cf68706bdbba00103dbef35eae961980,8b68706bdbba00103dbef35eae961981,4768706bdbba00103dbef35eae961982,0368706bdbba00103dbef35eae961983,cb68706bdbba00103dbef35eae961983,8768706bdbba00103dbef35eae961984,4368706bdbba00103dbef35eae961985,0f68706bdbba00103dbef35eae961985,c768706bdbba00103dbef35eae961986,8368706bdbba00103dbef35eae961987,4f68706bdbba00103dbef35eae961987,0b68706bdbba00103dbef35eae961988,c368706bdbba00103dbef35eae961989,8f68706bdbba00103dbef35eae961989,4b68706bdbba00103dbef35eae96198a,0768706bdbba00103dbef35eae96198b,cf68706bdbba00103dbef35eae96198b,8b68706bdbba00103dbef35eae96198c,4768706bdbba00103dbef35eae96198d,0368706bdbba00103dbef35eae96198e,cb68706bdbba00103dbef35eae96198e,c9892ee9db9b00103dbef35eae961900,4368706bdbba00103dbef35eae961990,0f68706bdbba00103dbef35eae961990,c768706bdbba00103dbef35eae961991,8368706bdbba00103dbef35eae961992,4f68706bdbba00103dbef35eae961992,0b68706bdbba00103dbef35eae961993,c368706bdbba00103dbef35eae961994,8f68706bdbba00103dbef35eae961994,4b68706bdbba00103dbef35eae961995,0768706bdbba00103dbef35eae961996,cf68706bdbba00103dbef35eae961996,8b68706bdbba00103dbef35eae961997,4768706bdbba00103dbef35eae961998,0368706bdbba00103dbef35eae961999,cb68706bdbba00103dbef35eae961999,8768706bdbba00103dbef35eae96199a,4368706bdbba00103dbef35eae96199b,c9892ee9db9b00103dbef35eae961906,c768706bdbba00103dbef35eae96199c,8368706bdbba00103dbef35eae96199d,4f68706bdbba00103dbef35eae96199d,0b68706bdbba00103dbef35eae96199e,c368706bdbba00103dbef35eae96199f,8f68706bdbba00103dbef35eae96199f,4b68706bdbba00103dbef35eae9619a0,0768706bdbba00103dbef35eae9619a1,cf68706bdbba00103dbef35eae9619a1,8b68706bdbba00103dbef35eae9619a2,4768706bdbba00103dbef35eae9619a3,2ddf7c6fdbba00103dbef35eae961951,ff3001afdbba00103dbef35eae9619c7,bb3001afdbba00103dbef35eae9619c8,3b3081afdbba00103dbef35eae961995,f33081afdbba00103dbef35eae961996,bf3081afdbba00103dbef35eae961996,7b3081afdbba00103dbef35eae961997,373081afdbba00103dbef35eae961998,ff3081afdbba00103dbef35eae961998,bb3081afdbba00103dbef35eae961999,773081afdbba00103dbef35eae96199a,333081afdbba00103dbef35eae96199b,fb3081afdbba00103dbef35eae96199b,b73081afdbba00103dbef35eae96199c,733081afdbba00103dbef35eae96199d,3f3081afdbba00103dbef35eae96199d,f73081afdbba00103dbef35eae96199e,b33081afdbba00103dbef35eae96199f,7f3081afdbba00103dbef35eae96199f,3b3081afdbba00103dbef35eae9619a0,f33081afdbba00103dbef35eae9619a1,bf3081afdbba00103dbef35eae9619a1,7b3081afdbba00103dbef35eae9619a2,373081afdbba00103dbef35eae9619a3,ff3081afdbba00103dbef35eae9619a3,bb3081afdbba00103dbef35eae9619a4,773081afdbba00103dbef35eae9619a5,333081afdbba00103dbef35eae9619a6,fb3081afdbba00103dbef35eae9619a6,b73081afdbba00103dbef35eae9619a7,733081afdbba00103dbef35eae9619a8,3f3081afdbba00103dbef35eae9619a8,f73081afdbba00103dbef35eae9619a9,b33081afdbba00103dbef35eae9619aa,7f3081afdbba00103dbef35eae9619aa,3b3081afdbba00103dbef35eae9619ab,f33081afdbba00103dbef35eae9619ac,bf3081afdbba00103dbef35eae9619ac,7b3081afdbba00103dbef35eae9619ad,373081afdbba00103dbef35eae9619ae,ff3081afdbba00103dbef35eae9619ae,bb3081afdbba00103dbef35eae9619af,773081afdbba00103dbef35eae9619b0,333081afdbba00103dbef35eae9619b1,fb3081afdbba00103dbef35eae9619b1,b73081afdbba00103dbef35eae9619b2,733081afdbba00103dbef35eae9619b3,3f3081afdbba00103dbef35eae9619b3,f73081afdbba00103dbef35eae9619b4,b33081afdbba00103dbef35eae9619b5,7f3081afdbba00103dbef35eae9619b5,3b3081afdbba00103dbef35eae9619b6,f33081afdbba00103dbef35eae9619b7,bf3081afdbba00103dbef35eae9619b7,7b3081afdbba00103dbef35eae9619b8,044081afdbba00103dbef35eae9619b9,cc4081afdbba00103dbef35eae9619b9,884081afdbba00103dbef35eae9619ba,444081afdbba00103dbef35eae9619bb,004081afdbba00103dbef35eae9619bc,c84081afdbba00103dbef35eae9619bc,844081afdbba00103dbef35eae9619bd,404081afdbba00103dbef35eae9619be,0c4081afdbba00103dbef35eae9619be,c44081afdbba00103dbef35eae9619bf"/>
     <sys_choice field="machines" table="var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -5983,63 +5925,6 @@ var gcc = new GoogleCloudComputeUtils();
             <sys_updated_on>2020-03-02 04:34:14</sys_updated_on>
             <value>us-west2-c</value>
         </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5</name>
-            <sequence>65</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4989eae9db9b00103dbef35eae9619e9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:14</sys_updated_on>
-            <value>us-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5</name>
-            <sequence>66</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0589eae9db9b00103dbef35eae9619ea</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:14</sys_updated_on>
-            <value>us-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_825d91dfdbf200103dbef35eae9619c5</name>
-            <sequence>67</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>cd89eae9db9b00103dbef35eae9619ea</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:14</sys_updated_on>
-            <value>us-west3-c</value>
-        </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_825d91dfdbf200103dbef35eae9619c5^sys_idNOT INbbccba29dbdb00103dbef35eae96198a,c9afb86fdbba00103dbef35eae9619d9,ccdcba29dbdb00103dbef35eae961991"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -6175,17 +6060,17 @@ var gcc = new GoogleCloudComputeUtils();
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Machine Type By Zone">825d91dfdbf200103dbef35eae9619c5</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"337049afdbba00103dbef35eae9619d6","name":"plan"}}</plan>
-        <snapshot>3345db2edbd300103dbef35eae9619ed</snapshot>
+        <snapshot>335c284bdb970010d852f7b51d961958</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>337049afdbba00103dbef35eae9619d6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:28</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:22</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -6220,7 +6105,7 @@ var gcc = new GoogleCloudComputeUtils();
 &lt;/ul&gt;
 &lt;br/&gt;
 
-&lt;p&gt; To use this action, a corresponding Google Persistent Disk connection and credential must be created and associated with the Google Persistent Disk Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; To use this action, a corresponding Google Compute Engine connection and credential must be created and associated with the Google Compute Engine Connection &amp; Credential alias.  &lt;a target="_blank" href="https://docs.servicenow.com/search?q=Create+a+Connection+%26+Credential+alias"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
         <internal_name>get_machine_types</internal_name>
@@ -6237,7 +6122,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7970c5afdbba00103dbef35eae9619ef</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -6245,7 +6130,7 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:21</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -6909,10 +6794,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:33</sys_created_on>
         <sys_id>e67009afdbba00103dbef35eae9619c6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e67009afdbba00103dbef35eae9619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6965,11 +6850,25 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>a27009afdbba00103dbef35eae9619ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <value/>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e67009afdbba00103dbef35eae9619c6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>a56c684bdb970010d852f7b51d9619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <value>55d2e403db6a0010d852f7b51d9619c6</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6984,6 +6883,20 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e67009afdbba00103dbef35eae9619c6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>e16c684bdb970010d852f7b51d9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7051,6 +6964,18 @@ var gcc = new GoogleCloudComputeUtils();
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>e67009afdbba00103dbef35eae9619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>e96c684bdb970010d852f7b51d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>e67009afdbba00103dbef35eae9619c6</id>
         <sys_created_by>admin</sys_created_by>
@@ -7059,6 +6984,18 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>e67009afdbba00103dbef35eae9619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>ad6c684bdb970010d852f7b51d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -7092,11 +7029,11 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>ae7009afdbba00103dbef35eae9619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].api_version}}/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
+        <value>compute/v1/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -7110,93 +7047,12 @@ var gcc = new GoogleCloudComputeUtils();
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=e67009afdbba00103dbef35eae9619c6^sys_idNOT INe27009afdbba00103dbef35eae9619d2,e67009afdbba00103dbef35eae9619cc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e67009afdbba00103dbef35eae9619c6^sys_idNOT INe67009afdbba00103dbef35eae9619cc"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=cbb9b018-3e18-4a3e-913a-1a0dfcd8f866</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Machine Types">e67009afdbba00103dbef35eae9619c6</model>
-        <model_id>e67009afdbba00103dbef35eae9619c6</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_e67009afdbba00103dbef35eae9619c6</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-12 05:31:34</sys_created_on>
-        <sys_id>e27009afdbba00103dbef35eae9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=9d67055b-d0d0-4456-8b7d-a16c4f57fa8a</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5d5c727-d6d8-4930-bb6d-338b06ab0e15</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7254,14 +7110,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:33</sys_created_on>
         <sys_id>e67009afdbba00103dbef35eae9619cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:33</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7631,7 +7487,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD55555f2ef8d3001098cdffd54a351e79,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42</attributes>
+        <attributes>co_type_name=FDa96c684b8597001078517e7a433ca2dc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7689,14 +7545,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>667009afdbba00103dbef35eae9619fe</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:23</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7879,9 +7735,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:32</sys_created_on>
         <sys_id>c67009afdbba00103dbef35eae96195c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:22</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c67009afdbba00103dbef35eae96195c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8068,9 +7924,9 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:32</sys_created_on>
         <sys_id>567009afdbba00103dbef35eae961998</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:22</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:15</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=567009afdbba00103dbef35eae961998"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8272,7 +8128,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDd9555f2e6cd30010288167f06f090789,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d5301e78-9d8e-4cae-8371-4a568885f66a,sourceType=step,sourceUiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42,uiType=object,uiTypeLabel=Object,uiUniqueId=7796b223-efd0-4b72-bf05-67bdcc814054</attributes>
+        <attributes>co_type_name=FDad6c684b299700104a4addcc9e9c6dec,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d5301e78-9d8e-4cae-8371-4a568885f66a,sourceType=step,sourceUiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42,uiType=object,uiTypeLabel=Object,uiUniqueId=7796b223-efd0-4b72-bf05-67bdcc814054</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -8332,14 +8188,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>b67049afdbba00103dbef35eae961918</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:23</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -8972,10 +8828,10 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:33</sys_created_on>
         <sys_id>e67009afdbba00103dbef35eae9619c6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e67009afdbba00103dbef35eae9619c6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9028,11 +8884,25 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>a27009afdbba00103dbef35eae9619ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <value/>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e67009afdbba00103dbef35eae9619c6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>a56c684bdb970010d852f7b51d9619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <value>55d2e403db6a0010d852f7b51d9619c6</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -9047,6 +8917,20 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e67009afdbba00103dbef35eae9619c6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>e16c684bdb970010d852f7b51d9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -9114,6 +8998,18 @@ var gcc = new GoogleCloudComputeUtils();
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>e67009afdbba00103dbef35eae9619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>e96c684bdb970010d852f7b51d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>connection_alias</field>
         <id>e67009afdbba00103dbef35eae9619c6</id>
         <sys_created_by>admin</sys_created_by>
@@ -9122,6 +9018,18 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>e67009afdbba00103dbef35eae9619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 11:18:16</sys_created_on>
+        <sys_id>ad6c684bdb970010d852f7b51d9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -9155,11 +9063,11 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>ae7009afdbba00103dbef35eae9619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>compute/{{step[6fa68940-f1d1-4383-b9a7-ce144ac850fa].api_version}}/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
+        <value>compute/v1/projects/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].projectid}}/zones/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].zone}}/machineTypes/{{step[c3920adc-1e64-4a0b-b62a-a7031028e24c].machines}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>retry_policy</field>
@@ -9173,93 +9081,12 @@ var gcc = new GoogleCloudComputeUtils();
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=e67009afdbba00103dbef35eae9619c6^sys_idNOT INe27009afdbba00103dbef35eae9619d2,e67009afdbba00103dbef35eae9619cc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e67009afdbba00103dbef35eae9619c6^sys_idNOT INe67009afdbba00103dbef35eae9619cc"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=cbb9b018-3e18-4a3e-913a-1a0dfcd8f866</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>api_version</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>API Version</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Machine Types">e67009afdbba00103dbef35eae9619c6</model>
-        <model_id>e67009afdbba00103dbef35eae9619c6</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_e67009afdbba00103dbef35eae9619c6</name>
-        <next_element/>
-        <order>8</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-12 05:31:34</sys_created_on>
-        <sys_id>e27009afdbba00103dbef35eae9619d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:34</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=9d67055b-d0d0-4456-8b7d-a16c4f57fa8a</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c5d5c727-d6d8-4930-bb6d-338b06ab0e15</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9317,14 +9144,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:33</sys_created_on>
         <sys_id>e67009afdbba00103dbef35eae9619cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-12 05:31:33</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9694,7 +9521,7 @@ var gcc = new GoogleCloudComputeUtils();
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD55555f2ef8d3001098cdffd54a351e79,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42</attributes>
+        <attributes>co_type_name=FDa96c684b8597001078517e7a433ca2dc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=e59e6317-a1fe-4b8c-8a0d-0adbe6fa0c42</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9752,14 +9579,14 @@ var gcc = new GoogleCloudComputeUtils();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-12 05:31:34</sys_created_on>
         <sys_id>667009afdbba00103dbef35eae9619fe</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-05 10:19:23</sys_updated_on>
+        <sys_updated_on>2020-03-06 11:18:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9922,7 +9749,7 @@ var gcc = new GoogleCloudComputeUtils();
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef^sys_idNOT IN067009afdbba00103dbef35eae961960,ce7009afdbba00103dbef35eae961960,8a7009afdbba00103dbef35eae961961,467009afdbba00103dbef35eae961962,027009afdbba00103dbef35eae961963,ca7009afdbba00103dbef35eae961963,867009afdbba00103dbef35eae961964,427009afdbba00103dbef35eae961965,0e7009afdbba00103dbef35eae961965,c67009afdbba00103dbef35eae961966,827009afdbba00103dbef35eae961967,4e7009afdbba00103dbef35eae961967,0a7009afdbba00103dbef35eae961968,c27009afdbba00103dbef35eae961969,8e7009afdbba00103dbef35eae961969,4a7009afdbba00103dbef35eae96196a,067009afdbba00103dbef35eae96196b,ce7009afdbba00103dbef35eae96196b,8a7009afdbba00103dbef35eae96196c,467009afdbba00103dbef35eae96196d,027009afdbba00103dbef35eae96196e,ca7009afdbba00103dbef35eae96196e,867009afdbba00103dbef35eae96196f,ca99eee9db9b00103dbef35eae9619be,427009afdbba00103dbef35eae961970,0e7009afdbba00103dbef35eae961970,c67009afdbba00103dbef35eae961971,827009afdbba00103dbef35eae961972,4e7009afdbba00103dbef35eae961972,0a7009afdbba00103dbef35eae961973,c27009afdbba00103dbef35eae961974,8e7009afdbba00103dbef35eae961974,4a7009afdbba00103dbef35eae961975,067009afdbba00103dbef35eae961976,ce7009afdbba00103dbef35eae961976,8a7009afdbba00103dbef35eae961977,467009afdbba00103dbef35eae961978,027009afdbba00103dbef35eae961979,ca7009afdbba00103dbef35eae961979,867009afdbba00103dbef35eae96197a,427009afdbba00103dbef35eae96197b,9699eee9db9b00103dbef35eae9619cd,0e7009afdbba00103dbef35eae96197b,c67009afdbba00103dbef35eae96197c,827009afdbba00103dbef35eae96197d,4e7009afdbba00103dbef35eae96197d,0a7009afdbba00103dbef35eae96197e,c27009afdbba00103dbef35eae96197f,8e7009afdbba00103dbef35eae96197f,4a7009afdbba00103dbef35eae961980,067009afdbba00103dbef35eae961981,ce7009afdbba00103dbef35eae961981,8a7009afdbba00103dbef35eae961982,3970c5afdbba00103dbef35eae9619f9,397009afdbba00103dbef35eae96191f,f17009afdbba00103dbef35eae961920,bd7009afdbba00103dbef35eae961920,797009afdbba00103dbef35eae961921,357009afdbba00103dbef35eae961922,fd7009afdbba00103dbef35eae961922,b97009afdbba00103dbef35eae961923,757009afdbba00103dbef35eae961924,317009afdbba00103dbef35eae961925,f97009afdbba00103dbef35eae961925,b57009afdbba00103dbef35eae961926,717009afdbba00103dbef35eae961927,3d7009afdbba00103dbef35eae961927,f57009afdbba00103dbef35eae961928,b17009afdbba00103dbef35eae961929,7d7009afdbba00103dbef35eae961929,397009afdbba00103dbef35eae96192a,f17009afdbba00103dbef35eae96192b,bd7009afdbba00103dbef35eae96192b,797009afdbba00103dbef35eae96192c,357009afdbba00103dbef35eae96192d,fd7009afdbba00103dbef35eae96192d,b97009afdbba00103dbef35eae96192e,757009afdbba00103dbef35eae96192f,317009afdbba00103dbef35eae961930,f97009afdbba00103dbef35eae961930,b57009afdbba00103dbef35eae961931,717009afdbba00103dbef35eae961932,3d7009afdbba00103dbef35eae961932,f57009afdbba00103dbef35eae961933,b17009afdbba00103dbef35eae961934,7d7009afdbba00103dbef35eae961934,397009afdbba00103dbef35eae961935,f17009afdbba00103dbef35eae961936,bd7009afdbba00103dbef35eae961936,797009afdbba00103dbef35eae961937,357009afdbba00103dbef35eae961938,ce7009afdbba00103dbef35eae961938,8a7009afdbba00103dbef35eae961939,467009afdbba00103dbef35eae96193a,027009afdbba00103dbef35eae96193b,ca7009afdbba00103dbef35eae96193b,867009afdbba00103dbef35eae96193c,427009afdbba00103dbef35eae96193d,0e7009afdbba00103dbef35eae96193d,c67009afdbba00103dbef35eae96193e,827009afdbba00103dbef35eae96193f,4e7009afdbba00103dbef35eae96193f,0a7009afdbba00103dbef35eae961940,c27009afdbba00103dbef35eae961941,8e7009afdbba00103dbef35eae961941,4a7009afdbba00103dbef35eae961942,067009afdbba00103dbef35eae961943,ce7009afdbba00103dbef35eae961943,427009afdbba00103dbef35eae961951,0e7009afdbba00103dbef35eae961951,c67009afdbba00103dbef35eae961952,827009afdbba00103dbef35eae961953,4e7009afdbba00103dbef35eae961953,0a7009afdbba00103dbef35eae961954,c27009afdbba00103dbef35eae961955,8e7009afdbba00103dbef35eae961955,4a7009afdbba00103dbef35eae961956,067009afdbba00103dbef35eae961957,8e99eee9db9b00103dbef35eae9619b2,0e99eee9db9b00103dbef35eae9619b3,c699eee9db9b00103dbef35eae9619b4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef^sys_idNOT IN067009afdbba00103dbef35eae961960,ce7009afdbba00103dbef35eae961960,8a7009afdbba00103dbef35eae961961,467009afdbba00103dbef35eae961962,027009afdbba00103dbef35eae961963,ca7009afdbba00103dbef35eae961963,867009afdbba00103dbef35eae961964,427009afdbba00103dbef35eae961965,0e7009afdbba00103dbef35eae961965,c67009afdbba00103dbef35eae961966,827009afdbba00103dbef35eae961967,4e7009afdbba00103dbef35eae961967,0a7009afdbba00103dbef35eae961968,c27009afdbba00103dbef35eae961969,8e7009afdbba00103dbef35eae961969,4a7009afdbba00103dbef35eae96196a,067009afdbba00103dbef35eae96196b,ce7009afdbba00103dbef35eae96196b,8a7009afdbba00103dbef35eae96196c,467009afdbba00103dbef35eae96196d,027009afdbba00103dbef35eae96196e,ca7009afdbba00103dbef35eae96196e,867009afdbba00103dbef35eae96196f,ca99eee9db9b00103dbef35eae9619be,427009afdbba00103dbef35eae961970,0e7009afdbba00103dbef35eae961970,c67009afdbba00103dbef35eae961971,827009afdbba00103dbef35eae961972,4e7009afdbba00103dbef35eae961972,0a7009afdbba00103dbef35eae961973,c27009afdbba00103dbef35eae961974,8e7009afdbba00103dbef35eae961974,4a7009afdbba00103dbef35eae961975,067009afdbba00103dbef35eae961976,ce7009afdbba00103dbef35eae961976,8a7009afdbba00103dbef35eae961977,467009afdbba00103dbef35eae961978,027009afdbba00103dbef35eae961979,ca7009afdbba00103dbef35eae961979,867009afdbba00103dbef35eae96197a,427009afdbba00103dbef35eae96197b,9699eee9db9b00103dbef35eae9619cd,0e7009afdbba00103dbef35eae96197b,c67009afdbba00103dbef35eae96197c,827009afdbba00103dbef35eae96197d,4e7009afdbba00103dbef35eae96197d,0a7009afdbba00103dbef35eae96197e,c27009afdbba00103dbef35eae96197f,8e7009afdbba00103dbef35eae96197f,4a7009afdbba00103dbef35eae961980,067009afdbba00103dbef35eae961981,ce7009afdbba00103dbef35eae961981,8a7009afdbba00103dbef35eae961982,3970c5afdbba00103dbef35eae9619f9,397009afdbba00103dbef35eae96191f,f17009afdbba00103dbef35eae961920,bd7009afdbba00103dbef35eae961920,797009afdbba00103dbef35eae961921,357009afdbba00103dbef35eae961922,fd7009afdbba00103dbef35eae961922,b97009afdbba00103dbef35eae961923,757009afdbba00103dbef35eae961924,317009afdbba00103dbef35eae961925,f97009afdbba00103dbef35eae961925,b57009afdbba00103dbef35eae961926,717009afdbba00103dbef35eae961927,3d7009afdbba00103dbef35eae961927,f57009afdbba00103dbef35eae961928,b17009afdbba00103dbef35eae961929,7d7009afdbba00103dbef35eae961929,397009afdbba00103dbef35eae96192a,f17009afdbba00103dbef35eae96192b,bd7009afdbba00103dbef35eae96192b,797009afdbba00103dbef35eae96192c,357009afdbba00103dbef35eae96192d,fd7009afdbba00103dbef35eae96192d,b97009afdbba00103dbef35eae96192e,757009afdbba00103dbef35eae96192f,317009afdbba00103dbef35eae961930,f97009afdbba00103dbef35eae961930,b57009afdbba00103dbef35eae961931,717009afdbba00103dbef35eae961932,3d7009afdbba00103dbef35eae961932,f57009afdbba00103dbef35eae961933,b17009afdbba00103dbef35eae961934,7d7009afdbba00103dbef35eae961934,397009afdbba00103dbef35eae961935,f17009afdbba00103dbef35eae961936,bd7009afdbba00103dbef35eae961936,797009afdbba00103dbef35eae961937,357009afdbba00103dbef35eae961938,ce7009afdbba00103dbef35eae961938,8a7009afdbba00103dbef35eae961939,467009afdbba00103dbef35eae96193a,027009afdbba00103dbef35eae96193b,ca7009afdbba00103dbef35eae96193b,867009afdbba00103dbef35eae96193c,427009afdbba00103dbef35eae96193d,0e7009afdbba00103dbef35eae96193d,c67009afdbba00103dbef35eae96193e,827009afdbba00103dbef35eae96193f,4e7009afdbba00103dbef35eae96193f,0a7009afdbba00103dbef35eae961940,c27009afdbba00103dbef35eae961941,8e7009afdbba00103dbef35eae961941,4a7009afdbba00103dbef35eae961942,067009afdbba00103dbef35eae961943,ce7009afdbba00103dbef35eae961943,427009afdbba00103dbef35eae961951,0e7009afdbba00103dbef35eae961951,c67009afdbba00103dbef35eae961952,827009afdbba00103dbef35eae961953,4e7009afdbba00103dbef35eae961953,0a7009afdbba00103dbef35eae961954,c27009afdbba00103dbef35eae961955,8e7009afdbba00103dbef35eae961955,4a7009afdbba00103dbef35eae961956,067009afdbba00103dbef35eae961957"/>
     <sys_choice field="machines" table="var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -12167,63 +11994,6 @@ var gcc = new GoogleCloudComputeUtils();
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-02-12 05:31:32</sys_updated_on>
             <value>us-west2-c</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>65</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e99eee9db9b00103dbef35eae9619b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>66</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e99eee9db9b00103dbef35eae9619b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>67</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c699eee9db9b00103dbef35eae9619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-c</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7970c5afdbba00103dbef35eae9619ef^sys_idNOT IN5a0d3269dbdb00103dbef35eae9619a9,727049afdbba00103dbef35eae96191d,d60d3269dbdb00103dbef35eae9619a4"/>

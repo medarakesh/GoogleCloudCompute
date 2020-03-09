@@ -1235,63 +1235,6 @@
             <sys_updated_on>2020-02-12 05:31:32</sys_updated_on>
             <value>us-west2-c</value>
         </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-A</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>65</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e99eee9db9b00103dbef35eae9619b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-a</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-B</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>66</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0e99eee9db9b00103dbef35eae9619b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-b</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>zone</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>US-WEST3-C</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>
-            <sequence>67</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:34:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c699eee9db9b00103dbef35eae9619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:34:23</sys_updated_on>
-            <value>us-west3-c</value>
-        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>zone</element>
             <name>var__m_sys_hub_action_input_7970c5afdbba00103dbef35eae9619ef</name>

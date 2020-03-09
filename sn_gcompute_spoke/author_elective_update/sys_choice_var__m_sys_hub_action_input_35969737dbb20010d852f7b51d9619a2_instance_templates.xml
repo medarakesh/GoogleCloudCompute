@@ -24,19 +24,38 @@
             <element>instance_templates</element>
             <hint/>
             <inactive>false</inactive>
-            <label>INSTANCE-TEMPLATE3</label>
+            <label>ATREHDGFNKLFDB</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_35969737dbb20010d852f7b51d9619a2</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-02 04:57:28</sys_created_on>
+            <sys_created_on>2020-03-09 06:20:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>94ee6eeddb9b00103dbef35eae9619dc</sys_id>
+            <sys_id>dc15cf3bdb1300103dbef35eae961906</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-02 04:57:28</sys_updated_on>
-            <value>instance-template3</value>
+            <sys_updated_on>2020-03-09 06:20:44</sys_updated_on>
+            <value>atrehdgfnklfdb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instance_templates</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INSTANCETEMPLATE</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_35969737dbb20010d852f7b51d9619a2</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-09 06:20:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9815cf3bdb1300103dbef35eae961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-09 06:20:44</sys_updated_on>
+            <value>instancetemplate</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>instance_templates</element>
