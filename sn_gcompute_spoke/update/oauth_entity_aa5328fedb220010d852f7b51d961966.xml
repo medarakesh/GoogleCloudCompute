@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
-    <oauth_entity action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <access_token_lifespan>1800</access_token_lifespan>
-        <active>true</active>
-        <auth_code_lifespan>0</auth_code_lifespan>
-        <auth_url>https://accounts.google.com/o/oauth2/v2/auth</auth_url>
-        <certificate_url/>
-        <client_id>494307389524-229htloh40u2bel9cer15d4m44802af2.apps.googleusercontent.com</client_id>
-        <client_secret>VfJ/YyUgbkP9lwHcbymLSrtxbKJmgbDNezGkmvhMoxg=</client_secret>
-        <client_uuid>e65328fedb220010d852f7b51d961966</client_uuid>
-        <code_challenge_method>S256</code_challenge_method>
-        <comments/>
-        <default_grant_type>authorization_code</default_grant_type>
-        <id_token_lifespan>0</id_token_lifespan>
-        <logo_url/>
-        <message_signature_lifespan>0</message_signature_lifespan>
-        <name>Google Compute</name>
-        <oauth_api_script display_value="OAuthGoogleComputeUtil">0a4174b6db620010d852f7b51d9619a6</oauth_api_script>
-        <protocol_name/>
-        <public_client>false</public_client>
-        <redirect_url>https://empmrakesh.service-now.com/oauth_redirect.do</redirect_url>
-        <refresh_token_lifespan>8640000</refresh_token_lifespan>
-        <refresh_token_url/>
-        <revoke_token_url/>
-        <salt>0</salt>
-        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
-        <skip_authorize>false</skip_authorize>
-        <sys_class_name>oauth_entity</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-01-28 09:28:09</sys_created_on>
-        <sys_id>aa5328fedb220010d852f7b51d961966</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Google Compute</sys_name>
-        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>oauth_entity_aa5328fedb220010d852f7b51d961966</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-04 06:13:06</sys_updated_on>
-        <token_url>https://oauth2.googleapis.com/token</token_url>
-        <type>oauth_provider</type>
-        <use_mutual_auth>false</use_mutual_auth>
-        <user/>
-    </oauth_entity>
+  <oauth_entity action="INSERT_OR_UPDATE">
+    <access>public</access>
+    <access_token_lifespan>1800</access_token_lifespan>
+    <active>true</active>
+    <auth_code_lifespan>0</auth_code_lifespan>
+    <auth_url>https://accounts.google.com/o/oauth2/v2/auth</auth_url>
+    <certificate_url/>
+    <client_id>Your Client ID</client_id>
+    <client_secret>V84oe518Rbl2JZvpr5i2Tg==</client_secret>
+    <client_uuid>e65328fedb220010d852f7b51d961966</client_uuid>
+    <code_challenge_method>S256</code_challenge_method>
+    <comments/>
+    <default_grant_type>authorization_code</default_grant_type>
+    <id_token_lifespan>0</id_token_lifespan>
+    <logo_url/>
+    <message_signature_lifespan>0</message_signature_lifespan>
+    <name>Google Compute Engine</name>
+    <oauth_api_script display_value="OAuthGoogleComputeUtil">0a4174b6db620010d852f7b51d9619a6</oauth_api_script>
+    <protocol_name/>
+    <public_client>false</public_client>
+    <redirect_url/>
+    <refresh_token_lifespan>8640000</refresh_token_lifespan>
+    <refresh_token_url/>
+    <revoke_token_url/>
+    <salt>0</salt>
+    <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+    <skip_authorize>false</skip_authorize>
+    <sys_class_name>oauth_entity</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2020-01-28 09:28:09</sys_created_on>
+    <sys_id>aa5328fedb220010d852f7b51d961966</sys_id>
+    <sys_mod_count>5</sys_mod_count>
+    <sys_name>Google Compute Engine</sys_name>
+    <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+    <sys_policy/>
+    <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+    <sys_update_name>oauth_entity_aa5328fedb220010d852f7b51d961966</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2020-03-12 14:55:56</sys_updated_on>
+    <token_url>https://oauth2.googleapis.com/token</token_url>
+    <type>oauth_provider</type>
+    <use_mutual_auth>false</use_mutual_auth>
+    <user/>
+  </oauth_entity>
 </record_update>
