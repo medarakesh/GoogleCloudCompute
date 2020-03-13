@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
-    <sys_script_include action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <active>true</active>
-        <api_name>sn_gcompute_spoke.GCComputeErrorHandler</api_name>
-        <caller_access/>
-        <client_callable>false</client_callable>
-        <description/>
-        <name>GCComputeErrorHandler</name>
-        <script><![CDATA[var GCComputeErrorHandler = Class.create();
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <access>public</access>
+    <active>true</active>
+    <api_name>sn_gcompute_spoke.GCComputeErrorHandler</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description/>
+    <name>GCComputeErrorHandler</name>
+    <script><![CDATA[var GCComputeErrorHandler = Class.create();
 GCComputeErrorHandler.prototype = {
     initialize: function() {},
     getGenericError: function(key) {
@@ -32,8 +32,12 @@ GCComputeErrorHandler.prototype = {
         var errorMessage = errorResponse.error.message;
         var statusCode = errorResponse.error.code;
 
-        if (statusCode == 400 && errorMessage.indexOf("resource.properties.disks") != -1 && errorMessage.indexOf("Boot disk must be specified") != -1)
+        if (statusCode == 400 && errorMessage.indexOf("resource.properties.disks") != -1 && errorMessage.indexOf("Boot disk must") != -1)
             outputs.errormessage = "Atleast one boot disk must be specified.";
+        else if (statusCode == 409 && errorMessage.indexOf("global/instanceTemplates") != -1 && errorMessage.indexOf("already exists") != -1)
+            outputs.errormessage = "Instance template is already exist.";
+        else if (statusCode == 400 && errorMessage.indexOf("resource.properties.disks") != -1 && errorMessage.indexOf('Disk cannot be smaller than the chosen image') != -1)
+            outputs.errormessage = "Disk cannot be smaller than the chosen image size.";
         else if (statusCode == 400 && errorMessage.indexOf("resource.properties.disks") != -1)
             outputs.errormessage = "Invalid disk values has been passed.";
         else if (statusCode == 400 && errorMessage.indexOf("resource.properties.networkInterfaces") != -1)
@@ -51,17 +55,19 @@ GCComputeErrorHandler.prototype = {
         var statusCode = errorResponse.error.code;
         if (statusCode == 400 && errorMessage.indexOf("resource.disks") != -1 && errorMessage.indexOf('No disks are specified') != -1)
             outputs.errormessage = "At least one disk should be specified.";
-		else if (statusCode == 400 && errorMessage.indexOf("/disks") != -1 && errorMessage.indexOf('is already being used by') != -1)
+        else if (statusCode == 400 && errorMessage.indexOf("/disks") != -1 && errorMessage.indexOf('is already being used by') != -1)
             outputs.errormessage = "Attached disk is already being used by another instance.";
         else if (statusCode == 400 && errorMessage.indexOf("resource.disks") != -1 && errorMessage.indexOf("Boot disk must be the first disk attached to the instance") != -1)
             outputs.errormessage = "At least one boot disk must be attached.";
+        else if (statusCode == 409 && errorMessage.indexOf("/instances") != -1 && errorMessage.indexOf("already exists") != -1)
+            outputs.errormessage = "Instance is already exist.";
         else if (statusCode == 400 && errorMessage.indexOf("The referenced disk resource cannot be found") != -1)
             outputs.errormessage = "Attached disk is not found.";
         else if (statusCode == 400 && errorMessage.indexOf("resource.networkInterfaces") != -1)
             outputs.errormessage = "Invalid network interface values has been passed.";
         else if (statusCode == 404 && errorMessage.indexOf("global/instanceTemplates") != -1)
             outputs.errormessage = "Invalid instance template has been passed.";
-		else if (statusCode == 404 && errorMessage.indexOf("/instances") != -1 && errorMessage.indexOf("was not found") != -1)
+        else if (statusCode == 404 && errorMessage.indexOf("/instances") != -1 && errorMessage.indexOf("was not found") != -1)
             outputs.errormessage = "Invalid instance has been passed.";
         else if (!outputs.errormessage)
             outputs.errormessage = errorResponse.error.message;
@@ -71,17 +77,17 @@ GCComputeErrorHandler.prototype = {
 
     type: 'GCComputeErrorHandler'
 };]]></script>
-        <sys_class_name>sys_script_include</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-04 06:57:21</sys_created_on>
-        <sys_id>93370409db7200103dbef35eae9619b6</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>GCComputeErrorHandler</sys_name>
-        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-        <sys_policy>read</sys_policy>
-        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_update_name>sys_script_include_93370409db7200103dbef35eae9619b6</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 07:39:45</sys_updated_on>
-    </sys_script_include>
+    <sys_class_name>sys_script_include</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2020-02-04 06:57:21</sys_created_on>
+    <sys_id>93370409db7200103dbef35eae9619b6</sys_id>
+    <sys_mod_count>25</sys_mod_count>
+    <sys_name>GCComputeErrorHandler</sys_name>
+    <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+    <sys_policy>read</sys_policy>
+    <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+    <sys_update_name>sys_script_include_93370409db7200103dbef35eae9619b6</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2020-03-13 11:57:54</sys_updated_on>
+  </sys_script_include>
 </record_update>

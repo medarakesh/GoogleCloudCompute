@@ -20,7 +20,7 @@
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;VM Instances&lt;/b&gt;- JSON  object contains vm instances  Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1160,7 +1160,7 @@
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;b&gt;VM Instances&lt;/b&gt;- JSON  object contains vm instances  Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Teams, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
