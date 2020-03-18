@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
-  <sys_script_include action="INSERT_OR_UPDATE">
-    <access>public</access>
-    <active>true</active>
-    <api_name>sn_gcompute_spoke.GCComputeErrorHandler</api_name>
-    <caller_access/>
-    <client_callable>false</client_callable>
-    <description/>
-    <name>GCComputeErrorHandler</name>
-    <script><![CDATA[var GCComputeErrorHandler = Class.create();
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>sn_gcompute_spoke.GCComputeErrorHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GCComputeErrorHandler</name>
+        <script><![CDATA[var GCComputeErrorHandler = Class.create();
 GCComputeErrorHandler.prototype = {
     initialize: function() {},
     getGenericError: function(key) {
@@ -44,6 +44,12 @@ GCComputeErrorHandler.prototype = {
             outputs.errormessage = "Invalid network interface values has been passed.";
         else if (statusCode == 404 && errorMessage.indexOf("global/instanceTemplates") != -1)
             outputs.errormessage = "Invalid instance template has been passed.";
+		else if (statusCode == 404 && errorMessage.indexOf("/subnetworks") != -1 && errorMessage.indexOf("was not found") != -1)
+            outputs.errormessage = "Invalid subnetwork has been passed.";
+		else if (errorMessage.indexOf('The URL is malformed') != -1  && errorMessage.indexOf('customImage') != -1)
+			outputs.errormessage = "Invalid image url has been passed.";
+		else if (errorMessage.indexOf('Device name specified in disk instantiation config not found') != -1  && errorMessage.indexOf('deviceName') != -1)
+			outputs.errormessage = "Device name specified in disk instantiation config not found in requested source instance.";
         else if (!outputs.errormessage)
             outputs.errormessage = errorResponse.error.message;
         return outputs.errormessage;
@@ -77,17 +83,17 @@ GCComputeErrorHandler.prototype = {
 
     type: 'GCComputeErrorHandler'
 };]]></script>
-    <sys_class_name>sys_script_include</sys_class_name>
-    <sys_created_by>admin</sys_created_by>
-    <sys_created_on>2020-02-04 06:57:21</sys_created_on>
-    <sys_id>93370409db7200103dbef35eae9619b6</sys_id>
-    <sys_mod_count>25</sys_mod_count>
-    <sys_name>GCComputeErrorHandler</sys_name>
-    <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-    <sys_policy>read</sys_policy>
-    <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-    <sys_update_name>sys_script_include_93370409db7200103dbef35eae9619b6</sys_update_name>
-    <sys_updated_by>admin</sys_updated_by>
-    <sys_updated_on>2020-03-13 11:57:54</sys_updated_on>
-  </sys_script_include>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 06:57:21</sys_created_on>
+        <sys_id>93370409db7200103dbef35eae9619b6</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>GCComputeErrorHandler</sys_name>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_script_include_93370409db7200103dbef35eae9619b6</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:23:18</sys_updated_on>
+    </sys_script_include>
 </record_update>

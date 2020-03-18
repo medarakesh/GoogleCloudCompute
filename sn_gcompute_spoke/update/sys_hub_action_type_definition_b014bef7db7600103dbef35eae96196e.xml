@@ -18,8 +18,8 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Instance Templates&lt;/b&gt;- JSON  object contains instance templates Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Instance Templates&lt;/b&gt; - JSON  object contains instance templates Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -37,7 +37,7 @@
         <ih_action>false</ih_action>
         <internal_name>fetch__instance_templates</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.zone}}","label":"action➛Zone","type":"action","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].instances}}","label":"step➛List Instance Templates➛Instances","type":"step","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].variable1}}","label":"step➛List Instance Templates➛variable1","type":"step","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].variable}}","label":"step➛List Instance Templates➛variable","type":"step","ref":""},{"name":"{{step[bc6a27d3-4cd1-4a4d-a2c3-13e197e596f2].instancetemplates}}","label":"step➛List Instance Templates➛InstanceTemplates","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>f4cc7a7bdb530010d852f7b51d961940</latest_snapshot>
+        <latest_snapshot>a8a7993e1b2b80501f8cb844cc4bcbf1</latest_snapshot>
         <master_snapshot>47f5fe3bdb7600103dbef35eae9619e4</master_snapshot>
         <name>List  Instance Templates</name>
         <natlang/>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b014bef7db7600103dbef35eae96196e</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>List  Instance Templates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b014bef7db7600103dbef35eae96196e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -94,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:35:07</sys_created_on>
         <sys_id>cd14bef7db7600103dbef35eae96197f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd14bef7db7600103dbef35eae96197f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -108,11 +108,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:35:07</sys_created_on>
         <sys_id>4114bef7db7600103dbef35eae9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:04:22</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -314,7 +314,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>InstanceTemplates</label>
+        <label>instancetemplates</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="List Instance Templates">cd14bef7db7600103dbef35eae96197f</model>
@@ -340,14 +340,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:05</sys_created_on>
         <sys_id>ade5be3bdb7600103dbef35eae96194a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -542,10 +542,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:35:07</sys_created_on>
         <sys_id>cd14bef7db7600103dbef35eae96197f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd14bef7db7600103dbef35eae96197f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -556,11 +556,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:35:07</sys_created_on>
         <sys_id>4114bef7db7600103dbef35eae9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:04:22</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -762,7 +762,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>InstanceTemplates</label>
+        <label>instancetemplates</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="List Instance Templates">cd14bef7db7600103dbef35eae96197f</model>
@@ -788,14 +788,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:05</sys_created_on>
         <sys_id>ade5be3bdb7600103dbef35eae96194a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:43</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -859,17 +859,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="List  Instance Templates">b014bef7db7600103dbef35eae96196e</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e3f5327bdb7600103dbef35eae96196b","name":"plan"}}</plan>
-        <snapshot>f4cc7a7bdb530010d852f7b51d961940</snapshot>
+        <snapshot>a8a7993e1b2b80501f8cb844cc4bcbf1</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3f5327bdb7600103dbef35eae96196b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 05:44:29</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:25</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -889,8 +889,8 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Instance Templates&lt;/b&gt;- JSON  object contains instance templates Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Instance Templates&lt;/b&gt; - JSON  object contains instance templates Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -919,15 +919,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>47f5fe3bdb7600103dbef35eae9619e4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 05:44:28</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -963,10 +963,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:27</sys_created_on>
         <sys_id>0bf5fe3bdb7600103dbef35eae9619ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 11:05:16</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0bf5fe3bdb7600103dbef35eae9619ec"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -977,11 +977,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:28</sys_created_on>
         <sys_id>9ff5327bdb7600103dbef35eae96190a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:04:31</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -1171,7 +1171,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>InstanceTemplates</label>
+        <label>instancetemplates</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="List Instance Templates">0bf5fe3bdb7600103dbef35eae9619ec</model>
@@ -1197,14 +1197,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:27</sys_created_on>
         <sys_id>93f5327bdb7600103dbef35eae961902</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:43:27</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1399,10 +1399,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:27</sys_created_on>
         <sys_id>0bf5fe3bdb7600103dbef35eae9619ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-06 11:05:16</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0bf5fe3bdb7600103dbef35eae9619ec"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1413,11 +1413,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:28</sys_created_on>
         <sys_id>9ff5327bdb7600103dbef35eae96190a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:04:31</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-  var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
+    var stream = sn_fd.FlowAPI.executeDataStreamAction('sn_gcompute_spoke.list_instance_templates', {
         "project_id": inputs.projectid
     });
     var obj = []
@@ -1607,7 +1607,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>InstanceTemplates</label>
+        <label>instancetemplates</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="List Instance Templates">0bf5fe3bdb7600103dbef35eae9619ec</model>
@@ -1633,14 +1633,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-13 08:43:27</sys_created_on>
         <sys_id>93f5327bdb7600103dbef35eae961902</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-13 08:43:27</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 06:04:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

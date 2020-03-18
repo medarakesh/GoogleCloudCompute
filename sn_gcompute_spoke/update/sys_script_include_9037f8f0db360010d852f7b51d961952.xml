@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
-  <sys_script_include action="INSERT_OR_UPDATE">
-    <access>public</access>
-    <active>true</active>
-    <api_name>sn_gcompute_spoke.GoogleCloudComputeUtils</api_name>
-    <caller_access/>
-    <client_callable>false</client_callable>
-    <description/>
-    <name>GoogleCloudComputeUtils</name>
-    <script><![CDATA[var GoogleCloudComputeUtils = Class.create();
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>sn_gcompute_spoke.GoogleCloudComputeUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GoogleCloudComputeUtils</name>
+        <script><![CDATA[var GoogleCloudComputeUtils = Class.create();
 GoogleCloudComputeUtils.prototype = {
     initialize: function() {},
     validateInputVariables: function(inputs, outputs) {
@@ -51,21 +51,26 @@ GoogleCloudComputeUtils.prototype = {
         if (prop.disks.length > 0) {
             var disks = [];
             prop.disks.forEach(function(disk) {
-                var sourceImageOrSnapshot = {};
-                if (disk['sourceImage'].trim())
-                    sourceImageOrSnapshot['sourceImage'] = "global/images/" + disk['sourceImage'].trim();
-                if (disk['sourceSnapshot'].trim())
-                    sourceImageOrSnapshot['sourceSnapshot'] = "global/snapshots/" + disk['sourceSnapshot'].trim();
+                var diskObj = {
+                    "boot": disk['boot'],
+                    "autoDelete": disk['autoDelete'],
+                    "initializeParams": {},
+                };
+                if (disk['sourceImage'].trim() && disk['sourceImage'].indexOf('global/images/') != -1)
+                    diskObj["initializeParams"]['sourceImage'] = disk['sourceImage'].trim();
+                else if (disk['sourceImage'].trim())
+                    diskObj["initializeParams"]['sourceImage'] = "global/images/" + disk['sourceImage'].trim();
+                if (disk['sourceSnapshot'].trim() && disk['sourceSnapshot'].indexOf("global/snapshots") != -1)
+                    diskObj["initializeParams"]['sourceSnapshot'] = disk['sourceSnapshot'].trim();
+                else if (disk['sourceSnapshot'].trim())
+                    diskObj["initializeParams"]['sourceSnapshot'] = "global/snapshots/" + disk['sourceSnapshot'].trim();
+                if (disk['diskSizeGb'].trim())
+                    diskObj["diskSizeGb"] = disk['diskSizeGb'];
                 if (disk['sourceImage'].trim() || disk['sourceSnapshot'].trim())
-                    disks.push({
-                        "boot": disk['boot'],
-                        "initializeParams": sourceImageOrSnapshot,
-                        "diskSizeGb": disk['diskSizeGb']
-
-                    });
+                    disks.push(diskObj);
             });
-            if (disks.length < 0)
-                throw new Error("Atleast one Source image or snapshot to be attached in Initialize Params");
+            if (disks.length < 1)
+                throw new Error("Atleast one source image or snapshot to be attached in disks");
 
             requestBody.properties.disks = disks;
         }
@@ -73,12 +78,36 @@ GoogleCloudComputeUtils.prototype = {
             var networkInterfaces = [];
             prop.networkInterfaces.forEach(function(networkinteface) {
                 var networkObject = {
-                    "network": 'projects/' + inputs.projectid + '/global/networks/' + networkinteface['network']
+                    "accessConfigs": []
                 };
-                if (networkinteface['subnetwork'])
+                if (networkinteface['network'].trim() && networkinteface['network'].indexOf("global/networks") != -1)
+                    networkObject['network'] = networkinteface['network'].trim();
+                else
+                    networkObject['network'] = 'projects/' + inputs.projectid + '/global/networks/' + networkinteface['network'].trim();
+                if (networkinteface['subnetwork'].trim())
                     networkObject['subnetwork'] = networkinteface['subnetwork'];
+                if (networkinteface['NetworkIP'].trim())
+                    networkObject['networkIP'] = networkinteface['NetworkIP'].trim();
+                if (networkinteface['accessconfigs']) {
+                    networkinteface['accessconfigs'].forEach(function(accessconfig) {
+                        var accessConfiguration = {
+                            "name": "External NAT",
+                            "networkTier": "STANDARD",
+                            "type": "ONE_TO_ONE_NAT"
+                        };
+                        if (accessconfig.name.trim())
+                            accessConfiguration['name'] = accessconfig['name'];
+                        if (accessconfig.NetworkTier.trim())
+                            accessConfiguration['networkTier'] = accessconfig['NetworkTier'];
+                        if (accessconfig.NatIP.trim())
+                            accessConfiguration['natIP'] = accessconfig['NatIP'];
+                        if (accessConfiguration['networkTier'] || accessconfig.name.trim() || accessconfig.NatIP.trim())
+                            networkObject["accessConfigs"].push(accessConfiguration);
+                    });
+                }
                 if (networkinteface['network'].trim())
                     networkInterfaces.push(networkObject);
+
             });
             if (networkInterfaces.length < 1) {
                 networkInterfaces.push({
@@ -88,6 +117,12 @@ GoogleCloudComputeUtils.prototype = {
 
             requestBody.properties.networkInterfaces = networkInterfaces;
         }
+        requestBody.properties.scheduling = {
+            "onHostMaintenance": prop.Scheduling.onHostMaintenance,
+            "automaticRestart": prop.Scheduling.automaticRestart || false,
+            "preemptible": prop.Scheduling.preemptible || false,
+        };
+
         if (prop.labels.length > 0) {
             var labels = {};
             prop.labels.forEach(function(label) {
@@ -123,17 +158,31 @@ GoogleCloudComputeUtils.prototype = {
             var source = "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/disks/";
             var disks = [];
             inputs.disks.forEach(function(disk) {
-                if (disk['name'].trim())
-                    disks.push({
-                        "deviceName": disk['name'].toLowerCase(),
-                        "source": source + disk['name'].toLowerCase(),
-                        "boot": disk['boot'],
-                        "autoDelete": disk['autoDelete'],
-                        "diskSizeGb": disk['diskSizeGb']
-                    });
+                var diskObj = {
+                    "boot": disk['boot'],
+                    "autoDelete": disk['autoDelete'],
+                    "initializeParams": {},
+                };
+                if (disk['sourceImage'].trim() && disk['sourceImage'].indexOf('global/images') != -1)
+                    diskObj["initializeParams"]['sourceImage'] = disk['sourceImage'].trim();
+                else if (disk['sourceImage'].trim())
+                    diskObj["initializeParams"]['sourceImage'] = "global/images/" + disk['sourceImage'].trim();
+                if (disk['sourceSnapshot'].trim() && disk['sourceSnapshot'].indexOf("global/snapshots") != -1)
+                    diskObj["initializeParams"]['sourceSnapshot'] = disk['sourceSnapshot'].trim();
+                else if (disk['sourceSnapshot'].trim())
+                    diskObj["initializeParams"]['sourceSnapshot'] = "global/snapshots/" + disk['sourceSnapshot'].trim();
+                if (disk['diskSizeGb'].trim())
+                    diskObj["diskSizeGb"] = disk['diskSizeGb'];
+                if (!disk['sourceImage'].trim() && !disk['sourceSnapshot'].trim() && !inputs.instancetemplate)
+                    throw new Error("Atleast one source image or snapshot  to be attached in disks");
+                if (disk['sourceImage'].trim() && disk['sourceSnapshot'].trim())
+                    throw new Error("Should not pass both image and snapshot sametime");
+                if (disk['sourceImage'].trim() || disk['sourceSnapshot'].trim())
+                    disks.push(diskObj);
+
             });
             if (disks.length < 0 && !inputs.instancetemplate)
-                throw new Error("Atleast one disk to be attached");
+                throw new Error("Atleast one source image or snapshot to be attached");
             if (disks.length > 0)
                 requestBody.disks = disks;
         }
@@ -144,16 +193,46 @@ GoogleCloudComputeUtils.prototype = {
             inputs.networkintefaces.forEach(function(networkinteface) {
                 var networkObject = {
                     "network": 'projects/' + inputs.projectid + '/global/networks/' + networkinteface['network'],
+                    "accessConfigs": []
                 };
-                if (networkinteface['subnetwork'].trim())
+                if (networkinteface['network'].trim() && networkinteface['network'].indexOf("global/networks") != -1)
+                    networkObject['network'] = networkinteface['network'].trim();
+                else
+                    networkObject['network'] = 'projects/' + inputs.projectid + '/global/networks/' + networkinteface['network'].trim();
+                if (networkinteface['subnetwork'].trim() && networkinteface['subnetwork'].indexOf("/subnetworks") != -1)
+                    networkObject['subnetwork'] = networkinteface['subnetwork'].trim();
+                else if (networkinteface['subnetwork'].trim())
                     networkObject['subnetwork'] = "regions/" + regionFromZone + "/subnetworks/" + networkinteface['subnetwork'];
+                if (networkinteface['networkip'].trim())
+                    networkObject['networkIP'] = networkinteface['networkip'].trim();
+                if (networkinteface['accessconfigs']) {
+                    networkinteface['accessconfigs'].forEach(function(accessconfig) {
+                        var accessConfiguration = {
+                            "name": "External NAT",
+                            "networkTier": "STANDARD",
+                            "type": "ONE_TO_ONE_NAT"
+                        };
+                        if (accessconfig.name.trim())
+                            accessConfiguration['name'] = accessconfig['name'];
+                        if (accessconfig.networkTier.trim())
+                            accessConfiguration['networkTier'] = accessconfig['networkTier'];
+                        if (accessconfig.natIP.trim())
+                            accessConfiguration['natIP'] = accessconfig['natIP'];
+                        if (accessconfig.name.trim() || accessconfig.networkTier.trim() || accessconfig.natIP.trim())
+                            networkObject["accessConfigs"].push(accessConfiguration);
+                    });
+                }
                 if (networkinteface['network'].trim())
                     networkInterfaces.push(networkObject);
             });
-            if (networkInterfaces.length < 0 && !inputs.instancetemplate)
-                throw new Error("Atleast one network interface to be attached");
-			if(networkInterfaces.length > 0)
-            requestBody.networkInterfaces = networkInterfaces;
+            if (networkInterfaces.length < 1 && !inputs.instancetemplate)
+                networkInterfaces.push({
+                    "network": 'projects/' + inputs.projectid + '/global/networks/default'
+
+                });
+
+            if (networkInterfaces.length > 0)
+                requestBody.networkInterfaces = networkInterfaces;
         }
         if (inputs.labels.length > 0) {
             var labels = {};
@@ -174,23 +253,73 @@ GoogleCloudComputeUtils.prototype = {
                     "items": tags
                 };
         }
+        var scheduling = {};
+        if (inputs.scheduling.onHostMaintenance.trim())
+            scheduling['onHostMaintenance'] = inputs["scheduling"]["onHostMaintenance"];
+        if (inputs.scheduling.automaticRestart.trim())
+            scheduling['automaticRestart'] = inputs["scheduling"]["automaticRestart"];
+        if (inputs.scheduling.preemptible.trim())
+            scheduling['preemptible'] = inputs["scheduling"]["preemptible"];
+        if (scheduling['onHostMaintenance'] || scheduling['automaticRestart'] || scheduling['preemptible'])
+            requestBody.scheduling = scheduling;
         return outputs.requestbody = JSON.stringify(requestBody);
+
+    },
+    createInstanceTemplateFromInstance: function(inputs, outputs) {
+
+        var requestBody = {
+            "name": inputs.name,
+            "sourceInstance": "projects/" + inputs.projectid + "/zones/" + inputs.zone + "/instances/" + inputs.instance,
+            "sourceInstanceParams": {
+                "diskConfigs": []
+            },
+            "description": inputs.description
+        };
+        if (inputs['diskConfigs'].length > 0) {
+            inputs['diskConfigs'].forEach(function(diskConfig) {
+                var diskConfigurations = {
+
+
+                };
+                if (diskConfig["deviceName"].trim())
+                    diskConfigurations['deviceName'] = diskConfig["deviceName"];
+                if (diskConfig["autoDelete"].trim())
+                    diskConfigurations['autoDelete'] = diskConfig["autoDelete"];
+                if (diskConfig["customImage"].trim())
+                    diskConfigurations['customImage'] = diskConfig["customImage"];
+                if (diskConfig["instantiateFrom"].trim())
+                    diskConfigurations['instantiateFrom'] = diskConfig["instantiateFrom"];
+
+                if (diskConfigurations['instantiateFrom'] && !diskConfigurations['customImage'])
+                    throw new Error("Image should not be empty while selecting instantiate from.");
+
+                if (diskConfigurations['deviceName'] || diskConfigurations['autoDelete'] || diskConfigurations['customImage'] || diskConfigurations['instantiateFrom'])
+
+                    requestBody["sourceInstanceParams"]["diskConfigs"].push(diskConfigurations);
+
+            });
+
+
+        }
+
+        outputs.requestbody = JSON.stringify(requestBody);
+        return outputs.requestbody;
 
     },
 
     type: 'GoogleCloudComputeUtils'
 };]]></script>
-    <sys_class_name>sys_script_include</sys_class_name>
-    <sys_created_by>admin</sys_created_by>
-    <sys_created_on>2020-02-03 15:48:04</sys_created_on>
-    <sys_id>9037f8f0db360010d852f7b51d961952</sys_id>
-    <sys_mod_count>49</sys_mod_count>
-    <sys_name>GoogleCloudComputeUtils</sys_name>
-    <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
-    <sys_policy>read</sys_policy>
-    <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-    <sys_update_name>sys_script_include_9037f8f0db360010d852f7b51d961952</sys_update_name>
-    <sys_updated_by>admin</sys_updated_by>
-    <sys_updated_on>2020-03-13 12:12:10</sys_updated_on>
-  </sys_script_include>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-03 15:48:04</sys_created_on>
+        <sys_id>9037f8f0db360010d852f7b51d961952</sys_id>
+        <sys_mod_count>95</sys_mod_count>
+        <sys_name>GoogleCloudComputeUtils</sys_name>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_script_include_9037f8f0db360010d852f7b51d961952</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 10:38:57</sys_updated_on>
+    </sys_script_include>
 </record_update>

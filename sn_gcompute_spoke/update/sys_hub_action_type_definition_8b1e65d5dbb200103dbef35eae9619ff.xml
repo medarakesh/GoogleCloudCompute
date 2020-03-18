@@ -18,8 +18,8 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Regions&lt;/b&gt;- JSON  object contains regions  Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Regions&lt;/b&gt; - JSON  object contains regions  Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -37,7 +37,7 @@
         <ih_action>true</ih_action>
         <internal_name>fetch_regions</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].variable}}","label":"step➛Fetch Regions➛variable","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].data}}","label":"step➛Fetch Regions➛Data","type":"step","ref":""},{"name":"{{step[4818edb3-a590-47ee-9f4f-c0e4745290a7].regions}}","label":"step➛Fetch Regions➛Regions","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].response_body}}","label":"List Regionsstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].variable1}}","label":"Post Processingstep➛➛variable1","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].region}}","label":"Post Processingstep➛➛Region","type":"step","ref":""},{"name":"{{step[026674bb-7a51-4ac9-aa38-3751ce9619c3].regions}}","label":"Post Processingstep➛➛Regions","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].variable}}","label":"Post Processingstep➛➛variable","type":"step","ref":""},{"name":"{{step[71a1a9de-0a3a-4ca5-8cd0-5ca23ea130a1].projectid}}","label":"Post Processingstep➛➛projectid","type":"step","ref":""},{"name":"{{step[e21c5885-8dc2-46f6-8ff2-a9f6a41b7106].api_version}}","label":"step➛List Regions➛API Version","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>621e7abbdb530010d852f7b51d9619ba</latest_snapshot>
+        <latest_snapshot>e34551ba1b2b80501f8cb844cc4bcb8b</latest_snapshot>
         <master_snapshot>d5413959dbb200103dbef35eae9619c5</master_snapshot>
         <name>List Regions</name>
         <natlang/>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b1e65d5dbb200103dbef35eae9619ff</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>List Regions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8b1e65d5dbb200103dbef35eae9619ff</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 08:50:37</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -715,10 +715,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>994f3d51dbf200103dbef35eae961983</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=994f3d51dbf200103dbef35eae961983"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -743,9 +743,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>d14f3d51dbf200103dbef35eae961995</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:03</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -755,7 +755,6 @@
             'label': region.name.toUpperCase(),
             'name': region.name
         });
-
     })
     outputs.regions = {
         data: listRegions
@@ -1768,10 +1767,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>994f3d51dbf200103dbef35eae961983</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=994f3d51dbf200103dbef35eae961983"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1796,9 +1795,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:34</sys_created_on>
         <sys_id>d14f3d51dbf200103dbef35eae961995</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:47:56</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:03</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -1808,7 +1807,6 @@
             'label': region.name.toUpperCase(),
             'name': region.name
         });
-
     })
     outputs.regions = {
         data: listRegions
@@ -2069,17 +2067,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="List Regions">8b1e65d5dbb200103dbef35eae9619ff</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b5417959dbb200103dbef35eae961925","name":"plan"}}</plan>
-        <snapshot>621e7abbdb530010d852f7b51d9619ba</snapshot>
+        <snapshot>e34551ba1b2b80501f8cb844cc4bcb8b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 09:18:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5417959dbb200103dbef35eae961925</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 05:50:23</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:17</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2099,8 +2097,8 @@
 &lt;br/&gt;
 &lt;p&gt;&lt;b&gt;Outputs:&lt;/p&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Regions&lt;/b&gt;- JSON  object contains regions  Label and Name.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; -If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Regions&lt;/b&gt; - JSON  object contains regions  Label and Name.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Google Compute Engine, Status is set to “Error".&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -2129,15 +2127,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d5413959dbb200103dbef35eae9619c5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-09 05:50:20</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2794,10 +2792,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>f34fbd51dbf200103dbef35eae961912</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f34fbd51dbf200103dbef35eae961912"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2808,9 +2806,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>b34fbd51dbf200103dbef35eae961924</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:15</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -2820,7 +2818,6 @@
             'label': region.name.toUpperCase(),
             'name': region.name
         });
-
     })
     outputs.regions = {
         data: listRegions
@@ -3847,10 +3844,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>f34fbd51dbf200103dbef35eae961912</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f34fbd51dbf200103dbef35eae961912"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3861,9 +3858,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-05 10:19:44</sys_created_on>
         <sys_id>b34fbd51dbf200103dbef35eae961924</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:48:12</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 05:54:15</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var responseBody = JSON.parse(inputs.responseBody);
     var regions = responseBody.items;
@@ -3873,7 +3870,6 @@
             'label': region.name.toUpperCase(),
             'name': region.name
         });
-
     })
     outputs.regions = {
         data: listRegions

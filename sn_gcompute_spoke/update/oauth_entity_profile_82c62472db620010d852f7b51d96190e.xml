@@ -4,7 +4,7 @@
         <grant_type>authorization_code</grant_type>
         <jwt_provider/>
         <name>Google Compute default_profile</name>
-        <oauth_entity display_value="Google Compute">aa5328fedb220010d852f7b51d961966</oauth_entity>
+        <oauth_entity display_value="Google Compute Engine">aa5328fedb220010d852f7b51d961966</oauth_entity>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-28 09:28:09</sys_created_on>

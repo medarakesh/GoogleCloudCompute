@@ -24,38 +24,57 @@
             <element>instancetemplate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>ATREHDGFNKLFDB</label>
+            <label>TEMPLATE-FROM-INSTANCE</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_17c30eafdbb200103dbef35eae961910</name>
             <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-09 07:35:29</sys_created_on>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 08:29:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d3261b37db5300103dbef35eae961958</sys_id>
+            <sys_id>c9d875f6dbe344101c7b50d3e2961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-09 07:35:29</sys_updated_on>
-            <value>atrehdgfnklfdb</value>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 08:29:25</sys_updated_on>
+            <value>template-from-instance</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>instancetemplate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>INSTANCETEMPLATE</label>
+            <label>TEST-1-INSTANCETEMPLATE-FROM-NORMALIMAGE</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_17c30eafdbb200103dbef35eae961910</name>
             <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-06 11:43:45</sys_created_on>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 08:29:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7e3278cfdb970010d852f7b51d9619c8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-09 07:35:29</sys_updated_on>
-            <value>instancetemplate</value>
+            <sys_id>85d875f6dbe344101c7b50d3e2961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 08:29:25</sys_updated_on>
+            <value>test-1-instancetemplate-from-normalimage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instancetemplate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TEST-2-INSTANCETEMPLATE-FROM-OOBIMAGE</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_17c30eafdbb200103dbef35eae961910</name>
+            <sequence>3</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 08:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41d875f6dbe344101c7b50d3e2961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 08:29:25</sys_updated_on>
+            <value>test-2-instancetemplate-from-oobimage</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>instancetemplate</element>
@@ -63,7 +82,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-17 11:03:36</sys_created_on>
-            <sys_id>176cf74ddbc30010d852f7b51d9619a8</sys_id>
+            <sys_id>fa9c4191db6340101c7b50d3e2961934</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_1b5075ba1bab80501f8cb844cc4bcb0f" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_1b5075ba1bab80501f8cb844cc4bcb0f</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 07:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>486075ba1bab80501f8cb844cc4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 07:52:29</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_1b5075ba1bab80501f8cb844cc4bcb0f</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 07:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c46075ba1bab80501f8cb844cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 07:52:29</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_1b5075ba1bab80501f8cb844cc4bcb0f</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 07:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8060b5ba1bab80501f8cb844cc4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 07:52:29</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>var__m_sys_hub_action_output_1b5075ba1bab80501f8cb844cc4bcb0f</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 07:52:29</sys_created_on>
+            <sys_id>806075ba1bab80501f8cb844cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 07:52:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

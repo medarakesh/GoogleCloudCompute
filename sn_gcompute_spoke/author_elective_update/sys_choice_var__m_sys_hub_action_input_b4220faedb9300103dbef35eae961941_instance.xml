@@ -24,19 +24,19 @@
             <element>instance</element>
             <hint/>
             <inactive>false</inactive>
-            <label>INSTANCE-1</label>
+            <label>VM-FOR-TEMPLATE-CREATION</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_b4220faedb9300103dbef35eae961941</name>
             <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-05 09:04:42</sys_created_on>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2020-03-18 07:12:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>df340f22dbd300103dbef35eae96194a</sys_id>
+            <sys_id>ad47e9fe1b6b80501f8cb844cc4bcb75</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-05 09:04:42</sys_updated_on>
-            <value>instance-1</value>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2020-03-18 07:12:43</sys_updated_on>
+            <value>vm-for-template-creation</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>instance</element>
@@ -44,7 +44,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-03-05 09:04:42</sys_created_on>
-            <sys_id>1b340f22dbd300103dbef35eae96194b</sys_id>
+            <sys_id>dbac4991db6340101c7b50d3e2961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>

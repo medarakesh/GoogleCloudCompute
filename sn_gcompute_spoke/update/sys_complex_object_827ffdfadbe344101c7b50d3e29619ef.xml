@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDce7ffdfa33e344108d2c3ddc1b0047ee</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9b1d9cfadb220010d852f7b51d961915</scope_name>
+        <serialized_content>{"FlowDesigner:FDce7ffdfa33e344108d2c3ddc1b0047ee":{"$COCollectionField":[{"disk":{"autoDelete":"Boolean","autoDelete.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Auto Delete\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"sourceSnapshot":"String","sourceSnapshot.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Snapshot\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"sourceImage":"String","sourceImage.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Source Image\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"boot":"Boolean","boot.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Boot\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"diskSizeGb":"Integer","diskSizeGb.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Disk Size GB\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Disks\",\"mandatory\":\"false\",\"child_name\":\"disk\",\"uiUniqueId\":\"cf17dc94-087e-4a5e-884e-fcdb36504f39\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDce7ffdfa33e344108d2c3ddc1b0047ee\",\"child_label\":\"Disk\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"45f84ebb-bf87-4396-9833-5c686b012d20\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDce7ffdfa33e344108d2c3ddc1b0047ee.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Disks\",\"mandatory\":\"false\",\"child_name\":\"disk\",\"uiUniqueId\":\"cf17dc94-087e-4a5e-884e-fcdb36504f39\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDce7ffdfa33e344108d2c3ddc1b0047ee\",\"child_label\":\"Disk\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"45f84ebb-bf87-4396-9833-5c686b012d20\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2020-03-18 08:58:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>827ffdfadbe344101c7b50d3e29619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDce7ffdfa33e344108d2c3ddc1b0047ee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Compute Engine Spoke" source="sn_gcompute_spoke">9b1d9cfadb220010d852f7b51d961915</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Compute Engine Spoke">9b1d9cfadb220010d852f7b51d961915</sys_scope>
+        <sys_update_name>sys_complex_object_827ffdfadbe344101c7b50d3e29619ef</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2020-03-18 08:58:26</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
